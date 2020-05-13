@@ -1,0 +1,29 @@
+{
+  "name": "yacss",
+  "version": "0.0.1",
+  "description": "Yet another CSS framework.",
+  "main": "index.js",
+  "repository": "https://github.com/FlorianWoelki/YACSS",
+  "author": "Florian Woelki",
+  "license": "ISC",
+  "scripts": {
+    "start": "node node_modules/gulp/bin/gulp.js watch",
+    "build": "node node_modules/gulp/bin/gulp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "stylelint"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-build": "^0.5.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.9",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.2"
+  }
+}
