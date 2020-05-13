@@ -18,10 +18,16 @@ button,
   letter-spacing: 0.03rem;
   line-height: spacing('1');
   min-width: spacing('2');
+  transition: all 0 200ms;
 
   &:hover {
     transition: all 200ms;
     background-color: $blue-700;
+    border: 3px solid $blue-700;
+  }
+
+  &:active {
+    transition: 200ms ease;
   }
 
   &.secondary {

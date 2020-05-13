@@ -97,11 +97,16 @@ button,
   outline: none;
   letter-spacing: 0.03rem;
   line-height: 16px;
-  min-width: 32px; }
+  min-width: 32px;
+  transition: all 0 200ms; }
   button:hover,
   .btn:hover {
     transition: all 200ms;
-    background-color: #2b6cb0; }
+    background-color: #2b6cb0;
+    border: 3px solid #2b6cb0; }
+  button:active,
+  .btn:active {
+    transition: 200ms ease; }
   button.secondary,
   .btn.secondary {
     background-color: transparent;
