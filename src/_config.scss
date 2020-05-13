@@ -64,3 +64,14 @@ $border-radius-system: (
 @function border-radius($border-radius-value) {
   @return map-get($border-radius-system, $border-radius-value);
 }
+
+$shadow-system: (
+  'xsmall': 0 1px 3px hsla(0, 0%, 0%, 0.12),
+  'small': 0 4px 6px hsla(0, 0%, 0%, 0.12),
+  'medium': 0 5px 15px hsla(0, 0%, 0%, 0.12),
+  'large': 0 10px 24px hsla(0, 0%, 0%, 0.12),
+  'xlarge': 0 15px 35px hsla(0, 0%, 0%, 0.12),
+);
+@function shadow($shadow-value) {
+  @return map-get($shadow-system, $shadow-value);
+}

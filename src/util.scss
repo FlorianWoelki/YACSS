@@ -45,3 +45,9 @@
     font-size: $font-size-value;
   }
 }
+
+@each $shadow-name, $shadow-value in $shadow-system {
+  .shadow-#{$shadow-name} {
+    box-shadow: $shadow-value;
+  }
+}

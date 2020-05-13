@@ -88,11 +88,11 @@ body {
   overflow: hidden;
   transition: all 0.3s;
   backface-visibility: hidden;
-  box-shadow: 0px 5px 12px 0 rgba(42, 51, 83, 0.12), 0px 0px 5px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
   margin-bottom: 16px; }
   .card:hover {
     transition: all 0.3s;
-    box-shadow: 0px 8px 20px 0 rgba(42, 51, 83, 0.12), 0 5px 5px rgba(0, 0, 0, 0.06); }
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
 
 /*
 * YACSS 0.0.1
@@ -416,3 +416,18 @@ body {
 
 .font-72 {
   font-size: 72px; }
+
+.shadow-xsmall {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
+
+.shadow-small {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12); }
+
+.shadow-medium {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12); }
+
+.shadow-large {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
+
+.shadow-xlarge {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12); }
