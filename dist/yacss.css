@@ -98,7 +98,7 @@ button,
   letter-spacing: 0.03rem;
   line-height: 16px;
   min-width: 32px;
-  transition: all 0 200ms; }
+  transition: all 200ms; }
   button:hover,
   .btn:hover {
     transition: all 200ms;
