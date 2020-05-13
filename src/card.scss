@@ -1,0 +1,17 @@
+@import './config.scss';
+
+.card {
+  background-color: #fff;
+  border-radius: border-radius('5');
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  box-shadow: 0px 5px 12px 0 rgba(42, 51, 83, 0.12), 0px 0px 5px rgba(0, 0, 0, 0.06);
+  margin-bottom: spacing('1');
+
+  &:hover {
+    transition: all 0.3s;
+    box-shadow: 0px 8px 20px 0 rgba(42, 51, 83, 0.12), 0 5px 5px rgba(0, 0, 0, 0.06);
+  }
+}

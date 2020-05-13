@@ -48,3 +48,10 @@ $font-size-system: (
 @function font($font-size-value) {
   @return map-get($font-size-system, $font-size-value);
 }
+
+$border-radius-system: (
+  '5': 5px,
+);
+@function border-radius($border-radius-value) {
+  @return map-get($border-radius-system, $border-radius-value);
+}
