@@ -1,4 +1,5 @@
 @import './media';
+@import './config';
 
 .container {
   max-width: 60em;
@@ -27,5 +28,20 @@
     .lg-pos-#{$i} {
       order: #{$i};
     }
+  }
+}
+
+@each $spacing-name, $spacing-value in $spacing-system {
+  .margin-#{$spacing-name} {
+    margin: $spacing-value;
+  }
+  .padding-#{$spacing-name} {
+    margin: $spacing-value;
+  }
+}
+
+@each $font-size-name, $font-size-value in $font-size-system {
+  .font-#{$font-size-name} {
+    font-size: $font-size-value;
   }
 }
