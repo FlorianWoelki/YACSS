@@ -8,3 +8,26 @@ $breakpoints: (
 
 $foreground-color: #374054;
 $background-color: #fff;
+
+$spacing-base-value: 16px;
+$spacing-system: (
+  '0.25': $spacing-base-value * 0.25,
+  '0.5': $spacing-base-value * 0.5,
+  '0.75': $spacing-base-value * 0.75,
+  '1': $spacing-base-value * 1,
+  '1.5': $spacing-base-value * 1.5,
+  '2': $spacing-base-value * 2,
+  '3': $spacing-base-value * 3,
+  '4': $spacing-base-value * 4,
+  '6': $spacing-base-value * 6,
+  '8': $spacing-base-value * 8,
+  '12': $spacing-base-value * 12,
+  '16': $spacing-base-value * 16,
+  '24': $spacing-base-value * 24,
+  '32': $spacing-base-value * 32,
+  '40': $spacing-base-value * 40,
+  '48': $spacing-base-value * 48,
+);
+@function spacing($spacing-value) {
+  @return map-get($spacing-system, $spacing-value);
+}
