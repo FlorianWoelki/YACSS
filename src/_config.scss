@@ -31,3 +31,20 @@ $spacing-system: (
 @function spacing($spacing-value) {
   @return map-get($spacing-system, $spacing-value);
 }
+
+$font-size-system: (
+  '12': 12px,
+  '14': 14px,
+  '16': 16px,
+  '18': 18px,
+  '20': 20px,
+  '24': 24px,
+  '30': 30px,
+  '36': 36px,
+  '48': 48px,
+  '60': 60px,
+  '72': 72px,
+);
+@function font($font-size-value) {
+  @return map-get($font-size-system, $font-size-value);
+}
