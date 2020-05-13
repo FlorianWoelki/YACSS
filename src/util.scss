@@ -1,5 +1,31 @@
+@import './media';
+
 .container {
   max-width: 60em;
   margin: 0 auto 1.5em;
   width: 80%;
+}
+
+@include media-below('tablet') {
+  @for $i from 0 through 12 {
+    .sm-pos-#{$i} {
+      order: #{$i};
+    }
+  }
+}
+
+@include media-between('tablet', 'desktop') {
+  @for $i from 0 through 12 {
+    .md-pos-#{$i} {
+      order: #{$i};
+    }
+  }
+}
+
+@include media-above('desktop') {
+  @for $i from 0 through 12 {
+    .lg-pos-#{$i} {
+      order: #{$i};
+    }
+  }
 }
