@@ -1,0 +1,40 @@
+@import './config';
+
+button,
+.btn {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  user-select: none;
+  padding: spacing('0-75') spacing('1');
+  border-radius: border-radius('7');
+  font-size: font('16');
+  font-weight: 600;
+  cursor: pointer;
+  background-color: $green-color-900;
+  color: #fff;
+  outline: none;
+  letter-spacing: 0.03rem;
+  line-height: spacing('1');
+  min-width: spacing('2');
+
+  &.btn--xlarge {
+    font-size: font('24');
+    padding: spacing('1-5') spacing('3');
+  }
+
+  &.btn--large {
+    font-size: font('20');
+    padding: spacing('1') spacing('2');
+  }
+
+  &.btn--small {
+    font-size: font('14');
+    padding: spacing('0-5') spacing('0-5') + 2px;
+  }
+
+  &.btn--xsmall {
+    font-size: font('12');
+    padding: spacing('0-5') - 2px spacing('0-5');
+  }
+}

@@ -80,6 +80,45 @@ body {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+button,
+.btn {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  user-select: none;
+  padding: 12px 16px;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #22543d;
+  color: #fff;
+  outline: none;
+  letter-spacing: 0.03rem;
+  line-height: 16px;
+  min-width: 32px; }
+  button.btn--xlarge,
+  .btn.btn--xlarge {
+    font-size: 24px;
+    padding: 24px 48px; }
+  button.btn--large,
+  .btn.btn--large {
+    font-size: 20px;
+    padding: 16px 32px; }
+  button.btn--small,
+  .btn.btn--small {
+    font-size: 14px;
+    padding: 8px 10px; }
+  button.btn--xsmall,
+  .btn.btn--xsmall {
+    font-size: 12px;
+    padding: 6px 8px; }
+
+/*
+* YACSS 0.0.1
+* Florian Woelki, Copyright 2020
+* http://florianwoelki.github.io/YACSS
+*/
 .card {
   background-color: #fff;
   border-radius: 5px;

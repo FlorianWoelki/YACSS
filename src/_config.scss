@@ -60,6 +60,7 @@ $font-size-system: (
 
 $border-radius-system: (
   '5': 5px,
+  '7': 7px,
 );
 @function border-radius($border-radius-value) {
   @return map-get($border-radius-system, $border-radius-value);
