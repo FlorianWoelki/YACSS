@@ -1,0 +1,168 @@
+@import './_media.scss';
+
+.row {
+  -ms-flex: 1;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+
+  @include media-above('tablet') {
+    & {
+      display: flex;
+    }
+  }
+
+  @include media-below('tablet') {
+    & {
+      margin-top: 0;
+    }
+
+    [class^="col-"]:not(.ignore-screen),
+    .row [class*=" col-"]:not(.ignore-screen) {
+      width: 100%;
+      margin-left: 0;
+      padding: 0;
+    }
+  }
+
+  &.row--no-wrap {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  &::after {
+    content: '';
+    clear: both;
+    display: table;
+  }
+
+  .col {
+    display: block;
+    flex: 1;
+    padding: .15rem .75rem;
+  }
+
+  .col-1 {
+    width: 8.33333333%;
+  }
+  
+  .col-2 {
+    width: 16.66666667%;
+  }
+  
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33.33333333%;
+  }
+  
+  .col-5 {
+    width: 41.66666667%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+  
+  .col-7 {
+    width: 58.33333333%;
+  }
+  
+  .col-8 {
+    width: 66.66666667%;
+  }
+  
+  .col-9 {
+    width: 75%;
+  }
+  
+  .col-10 {
+    width: 83.33333333%;
+  }
+  
+  .col-11 {
+    width: 91.66666667%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+
+  .offset-1 {
+    margin-left: 8.33333333%;
+  }
+  
+  .offset-2 {
+    margin-left: 16.66666667%;
+  }
+  
+  .offset-3 {
+    margin-left: 25%;
+  }
+  
+  .offset-4 {
+    margin-left: 33.33333333%;
+  }
+  
+  .offset-5 {
+    margin-left: 41.66666667%;
+  }
+  
+  .offset-6 {
+    margin-left: 50%;
+  }
+  
+  .offset-7 {
+    margin-left: 58.33333333%;
+  }
+  
+  .offset-8 {
+    margin-left: 66.66666667%;
+  }
+  
+  .offset-9 {
+    margin-left: 75%;
+  }
+  
+  .offset-10 {
+    margin-left: 83.33333333%;
+  }
+  
+  .offset-11 {
+    margin-left: 91.66666667%;
+  }
+  
+  .offset-12 {
+    margin-left: 100%;
+  }
+
+  .offset-right {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .offset-center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .offset-left {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  [class^="col-"],
+  [class*=" col-"] {
+    float: left;
+    padding: 0 0.5rem;
+  }
+
+  &.no-space [class^="col-"],
+  &.no-space [class*=" col-"] {
+    padding: 0;
+  }
+}
