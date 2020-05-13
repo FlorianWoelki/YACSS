@@ -9,9 +9,7 @@ const project = require('./package.json');
 const head = '\/*\r\n* YACSS ' + project.version + `\r\n* Florian Woelki, Copyright ${(new Date()).getFullYear()}\r\n* http://florianwoelki.github.io/YACSS\r\n*/\r\n`;
 
 gulp.task('compile', () => {
-  return tsProject.src()
-    .pipe(tsProject())
-    .pipe(gulp.src('src/**/*.scss'))
+  return gulp.src('src/**/*.scss')
     .pipe(sass.sync().on('error', sass.logError))
     .pipe($.header(head))
     .pipe($.size())
