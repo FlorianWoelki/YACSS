@@ -962,7 +962,7 @@ button,
   font-weight: 600;
   cursor: pointer;
   background-color: var(--accent-color-600);
-  border: 2px solid var(--accent-color-600);
+  border: 3px solid var(--accent-color-600);
   color: #fff;
   outline: none;
   letter-spacing: 0.03rem;
@@ -973,7 +973,7 @@ button,
   .btn:hover {
     transition: all 200ms;
     background-color: var(--accent-color-700);
-    border: 2px solid var(--accent-color-700); }
+    border: 3px solid var(--accent-color-700); }
   button:active,
   .btn:active {
     transition: 200ms ease; }
@@ -981,11 +981,11 @@ button,
   .btn.secondary {
     background-color: transparent;
     color: var(--accent-color-600);
-    border: 2px solid var(--accent-color-200); }
+    border: 3px solid var(--accent-color-200); }
     button.secondary:hover,
     .btn.secondary:hover {
       background-color: var(--accent-color-600);
-      border: 2px solid var(--accent-color-600);
+      border: 3px solid var(--accent-color-600);
       color: #fff; }
   button.tertiary,
   .btn.tertiary {
