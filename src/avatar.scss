@@ -8,7 +8,7 @@
   font-weight: lighter;
   width: spacing('4');
   height: spacing('4');
-  background-color: blues('700');
+  background-color: var(--primary-color-700);
   overflow: hidden;
 
   &::before {

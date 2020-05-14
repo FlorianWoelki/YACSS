@@ -1,7 +1,7 @@
 @import './config';
 
 a {
-  color: blues('600');
+  color: var(--primary-color-600);
   display: block;
   font-weight: 600;
   padding: spacing('0-25');
@@ -9,7 +9,7 @@ a {
   transition: all 0.3s;
 
   &:hover {
-    color: blues('700');
+    color: var(--primary-color-700);
     transition: all 0.3s;
   }
 

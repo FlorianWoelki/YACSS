@@ -58,15 +58,15 @@
     text-align: center;
 
     &.selected a {
-      border-bottom-color: blues('400');
-      color: blues('700');
+      border-bottom-color: var(--primary-color-400);
+      color: var(--primary-color-700);
       border-width: 3px;
       transition: all 0.3s;
     }
 
     &:hover a {
-      border-bottom-color: blues('400');
-      color: blues('700');
+      border-bottom-color: var(--primary-color-400);
+      color: var(--primary-color-700);
       transition: all 0.3s;
     }
 
