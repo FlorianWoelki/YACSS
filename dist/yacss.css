@@ -92,7 +92,7 @@ button,
   font-weight: 600;
   cursor: pointer;
   background-color: #3182ce;
-  border: 3px solid #3182ce;
+  border: 2px solid #3182ce;
   color: #fff;
   outline: none;
   letter-spacing: 0.03rem;
@@ -103,7 +103,7 @@ button,
   .btn:hover {
     transition: all 200ms;
     background-color: #2b6cb0;
-    border: 3px solid #2b6cb0; }
+    border: 2px solid #2b6cb0; }
   button:active,
   .btn:active {
     transition: 200ms ease; }
@@ -111,11 +111,11 @@ button,
   .btn.secondary {
     background-color: transparent;
     color: #3182ce;
-    border: 3px solid #bee3f8; }
+    border: 2px solid #bee3f8; }
     button.secondary:hover,
     .btn.secondary:hover {
       background-color: #3182ce;
-      border: 3px solid #3182ce;
+      border: 2px solid #3182ce;
       color: #fff; }
   button.tertiary,
   .btn.tertiary {
