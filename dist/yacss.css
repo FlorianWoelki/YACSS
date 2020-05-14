@@ -989,7 +989,6 @@ button,
       color: #fff; }
   button.tertiary,
   .btn.tertiary {
-    text-decoration: underline;
     color: var(--accent-color-600);
     background-color: transparent;
     border: none; }
