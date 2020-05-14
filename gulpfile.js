@@ -76,7 +76,7 @@ gulp.task('minify-js', () => {
 gulp.task('minify', gulp.series('minify-sass', 'minify-js'));
 
 gulp.task('watch', () => {
-  gulp.watch('./src/*.scss', gulp.series('compile', 'minify'));
+  gulp.watch('./src/**', gulp.series('compile', 'minify'));
 });
 
 gulp.task('default', gulp.series('compile', 'minify'));
