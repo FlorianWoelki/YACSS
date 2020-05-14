@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const minify = require('gulp-clean-css');
+const cleanCss = require('gulp-clean-css');
+const minifyJs = require('gulp-minify');
 const ts = require('gulp-typescript');
 const tsProject = ts.createProject('tsconfig.json');
 const $ = require('gulp-load-plugins')();
@@ -8,7 +9,7 @@ const $ = require('gulp-load-plugins')();
 const project = require('./package.json');
 const head = '\/*\r\n* YACSS ' + project.version + `\r\n* Florian Woelki, Copyright ${(new Date()).getFullYear()}\r\n* http://florianwoelki.github.io/YACSS\r\n*/\r\n`;
 
-gulp.task('compile', () => {
+gulp.task('compile-sass', () => {
   return gulp.src(['src/default.scss', 'src/**/*.scss'])
     .pipe(sass.sync().on('error', sass.logError))
     .pipe($.header(head))
@@ -17,9 +18,20 @@ gulp.task('compile', () => {
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('minify', () => {
+gulp.task('compile-ts', () => {
+  return gulp.src('src/script/*.ts')
+    .pipe(tsProject(), undefined, ts.reporter.fullReporter()).js
+    .pipe($.header(head))
+    .pipe($.size())
+    .pipe($.concat('yacss.js'))
+    .pipe(gulp.dest('./dist/'));
+});
+
+gulp.task('compile', gulp.series('compile-sass', 'compile-ts'));
+
+gulp.task('minify-sass', () => {
   return gulp.src(['./dist/yacss.css'])
-    .pipe(minify({
+    .pipe(cleanCss({
       level: {
         1: {
           all: true,
@@ -49,6 +61,19 @@ gulp.task('minify', () => {
     .pipe($.concat('yacss.min.css'))
     .pipe(gulp.dest('./dist/'))
 });
+
+gulp.task('minify-js', () => {
+  return gulp.src(['./dist/yacss.js'])
+    .pipe(minifyJs({
+      noSource: true,
+    }))
+    .pipe($.header(head))
+    .pipe($.size())
+    .pipe($.concat('yacss.min.js'))
+    .pipe(gulp.dest('./dist/'));
+});
+
+gulp.task('minify', gulp.series('minify-sass', 'minify-js'));
 
 gulp.task('watch', () => {
   gulp.watch('./src/*.scss', gulp.series('compile', 'minify'));
