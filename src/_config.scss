@@ -9,18 +9,7 @@ $breakpoints: (
 $foreground-color: #374054;
 $background-color: #fff;
 
-$blues: (
-  '100': #ebf8ff,
-  '200': #bee3f8,
-  '300': #90cdf4,
-  '400': #63b3ed,
-  '500': #4299e1,
-  '600': #3182ce,
-  '700': #2b6cb0,
-  '800': #2c5282,
-  '900': #2a4365
-) !default;
-@each $blue-name, $blue-value in $blues {
+@each $blue-name, $blue-value in $blue {
   .fg-blue#{$blue-name} {
     color: #{$blue-value};
   }
@@ -29,23 +18,30 @@ $blues: (
   }
 }
 
-$reds: (
-  '100': #fff5f5,
-  '200': #fed7d7,
-  '300': #feb2b2,
-  '400': #fc8181,
-  '500': #fc8181,
-  '600': #e53e3e,
-  '700': #c53030,
-  '800': #9b2c2c,
-  '900': #742a2a
-) !default;
-@each $red-name, $red-value in $reds {
+@each $red-name, $red-value in $red {
   .fg-red#{$red-name} {
     color: #{$red-value};
   }
   .bg-red#{$red-name} {
     background-color: #{$red-value};
+  }
+}
+
+@each $indigo-name, $indigo-value in $indigo {
+  .fg-indigo#{$indigo-name} {
+    color: #{$indigo-value};
+  }
+  .bg-indigo#{$indigo-name} {
+    background-color: #{$indigo-value};
+  }
+}
+
+@each $purple-name, $purple-value in $purple {
+  .fg-purple#{$purple-name} {
+    color: #{$purple-value};
+  }
+  .bg-purple#{$purple-name} {
+    background-color: #{$purple-value};
   }
 }
 
@@ -69,46 +65,6 @@ $grays: (
   }
   .bg-gray#{$gray-name} {
     background-color: #{$gray-value};
-  }
-}
-
-$indigos: (
-  '100': #ebf4ff,
-  '200': #c3dafe,
-  '300': #a3bffa,
-  '400': #7f9cf5,
-  '500': #667eea,
-  '600': #5a67d8,
-  '700': #4c51bf,
-  '800': #434190,
-  '900': #3c366b
-) !default;
-@each $indigo-name, $indigo-value in $indigos {
-  .fg-indigo#{$indigo-name} {
-    color: #{$indigo-value};
-  }
-  .bg-indigo#{$indigo-name} {
-    background-color: #{$indigo-value};
-  }
-}
-
-$purples: (
-  '100': #faf5ff,
-  '200': #e9d8fd,
-  '300': #d6bcfa,
-  '400': #b794f4,
-  '500': #9f7aea,
-  '600': #805ad5,
-  '700': #6b46c1,
-  '800': #553c9a,
-  '900': #44337a
-) !default;
-@each $purple-name, $purple-value in $purples {
-  .fg-purple#{$purple-name} {
-    color: #{$purple-value};
-  }
-  .bg-purple#{$purple-name} {
-    background-color: #{$purple-value};
   }
 }
 

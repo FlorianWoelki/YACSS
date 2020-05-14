@@ -2,15 +2,20 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const cleanCss = require('gulp-clean-css');
 const minifyJs = require('gulp-minify');
+const sassVars = require('gulp-sass-vars');
+const browserify = require('gulp-browserify');
 const ts = require('gulp-typescript');
 const tsProject = ts.createProject('tsconfig.json');
 const $ = require('gulp-load-plugins')();
+
+const colors = require('./src/colors');
 
 const project = require('./package.json');
 const head = '\/*\r\n* YACSS ' + project.version + `\r\n* Florian Woelki, Copyright ${(new Date()).getFullYear()}\r\n* http://florianwoelki.github.io/YACSS\r\n*/\r\n`;
 
 gulp.task('compile-sass', () => {
   return gulp.src(['src/default.scss', 'src/**/*.scss'])
+    .pipe(sassVars(colors, { verbose: true }))
     .pipe(sass.sync().on('error', sass.logError))
     .pipe($.header(head))
     .pipe($.size())
@@ -21,6 +26,9 @@ gulp.task('compile-sass', () => {
 gulp.task('compile-ts', () => {
   return gulp.src('src/script/*.ts')
     .pipe(tsProject(), undefined, ts.reporter.fullReporter()).js
+    .pipe(browserify({
+      standalone: 'yacss'
+    }))
     .pipe($.header(head))
     .pipe($.size())
     .pipe($.concat('yacss.js'))
