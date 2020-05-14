@@ -11,6 +11,24 @@ select {
   letter-spacing: 0.32px;
   outline: 0;
   padding: spacing('0-5') spacing('1');
+
+  &.input--xsmall {
+    font-size: font('12');
+    padding: spacing('0-25') spacing('1');
+  }
+
+  &.input--small {
+    font-size: font('14');
+    padding: spacing('0-5') spacing('1');
+  }
+
+  &.input--large {
+    font-size: font('20');
+  }
+
+  &.input--xlarge {
+    font-size: font('30');
+  }
 }
 
 input:not([type=checkbox]):not([type=radio]):not([type=submit]):focus,

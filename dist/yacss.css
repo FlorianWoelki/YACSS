@@ -1632,6 +1632,20 @@ select {
   letter-spacing: 0.32px;
   outline: 0;
   padding: 8px 16px; }
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--xsmall,
+  select.input--xsmall {
+    font-size: 12px;
+    padding: 4px 16px; }
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--small,
+  select.input--small {
+    font-size: 14px;
+    padding: 8px 16px; }
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--large,
+  select.input--large {
+    font-size: 20px; }
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--xlarge,
+  select.input--xlarge {
+    font-size: 30px; }
 
 input:not([type=checkbox]):not([type=radio]):not([type=submit]):focus,
 select:focus,
