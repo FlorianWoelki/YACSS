@@ -7,6 +7,34 @@
   width: 80%;
 }
 
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-self: center;
+}
+.align-flex-start {
+  align-self: flex-start;
+}
+.align-flex-end {
+  align-self: flex-end;
+}
+.justify-center {
+  justify-self: center;
+}
+.justify-flex-start {
+  justify-self: flex-start;
+}
+.justify-flex-end {
+  justify-self: flex-end;
+}
+.justify-space-around {
+  justify-self: space-around;
+}
+.justify-space-between {
+  justify-self: space-between;
+}
+
 @include media-below('tablet') {
   @for $i from 0 through 12 {
     .sm-pos-#{$i} {
@@ -33,34 +61,34 @@
 
 @each $spacing-name, $spacing-value in $spacing-system {
   .m-#{$spacing-name} {
-    margin: $spacing-value;
+    margin: $spacing-value !important;
   }
   .ml-#{$spacing-name} {
-    margin-left: $spacing-value;
+    margin-left: $spacing-value !important;
   }
   .mr-#{$spacing-name} {
-    margin-right: $spacing-value;
+    margin-right: $spacing-value !important;
   }
   .mt-#{$spacing-name} {
-    margin-top: $spacing-value;
+    margin-top: $spacing-value !important;
   }
   .mb-#{$spacing-name} {
-    margin-bottom: $spacing-value;
+    margin-bottom: $spacing-value !important;
   }
   .p-#{$spacing-name} {
-    margin: $spacing-value;
+    padding: $spacing-value !important;
   }
   .pl-#{$spacing-name} {
-    margin-left: $spacing-value;
+    padding-left: $spacing-value !important;
   }
   .pr-#{$spacing-name} {
-    margin-right: $spacing-value;
+    padding-right: $spacing-value !important;
   }
   .pt-#{$spacing-name} {
-    margin-top: $spacing-value;
+    padding-top: $spacing-value !important;
   }
   .pb-#{$spacing-name} {
-    margin-bottom: $spacing-value;
+    padding-bottom: $spacing-value !important;
   }
 }
 

@@ -1,0 +1,14 @@
+@import './config';
+
+.alert {
+  background-color: var(--primary-color-100);
+  border-left: 5px solid var(--primary-color-600);
+  border-radius: 1px;
+  padding: spacing('1') spacing('1-5');
+  color: var(--primary-color-700);
+
+  .title {
+    font-weight: 600;
+    color: var(--primary-color-900);
+  }
+}
