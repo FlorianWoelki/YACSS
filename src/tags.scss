@@ -1,0 +1,27 @@
+@import './config';
+
+.tag {
+  align-items: center;
+  background-color: grays('200');
+  border-radius: spacing('0-25');
+  color: $foreground-color;
+  display: inline-flex;
+  font-size: 75%;
+  line-height: 1.5;
+  min-height: spacing('1-5');
+  padding: 0 spacing('0-75');
+  font-weight: 600;
+  white-space: nowrap;
+
+  &.--large {
+    font-size: 100%;
+  }
+
+  &.--xlarge {
+    font-size: 150%;
+  }
+
+  &.tag--rounded {
+    border-radius: 290486px;
+  }
+}
