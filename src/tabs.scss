@@ -60,7 +60,7 @@
     &.selected a {
       border-bottom-color: var(--primary-color-400);
       color: var(--primary-color-700);
-      border-width: 3px;
+      border-width: 2px;
       transition: all 0.3s;
     }
 
@@ -77,7 +77,7 @@
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      border-bottom: 3px solid grays('300');
+      border-bottom: 2px solid grays('300');
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;

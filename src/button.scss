@@ -12,7 +12,7 @@ button,
   font-weight: 600;
   cursor: pointer;
   background-color: var(--accent-color-600);
-  border: 3px solid var(--accent-color-600);
+  border: 2px solid var(--accent-color-600);
   color: #fff;
   outline: none;
   letter-spacing: 0.03rem;
@@ -23,7 +23,7 @@ button,
   &:hover {
     transition: all 200ms;
     background-color: var(--accent-color-700);
-    border: 3px solid var(--accent-color-700);
+    border: 2px solid var(--accent-color-700);
   }
 
   &:active {
@@ -33,11 +33,11 @@ button,
   &.secondary {
     background-color: transparent;
     color: var(--accent-color-600);
-    border: 3px solid var(--accent-color-200);
+    border: 2px solid var(--accent-color-200);
 
     &:hover {
       background-color: var(--accent-color-600);
-      border: 3px solid var(--accent-color-600);
+      border: 2px solid var(--accent-color-600);
       color: #fff;
     }
   }

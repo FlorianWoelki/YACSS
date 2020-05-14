@@ -962,7 +962,7 @@ button,
   font-weight: 600;
   cursor: pointer;
   background-color: var(--accent-color-600);
-  border: 3px solid var(--accent-color-600);
+  border: 2px solid var(--accent-color-600);
   color: #fff;
   outline: none;
   letter-spacing: 0.03rem;
@@ -973,7 +973,7 @@ button,
   .btn:hover {
     transition: all 200ms;
     background-color: var(--accent-color-700);
-    border: 3px solid var(--accent-color-700); }
+    border: 2px solid var(--accent-color-700); }
   button:active,
   .btn:active {
     transition: 200ms ease; }
@@ -981,11 +981,11 @@ button,
   .btn.secondary {
     background-color: transparent;
     color: var(--accent-color-600);
-    border: 3px solid var(--accent-color-200); }
+    border: 2px solid var(--accent-color-200); }
     button.secondary:hover,
     .btn.secondary:hover {
       background-color: var(--accent-color-600);
-      border: 3px solid var(--accent-color-600);
+      border: 2px solid var(--accent-color-600);
       color: #fff; }
   button.tertiary,
   .btn.tertiary {
@@ -2724,7 +2724,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     .tab-container li.selected a {
       border-bottom-color: var(--primary-color-400);
       color: var(--primary-color-700);
-      border-width: 3px;
+      border-width: 2px;
       transition: all 0.3s; }
     .tab-container li:hover a {
       border-bottom-color: var(--primary-color-400);
@@ -2737,7 +2737,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      border-bottom: 3px solid #e2e8f0;
+      border-bottom: 2px solid #e2e8f0;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
