@@ -293,6 +293,73 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.tab-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  font-size: 16px; }
+  .tab-container.tabs-center {
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; }
+  .tab-container.tabs-right {
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end; }
+  .tab-container ul {
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 8px;
+    border-bottom: 1px solid #eee;
+    flex-grow: 1;
+    list-style: none;
+    padding-inline-start: 0; }
+  .tab-container li {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    text-align: center; }
+    .tab-container li.selected a {
+      border-bottom-color: #63b3ed;
+      color: #2b6cb0;
+      border-width: 3px;
+      transition: all 0.3s; }
+    .tab-container li:hover a {
+      border-bottom-color: #63b3ed;
+      color: #2b6cb0;
+      transition: all 0.3s; }
+    .tab-container li a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-bottom: 3px solid #e2e8f0;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 8px 16px;
+      transition: all 0.3s;
+      color: #374054;
+      margin-bottom: -1px;
+      background-color: #fff;
+      font-weight: 400; }
+
+/*
+* YACSS 0.0.1
+* Florian Woelki, Copyright 2020
+* http://florianwoelki.github.io/YACSS
+*/
 .container {
   max-width: 60em;
   margin: 0 auto 1.5em;

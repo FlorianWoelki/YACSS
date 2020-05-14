@@ -1,0 +1,78 @@
+@import './config';
+
+.tab-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  user-select: none;
+  white-space: nowrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  font-size: font('16');
+
+  &.tabs-center {
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+  }
+
+  &.tabs-right {
+    justify-content: flex-end;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+  }
+
+  ul {
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: spacing('0-5');
+    border-bottom: 1px solid #eee;
+    flex-grow: 1;
+    list-style: none;
+    padding-inline-start: 0;
+  }
+
+  li {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+
+    &.selected a {
+      border-bottom-color: $blue-400;
+      color: $blue-700;
+      border-width: 3px;
+      transition: all 0.3s;
+    }
+
+    &:hover a {
+      border-bottom-color: $blue-400;
+      color: $blue-700;
+      transition: all 0.3s;
+    }
+
+    a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-bottom: 3px solid $gray-300;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: spacing('0-5') spacing('1');
+      transition: all 0.3s;
+      color: $foreground-color;
+      margin-bottom: -1px;
+      background-color: $background-color;
+      font-weight: 400;
+    }
+  }
+}
