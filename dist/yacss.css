@@ -313,6 +313,15 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     justify-content: flex-end;
     -webkit-box-pack: end;
     -ms-flex-pack: end; }
+  .tab-container.tabs-fill li {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    flex-basis: 0; }
+  .tab-container.tabs-fill ul {
+    display: flex; }
   .tab-container ul {
     display: flex;
     -webkit-box-pack: start;

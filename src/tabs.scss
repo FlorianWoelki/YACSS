@@ -25,6 +25,20 @@
     -ms-flex-pack: end;
   }
 
+  &.tabs-fill {
+    li {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      flex-basis: 0;
+    }
+    ul {
+      display: flex;
+    }
+  }
+
   ul {
     display: flex;
     -webkit-box-pack: start;
