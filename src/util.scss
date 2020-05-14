@@ -32,11 +32,35 @@
 }
 
 @each $spacing-name, $spacing-value in $spacing-system {
-  .margin-#{$spacing-name} {
+  .m-#{$spacing-name} {
     margin: $spacing-value;
   }
-  .padding-#{$spacing-name} {
+  .ml-#{$spacing-name} {
+    margin-left: $spacing-value;
+  }
+  .mr-#{$spacing-name} {
+    margin-right: $spacing-value;
+  }
+  .mt-#{$spacing-name} {
+    margin-top: $spacing-value;
+  }
+  .mb-#{$spacing-name} {
+    margin-bottom: $spacing-value;
+  }
+  .p-#{$spacing-name} {
     margin: $spacing-value;
+  }
+  .pl-#{$spacing-name} {
+    margin-left: $spacing-value;
+  }
+  .pr-#{$spacing-name} {
+    margin-right: $spacing-value;
+  }
+  .pt-#{$spacing-name} {
+    margin-top: $spacing-value;
+  }
+  .pb-#{$spacing-name} {
+    margin-bottom: $spacing-value;
   }
 }
 
