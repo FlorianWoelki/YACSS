@@ -20,9 +20,6 @@ $blues: (
   '800': #2c5282,
   '900': #2a4365
 ) !default;
-@function blues($color-value) {
-  @return map-get($blues, $color-value);
-}
 @each $blue-name, $blue-value in $blues {
   .fg-blue#{$blue-name} {
     color: #{$blue-value};
@@ -43,9 +40,6 @@ $reds: (
   '800': #9b2c2c,
   '900': #742a2a
 ) !default;
-@function reds($color-value) {
-  @return map-get($reds, $color-value);
-}
 @each $red-name, $red-value in $reds {
   .fg-red#{$red-name} {
     color: #{$red-value};
@@ -75,6 +69,46 @@ $grays: (
   }
   .bg-gray#{$gray-name} {
     background-color: #{$gray-value};
+  }
+}
+
+$indigos: (
+  '100': #ebf4ff,
+  '200': #c3dafe,
+  '300': #a3bffa,
+  '400': #7f9cf5,
+  '500': #667eea,
+  '600': #5a67d8,
+  '700': #4c51bf,
+  '800': #434190,
+  '900': #3c366b
+) !default;
+@each $indigo-name, $indigo-value in $indigos {
+  .fg-indigo#{$indigo-name} {
+    color: #{$indigo-value};
+  }
+  .bg-indigo#{$indigo-name} {
+    background-color: #{$indigo-value};
+  }
+}
+
+$purples: (
+  '100': #faf5ff,
+  '200': #e9d8fd,
+  '300': #d6bcfa,
+  '400': #b794f4,
+  '500': #9f7aea,
+  '600': #805ad5,
+  '700': #6b46c1,
+  '800': #553c9a,
+  '900': #44337a
+) !default;
+@each $purple-name, $purple-value in $purples {
+  .fg-purple#{$purple-name} {
+    color: #{$purple-value};
+  }
+  .bg-purple#{$purple-name} {
+    background-color: #{$purple-value};
   }
 }
 
