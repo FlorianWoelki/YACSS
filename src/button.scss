@@ -53,6 +53,12 @@ button,
     }
   }
 
+  &.btn--transparent {
+    background-color: transparent;
+    color: var(--accent-color-600);
+    border-color: transparent;
+  }
+
   &.btn--xlarge {
     font-size: font('24');
     padding: spacing('1-5') spacing('3');

@@ -1841,6 +1841,11 @@ button,
     .btn.tertiary:hover {
       background-color: transparent;
       color: var(--accent-color-800); }
+  button.btn--transparent,
+  .btn.btn--transparent {
+    background-color: transparent;
+    color: var(--accent-color-600);
+    border-color: transparent; }
   button.btn--xlarge,
   .btn.btn--xlarge {
     font-size: 24px;
@@ -5580,29 +5585,32 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 .text-center {
   text-align: center; }
 
+.flex {
+  display: flex; }
+
 .align-center {
-  align-self: center; }
+  align-items: center; }
 
 .align-flex-start {
-  align-self: flex-start; }
+  align-items: flex-start; }
 
 .align-flex-end {
-  align-self: flex-end; }
+  align-items: flex-end; }
 
 .justify-center {
-  justify-self: center; }
+  justify-content: center; }
 
 .justify-flex-start {
-  justify-self: flex-start; }
+  justify-content: flex-start; }
 
 .justify-flex-end {
-  justify-self: flex-end; }
+  justify-content: flex-end; }
 
 .justify-space-around {
-  justify-self: space-around; }
+  justify-content: space-around; }
 
 .justify-space-between {
-  justify-self: space-between; }
+  justify-content: space-between; }
 
 @media screen and (max-width: 768px) {
   .sm-pos-0 {

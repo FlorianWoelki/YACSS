@@ -10,29 +10,32 @@
 .text-center {
   text-align: center;
 }
+.flex {
+  display: flex;
+}
 .align-center {
-  align-self: center;
+  align-items: center;
 }
 .align-flex-start {
-  align-self: flex-start;
+  align-items: flex-start;
 }
 .align-flex-end {
-  align-self: flex-end;
+  align-items: flex-end;
 }
 .justify-center {
-  justify-self: center;
+  justify-content: center;
 }
 .justify-flex-start {
-  justify-self: flex-start;
+  justify-content: flex-start;
 }
 .justify-flex-end {
-  justify-self: flex-end;
+  justify-content: flex-end;
 }
 .justify-space-around {
-  justify-self: space-around;
+  justify-content: space-around;
 }
 .justify-space-between {
-  justify-self: space-between;
+  justify-content: space-between;
 }
 
 @include media-below('tablet') {
