@@ -10,7 +10,7 @@ $foreground-color: #374054;
 $background-color: #fff;
 
 @each $blue-name, $blue-value in $blue {
-  .fg-blue#{$blue-name} {
+  .text-blue#{$blue-name} {
     color: #{$blue-value};
   }
   .bg-blue#{$blue-name} {
@@ -19,7 +19,7 @@ $background-color: #fff;
 }
 
 @each $red-name, $red-value in $red {
-  .fg-red#{$red-name} {
+  .text-red#{$red-name} {
     color: #{$red-value};
   }
   .bg-red#{$red-name} {
@@ -28,7 +28,7 @@ $background-color: #fff;
 }
 
 @each $indigo-name, $indigo-value in $indigo {
-  .fg-indigo#{$indigo-name} {
+  .text-indigo#{$indigo-name} {
     color: #{$indigo-value};
   }
   .bg-indigo#{$indigo-name} {
@@ -37,7 +37,7 @@ $background-color: #fff;
 }
 
 @each $purple-name, $purple-value in $purple {
-  .fg-purple#{$purple-name} {
+  .text-purple#{$purple-name} {
     color: #{$purple-value};
   }
   .bg-purple#{$purple-name} {
@@ -60,7 +60,7 @@ $grays: (
   @return map-get($grays, $color-value);
 }
 @each $gray-name, $gray-value in $grays {
-  .fg-gray#{$gray-name} {
+  .text-gray#{$gray-name} {
     color: #{$gray-value};
   }
   .bg-gray#{$gray-name} {
