@@ -9179,10 +9179,13 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     -webkit-flex: 0;
     -ms-flex: 0;
     flex: 0; }
-    .pagination .pagination-item[disabled] a {
-      opacity: 0.5;
-      pointer-events: none;
-      user-select: none; }
+    .pagination .pagination-item[disabled] {
+      cursor: not-allowed; }
+      .pagination .pagination-item[disabled] a {
+        opacity: 0.5;
+        background-color: #edf2f7;
+        pointer-events: none;
+        user-select: none; }
     .pagination .pagination-item a {
       display: inline-block;
       line-height: 1.25;
