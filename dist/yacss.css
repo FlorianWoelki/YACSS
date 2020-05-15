@@ -7436,6 +7436,9 @@ nav {
   max-height: 100vh;
   padding: 0 32px;
   transition: all 0.3s; }
+  nav.nav-fixed {
+    position: fixed;
+    top: 0; }
   nav a {
     color: #718096; }
   nav .nav-content {
