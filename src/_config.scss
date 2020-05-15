@@ -27,9 +27,6 @@ $background-color: #fff;
       border-bottom-color: #{$blue-value} !important;
     }
   }
-  .bc-hover-blue-#{$blue-name}:hover {
-    border-bottom-color: #{$blue-value} !important;
-  }
   .text-hover-blue-#{$blue-name}:hover {
     color: #{$blue-value} !important;
   }
@@ -48,9 +45,6 @@ $background-color: #fff;
     &:after {
       border-bottom-color: #{$red-value} !important;
     }
-  }
-  .bc-hover-red-#{$red-name}:hover {
-    border-bottom-color: #{$red-value} !important;
   }
   .text-hover-red-#{$red-name}:hover {
     color: #{$red-value} !important;
@@ -71,9 +65,6 @@ $background-color: #fff;
       border-bottom-color: #{$indigo-value} !important;
     }
   }
-  .bc-hover-indigo-#{$indigo-name}:hover {
-    border-bottom-color: #{$indigo-value} !important;
-  }
   .text-hover-indigo-#{$indigo-name}:hover {
     color: #{$indigo-value} !important;
   }
@@ -92,9 +83,6 @@ $background-color: #fff;
     &:after {
       border-bottom-color: #{$purple-value} !important;
     }
-  }
-  .bc-hover-purple-#{$purple-name}:hover {
-    border-bottom-color: #{$purple-value} !important;
   }
   .text-hover-purple-#{$purple-name}:hover {
     color: #{$purple-value} !important;
@@ -128,9 +116,6 @@ $grays: (
     &:after {
       border-bottom-color: #{$gray-value} !important;
     }
-  }
-  .bc-hover-gray-#{$gray-name}:hover {
-    border-bottom-color: #{$gray-value} !important;
   }
   .text-hover-gray-#{$gray-name}:hover {
     color: #{$gray-value} !important;
