@@ -98,7 +98,7 @@ nav {
       font-weight: 900;
     }
 
-    .nav-item:hover {
+    .nav-item:hover::after {
       border-bottom-color: transparent;
     }
   }
