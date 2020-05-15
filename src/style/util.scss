@@ -117,6 +117,9 @@
   .font-#{$font-size-name} {
     font-size: $font-size-value;
   }
+  .line-height-#{$font-size-name} {
+    line-height: $font-size-value;
+  }
 }
 
 @each $shadow-name, $shadow-value in $shadow-system {
