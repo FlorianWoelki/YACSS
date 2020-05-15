@@ -1,0 +1,67 @@
+@import './config';
+
+footer {
+  width: 100%;
+  padding: spacing('6') 0;
+  background-color: $foreground-color;
+  text-align: center;
+  margin-top: spacing('4');
+
+  a {
+    font-weight: bolder;
+    color: grays('500');
+
+    &:hover {
+      color: grays('600');
+    }
+  }
+
+  p {
+    color: grays('600');
+  }
+
+  ul {
+    margin: spacing('0-5') 0;
+
+    li {
+      list-style-type: none;
+    }
+
+    .list-item {
+      margin: spacing('0-25');
+      color: grays('500');
+      transition: all 0.3s;
+      font-size: 75%;
+      text-transform: uppercase;
+    }
+  }
+
+  h6 {
+    text-align: center;
+    letter-spacing: 6px;
+    position: relative;
+    padding-bottom: spacing('0-5');
+    color: $background-color;
+  }
+
+  .footer-list-title {
+    font-size: 75%;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: grays('200');
+
+    &::after {
+      content: '';
+      display: block;
+      width: 10%;
+      margin: auto;
+      border-bottom: 2px solid;
+      border-color: grays('700');
+    }
+  }
+
+  &.footer-fixed {
+    position: fixed;
+    bottom: 0;
+  }
+}
