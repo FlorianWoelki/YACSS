@@ -9190,7 +9190,7 @@ nav {
       display: inline-block;
       line-height: 1.25;
       padding: 8px 12px;
-      color: #718096; }
+      color: var(--primary-color-600); }
     .pagination .pagination-item:not(.selected):hover {
       background-color: #edf2f7; }
     .pagination .pagination-item.selected {

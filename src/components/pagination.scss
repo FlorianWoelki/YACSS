@@ -31,7 +31,7 @@
       display: inline-block;
       line-height: 1.25;
       padding: spacing('0-5') spacing('0-75');
-      color: grays('600');
+      color: var(--primary-color-600);
     }
 
     &:not(.selected):hover {
