@@ -1,5 +1,3 @@
-$im-media-support: true !default;
-
 $breakpoints: (
   'phone': 640px,
   'tablet': 769px,
@@ -7,7 +5,13 @@ $breakpoints: (
 ) !default;
 
 $foreground-color: #374054;
+.text-fg-color {
+  color: $foreground-color;
+}
 $background-color: #fff;
+.bg-color {
+  background-color: $background-color;
+}
 
 @each $blue-name, $blue-value in $blue {
   .text-blue-#{$blue-name} {
