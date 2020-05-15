@@ -11956,6 +11956,17 @@ h6 {
     line-height: 1.125em;
     margin: 16px 0; }
 
+.circle {
+  border-radius: 100%;
+  line-height: 3.125rem;
+  padding: 0;
+  width: 3.125rem; }
+
+.pilled {
+  border-radius: 6.25rem;
+  padding-left: 24px;
+  padding-right: 24px; }
+
 .text-center {
   text-align: center; }
 

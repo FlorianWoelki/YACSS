@@ -12,6 +12,19 @@
   }
 }
 
+.circle {
+  border-radius: 100%;
+  line-height: 3.125rem;
+  padding: 0;
+  width: 3.125rem;
+}
+
+.pilled {
+  border-radius: 6.25rem;
+  padding-left: spacing('1-5');
+  padding-right: spacing('1-5');
+}
+
 .text-center {
   text-align: center;
 }
