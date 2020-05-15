@@ -1,0 +1,150 @@
+@import './media';
+@import './config';
+
+nav {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 0;
+  width: 100%;
+  z-index: 100;
+  margin-bottom: spacing('1-5');
+  box-shadow: shadow('small');
+  background-color: $background-color;
+  max-height: 100vh;
+  padding: 0 spacing('2');
+  transition: all 0.3s;
+
+  a {
+    color: grays('600');
+  }
+
+  .nav-content {
+    overflow: auto;
+  }
+
+  .nav-item {
+    border-top: 2px solid transparent !important;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+
+    a {
+      font-weight: 900;
+    }
+
+    &:hover {
+      border-bottom-color: var(--primary-color-600);
+
+      a {
+        color: var(--primary-color-700);
+      }
+    }
+
+    &.selected {
+      border-bottom-color: var(--primary-color-600);
+      a {
+        color: var(--primary-color-700);
+      }
+    }
+  }
+
+  @include media-above('tablet') {
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+
+    .nav-content {
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-negative: 0;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      text-align: center;
+      width: 100%;
+      top: 0;
+      overflow: visible;
+    }
+
+    .nav-left,
+    .nav-right {
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-items: stretch;
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+    }
+
+    .nav-left {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      white-space: nowrap;
+    }
+
+    .nav-right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      white-space: nowrap;
+    }
+
+    .nav-item {
+      padding: spacing('0-5') 0;
+      margin: 0 spacing('1');
+    }
+  }
+
+  @include media-below('tablet') {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-content {
+      height: 0;
+
+      &.active {
+        height: 100vh;
+      }
+
+      .nav-item {
+        padding: spacing('1');
+
+        &> a {
+          padding: 0;
+          width: 100%;
+        }
+      }
+    }
+
+    .nav-left,
+    .nav-right {
+      overflow: hidden;
+    }
+  }
+
+  @include media-above('desktop') {
+    nav {
+      padding: 0 spacing('2');
+    }
+  }
+}
