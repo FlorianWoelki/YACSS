@@ -164,7 +164,10 @@ $font-size-system: (
 }
 
 $border-radius-system: (
-  '5': 5px,
+  'sm': 2px,
+  'reg': 4px,
+  'md': 6px,
+  'lg': 8px,
 );
 @function border-radius($border-radius-value) {
   @return map-get($border-radius-system, $border-radius-value);

@@ -3,7 +3,7 @@
 .tag {
   align-items: center;
   background-color: grays('200');
-  border-radius: spacing('0-25');
+  border-radius: border-radius('reg');
   color: $foreground-color;
   display: inline-flex;
   font-size: 75%;

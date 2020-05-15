@@ -127,3 +127,9 @@
     box-shadow: $shadow-value;
   }
 }
+
+@each $border-radius-name, $border-radius-value in $border-radius-system {
+  .border-radius-#{$border-radius-name} {
+    border-radius: $border-radius-value;
+  }
+}

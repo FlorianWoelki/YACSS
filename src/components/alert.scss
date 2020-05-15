@@ -3,7 +3,7 @@
 .alert {
   background-color: var(--primary-color-100);
   border-left: 5px solid var(--primary-color-600);
-  border-radius: 1px;
+  border-radius: border-radius('reg');
   padding: spacing('1') spacing('1-5');
   color: var(--primary-color-700);
 

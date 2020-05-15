@@ -10,7 +10,7 @@
     flex: 1 0 50%;
     margin: spacing('1') spacing('0-25');
     transition: all 0.3s;
-    border-radius: border-radius('5');
+    border-radius: border-radius('reg');
     margin: spacing('0-25') 0;
     -webkit-flex: 0;
     -ms-flex: 0;
@@ -63,14 +63,14 @@
       border-left-color: transparent;
 
       &:first-child {
-        border-top-left-radius: border-radius('5');
-        border-bottom-left-radius: border-radius('5');
+        border-top-left-radius: border-radius('reg');
+        border-bottom-left-radius: border-radius('reg');
         border-left-color: grays('400');
       }
 
       &:last-child {
-        border-top-right-radius: border-radius('5');
-        border-bottom-right-radius: border-radius('5');
+        border-top-right-radius: border-radius('reg');
+        border-bottom-right-radius: border-radius('reg');
       }
 
       &.selected {
