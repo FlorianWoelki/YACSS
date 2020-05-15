@@ -28,10 +28,6 @@ nav {
     border-bottom: 2px solid transparent;
     transition: all 0.3s;
 
-    a {
-      font-weight: 900;
-    }
-
     &:hover {
       border-bottom-color: var(--primary-color-600);
 
@@ -45,6 +41,30 @@ nav {
       a {
         color: var(--primary-color-700);
       }
+    }
+  }
+
+  .nav-brand {
+    -webkit-overflow-scrolling: touch;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    max-width: 100vw;
+    min-height: spacing('3');
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    a {
+      font-weight: 900;
+    }
+
+    .nav-item:hover {
+      border-bottom-color: transparent;
     }
   }
 
@@ -117,6 +137,10 @@ nav {
     nav {
       display: flex;
       flex-direction: column;
+    }
+
+    .nav-brand .nav-item:first-child {
+      padding: 0 spacing('1');
     }
 
     .nav-content {
