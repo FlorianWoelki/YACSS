@@ -6140,8 +6140,11 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 
 .container {
   max-width: 60em;
-  margin: 0 auto 1.5em;
+  margin: 0 auto 24px;
   width: 80%; }
+  .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+    line-height: 1.125em;
+    margin: 16px 0; }
 
 .text-center {
   text-align: center; }
