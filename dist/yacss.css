@@ -6361,6 +6361,10 @@ button,
   backface-visibility: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
   margin-bottom: 16px; }
+  .card.card-equal-height {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100%; }
   .card:hover {
     transition: all 0.3s;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
