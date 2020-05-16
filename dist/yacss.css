@@ -8409,16 +8409,19 @@ nav {
   nav .nav-content {
     overflow: auto; }
   nav .nav-item {
+    position: relative;
     transition: all 0.3s; }
-    nav .nav-item::after {
+    nav .nav-item:not(.selected)::after {
       content: '';
       display: block;
-      padding-bottom: 8px;
       width: 80%;
       opacity: 0;
       margin: auto;
       border-bottom: 2px solid transparent;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      position: absolute;
+      bottom: 0;
+      left: calc((100% - 80%) / 2); }
     nav .nav-item:hover {
       transition: all 0.3s; }
       nav .nav-item:hover a {
@@ -8426,7 +8429,6 @@ nav {
       nav .nav-item:hover::after {
         content: '';
         display: block;
-        padding-bottom: 8px;
         width: 80%;
         opacity: 1;
         margin: auto;
@@ -8435,14 +8437,13 @@ nav {
       color: var(--primary-color-700); }
     nav .nav-item.selected::after {
       content: '';
-      display: block;
-      padding-bottom: 8px;
       width: 80%;
-      opacity: 1;
-      margin: auto;
       border-bottom: 2px solid var(--primary-color-600);
       -webkit-transition: all 0.3s;
-      transition: all 0.3s; }
+      transition: all 0.3s;
+      position: absolute;
+      bottom: 0;
+      left: calc((100% - 80%) / 2); }
   nav .nav-brand {
     -webkit-overflow-scrolling: touch;
     -webkit-box-align: stretch;
@@ -8483,7 +8484,8 @@ nav {
         text-align: center;
         width: 100%;
         top: 0;
-        overflow: visible; }
+        overflow: visible;
+        align-items: center; }
       nav .nav-left,
       nav .nav-right {
         -webkit-box-align: stretch;
@@ -8513,7 +8515,7 @@ nav {
         justify-content: flex-end;
         white-space: nowrap; }
       nav .nav-item {
-        padding: 8px 0 0 0;
+        padding: 8px 0;
         margin: 0 16px; } }
   @media screen and (max-width: 768px) {
     nav nav {
