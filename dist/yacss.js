@@ -70,6 +70,13 @@ function initTheme(theme) {
 }
 // @ts-ignore
 window.initTheme = initTheme;
+var navBtn = document.getElementById('nav-btn');
+if (navBtn) {
+    navBtn.addEventListener('click', function () {
+        navBtn.classList.toggle('active');
+        document.getElementsByClassName('nav-content')[0].classList.toggle('active');
+    });
+}
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"../colors":1}]},{},[2])

@@ -24,3 +24,11 @@ function initTheme(theme: Theme): void {
 
 // @ts-ignore
 window.initTheme = initTheme;
+
+const navBtn = document.getElementById('nav-btn') as HTMLElement;
+if (navBtn) {
+  navBtn.addEventListener('click', () => {
+    navBtn.classList.toggle('active');
+    document.getElementsByClassName('nav-content')[0]!.classList.toggle('active');
+  });
+}
