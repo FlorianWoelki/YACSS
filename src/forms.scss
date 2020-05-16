@@ -75,3 +75,46 @@ label {
     margin-bottom: 0;
   }
 }
+
+input {
+  &.input-contains-icon,
+  &.input-contains-icon-left {
+    padding-left: spacing('3') !important;
+  }
+
+  &.input-contains-icon-right {
+    padding-right: spacing('3') !important;
+  }
+}
+
+.input-control {
+  position: relative;
+  margin: spacing('0-5') 0;
+}
+
+.input-contains-icon ~ .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  &.icon-right {
+    position: absolute;
+    pointer-events: none;
+    line-height: 2.75;
+    vertical-align: baseline;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    z-index: 1;
+  }
+}
+
+.input-contains-icon ~ .icon:not(.icon-right),
+.input-contains-icon-left ~ .icon.icon-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3rem;
+  z-index: 1;
+}

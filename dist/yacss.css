@@ -2109,6 +2109,39 @@ label {
   label:not(:last-child) {
     margin-bottom: 0; }
 
+input.input-contains-icon, input.input-contains-icon-left {
+  padding-left: 48px !important; }
+
+input.input-contains-icon-right {
+  padding-right: 48px !important; }
+
+.input-control {
+  position: relative;
+  margin: 8px 0; }
+
+.input-contains-icon ~ .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; }
+  .input-contains-icon ~ .icon.icon-right {
+    position: absolute;
+    pointer-events: none;
+    line-height: 2.75;
+    vertical-align: baseline;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    z-index: 1; }
+
+.input-contains-icon ~ .icon:not(.icon-right),
+.input-contains-icon-left ~ .icon.icon-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3rem;
+  z-index: 1; }
+
 /*
 * YACSS 0.0.1
 * Florian Woelki, Copyright 2020
