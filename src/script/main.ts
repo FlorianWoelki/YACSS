@@ -34,6 +34,7 @@ function applyStyles(classes: string[]) {
     { name: 'pos', selector: 'position', rules: ['fixed', 'relative', 'absolute'] },
     { name: 'align', selector: 'align-items', rules: ['center', 'flex-start', 'flex-end'] },
     { name: 'justify', selector: 'justify-content', rules: ['center', 'flex-start', 'flex-end', 'space-around', 'space-between'] },
+    { name: 'overflow-y', selector: 'overflow-y', rules: ['auto', 'hidden', 'overlay', 'scroll'] },
   ];
   if (classes[0] !== 'all') {
     styles = styles.filter((style) => classes.indexOf(style.selector) > -1);
