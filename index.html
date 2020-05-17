@@ -278,187 +278,29 @@
     </div>
   </div>
 
-  <!--
-  <div class="row">
-    <div class="col-8">
-      <table class="table striped">
-        <thead>
-          <tr>
-            <th>a</th>
-            <th>b</th>
-            <th>c</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>d</td>
-            <td>e</td>
-            <td>f</td>
-          </tr>
-          <tr>
-            <td>d</td>
-            <td>e</td>
-            <td>f</td>
-          </tr>
-          <tr>
-            <td>d</td>
-            <td>e</td>
-            <td>f</td>
-          </tr>
-          <tr>
-            <td>d</td>
-            <td>e</td>
-            <td>f</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <div class="container">
-    <div class="card">
-      <h1 class="font-72 m-3 text-indigo-500">test</h1>
-      <label for="username">Username</label>
-      <input id="username" type="text" placeholder="florian">
-      <div class="flex justify-flex-end mt-1 mb-1 mr-1">
-        <button class="btn--transparent text-purple-500">Cancel</button>
-        <button class="ml-0-25">Submit</button>
-      </div>
-    </div>
-    <div class="pagination pagination-bordered">
-      <div class="pagination-item" disabled>
-        <a href="#"><</a>
-      </div>
-      <div class="pagination-item">
-        <a href="#">a1</a>
-      </div>
-      <div class="pagination-item selected bg-purple-600">
-        <a href="#">2</a>
-      </div>
-      <div class="pagination-item text-purple-600" disabled>
-        <a href="#">...</a>
-      </div>
-      <div class="pagination-item">
-        <a class="text-purple-600" href="#">3</a>
-      </div>
-      <div class="pagination-item">
-        <a href="#">></a>
-      </div>
-    </div>
-    <button class="pilled">Click</button>
-    <div class="alert">
-      <div class="row p-0">
-        <div class="col-1 text-center pl-0">
-          <div class="alert-icon"></div>
+  <div class="container mt-6">
+    <h3>
+      <a class="font-bold" href="https://github.com/FlorianWoelki/YACSS/blob/master/src/components/modal.scss" target="_blank">#</a>
+      Modal
+    </h3>
+    <a href="#modal-id" class="inline-block">
+      <button class="btn secondary">Show Fadein Modal</button>
+    </a>
+    <div class="modal modal-fade-in" id="modal-id">
+      <a href="#target" class="modal-overlay" aria-label="Close"></a>
+      <div class="modal-content" role="document">
+        <div class="modal-header">
+          <div class="modal-title">Modal Dialog</div>
+          <a href="#components" class="modal-close-icon" aria-label="Close"></a>
         </div>
-        <div class="col-10">
-          <p class="title">Be a pro man!</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro consectetur illum laudantium placeat? Optio quisquam, eos est magni quasi eum corrupti, soluta earum velit molestiae deserunt facere animi. Accusamus, voluptates!</p>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magni quasi, itaque quas dolorum ipsam! Neque rerum assumenda accusamus illo molestias distinctio tenetur est! Asperiores illo sapiente ad doloremque illum.</p>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-10">
-        <div class="card">
-          <div class="row p-0">
-            <div class="col-3 p-0">
-              <img src="https://www.lafocahouse.com/wp-content/uploads/2018/01/slide01-2560-min.jpg" width="100%" height="100%">
-            </div>
-            <div class="col-9 pl-0 pr-0">
-              <div class="mt-1-5">
-                <div class="ml-1">
-                  <h4>Amsterdam Walking Tour</h4>
-                  <p class="mr-2 text-gray-700 font-18 line-height-24">Explore popular tourist destinations as well as hidden local favorites.</p>
-                </div>
-                <div class="bg-gray-200 pl-1 pb-1-5 mt-0-5 pt-0-5">
-                  <div class="flex justify-space-between align-center pr-1">
-                    <div>
-                      <h5 class="font-normal mb-0-5">
-                        <span class="font-bold">$17</span>
-                        <span class="text-gray-600">per person*</span>
-                      </h5>
-                      <p class="m-0">
-                        <span class="text-red-600">*****</span>
-                        <span class="text-gray-600">28 Reviews</span>
-                      </p>
-                    </div>
-                    <button>Book now</button>
-                  </div>
-                  <p class="mt-1 text-gray-600">*Prices may very dependening on selected date.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4 sm-pos-2 md-pos-1 lg-pos-0">
-        <div class="avatar" data-text="FW"></div>
-        <h1 class="font-thin">Test h1</h1>
-        <h1 class="font-light">Test h1</h1>
-        <h1 class="font-normal">Test h1</h1>
-        <h1 class="font-semibold">Test h1</h1>
-        <h1 class="font-bold">Test h1</h1>
-        <input class="input--xsmall" type="search">
-        <input class="input--small" type="search">
-        <input type="search">
-        <input class="input--large" type="search">
-        <input class="input--xlarge" type="search">
-      </div>
-      <div class="col-4 sm-pos-1 md-pos-0 lg-pos-2">
-        <button class="animated loading loading-right">Click me</button>
-        <button class="secondary animated loading loading-left">Click me</button>
-        <button class="tertiary">Click me</button>
-        <br/>
-        <button class="btn--large">Click me</button>
-        <button class="secondary btn--large">Click me</button>
-        <button class="tertiary btn--large">Click me</button>
-        <h2>Test h2</h2>
-      </div>
-      <div class="col-4 sm-pos-0 md-pos-2 lg-pos-1">
-        <h3>Test h3</h3>
-        <a href="#">Hello World</a>
-        <div class="tab-container">
-          <ul class="tabs-fill">
-            <li class="selected bc-red-600">
-              <a href="#">aabcdef</a>
-            </li>
-            <li class="bc-red-600">
-              <a class="text-hover-red-600" href="#">test</a>
-            </li>
-            <li>
-              <a href="#">is Jeff</a>
-            </li>
-          </ul>
-        </div>
-        <div class="tag bg-purple-200 text-purple-700">Hello World</div>
-        <div class="input-control">
-          <input type="text" class="input-contains-icon">
-          <span class="icon">A</span>
+        <div class="modal-footer">
         </div>
       </div>
     </div>
   </div>
-
-  <a href="#modal-id" class="inline-block">
-    <button>Show Modal</button>
-  </a>
-
-  <div class="modal modal-fade-in" id="modal-id">
-    <a href="#target" class="modal-overlay" aria-label="Close"></a>
-    <div class="modal-content" role="document">
-      <div class="modal-header">
-        <div class="modal-title">Modal Dialog</div>
-        <a href="#components" class="modal-close-icon" aria-label="Close"></a>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magni quasi, itaque quas dolorum ipsam! Neque rerum assumenda accusamus illo molestias distinctio tenetur est! Asperiores illo sapiente ad doloremque illum.</p>
-      </div>
-      <div class="modal-footer">
-      </div>
-    </div>
-  </div>
-  -->
 
   <footer>
     <h6>YACSS Footer</h6>
