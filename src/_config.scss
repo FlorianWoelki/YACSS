@@ -30,6 +30,9 @@ $background-color: #fff;
   .text-hover-blue-#{$blue-name}:hover {
     color: #{$blue-value} !important;
   }
+  .bg-hover-blue-#{$blue-name}:hover {
+    background-color: #{$blue-value} !important;
+  }
 }
 
 @each $red-name, $red-value in $red {
@@ -48,6 +51,9 @@ $background-color: #fff;
   }
   .text-hover-red-#{$red-name}:hover {
     color: #{$red-value} !important;
+  }
+  .bg-hover-red-#{$red-name}:hover {
+    background-color: #{$red-value} !important;
   }
 }
 
@@ -68,6 +74,9 @@ $background-color: #fff;
   .text-hover-indigo-#{$indigo-name}:hover {
     color: #{$indigo-value} !important;
   }
+  .bg-hover-indigo-#{$indigo-name}:hover {
+    background-color: #{$indigo-value} !important;
+  }
 }
 
 @each $purple-name, $purple-value in $purple {
@@ -86,6 +95,9 @@ $background-color: #fff;
   }
   .text-hover-purple-#{$purple-name}:hover {
     color: #{$purple-value} !important;
+  }
+  .bg-hover-purple-#{$purple-name}:hover {
+    background-color: #{$purple-value} !important;
   }
 }
 
@@ -119,6 +131,9 @@ $grays: (
   }
   .text-hover-gray-#{$gray-name}:hover {
     color: #{$gray-value} !important;
+  }
+  .bg-hover-gray-#{$gray-name}:hover {
+    background-color: #{$gray-value} !important;
   }
 }
 
