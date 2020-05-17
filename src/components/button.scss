@@ -30,7 +30,7 @@ button,
     transition: 200ms ease;
   }
 
-  &.secondary {
+  &.btn-secondary {
     background-color: transparent;
     color: var(--accent-color-600);
     border: 2px solid var(--accent-color-200);
@@ -42,7 +42,7 @@ button,
     }
   }
 
-  &.tertiary {
+  &.btn-tertiary {
     color: var(--accent-color-600);
     background-color: transparent;
     border: none;

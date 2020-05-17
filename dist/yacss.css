@@ -5646,23 +5646,23 @@ button,
   button:active,
   .btn:active {
     transition: 200ms ease; }
-  button.secondary,
-  .btn.secondary {
+  button.btn-secondary,
+  .btn.btn-secondary {
     background-color: transparent;
     color: var(--accent-color-600);
     border: 2px solid var(--accent-color-200); }
-    button.secondary:hover,
-    .btn.secondary:hover {
+    button.btn-secondary:hover,
+    .btn.btn-secondary:hover {
       background-color: var(--accent-color-600);
       border: 2px solid var(--accent-color-600);
       color: #fff; }
-  button.tertiary,
-  .btn.tertiary {
+  button.btn-tertiary,
+  .btn.btn-tertiary {
     color: var(--accent-color-600);
     background-color: transparent;
     border: none; }
-    button.tertiary:hover,
-    .btn.tertiary:hover {
+    button.btn-tertiary:hover,
+    .btn.btn-tertiary:hover {
       background-color: transparent;
       color: var(--accent-color-800); }
   button.btn--transparent,
@@ -12808,9 +12808,9 @@ nav {
   padding: 0 12px;
   font-weight: 600;
   white-space: nowrap; }
-  .tag.--large {
+  .tag.tag--large {
     font-size: 100%; }
-  .tag.--xlarge {
+  .tag.tag--xlarge {
     font-size: 150%; }
   .tag.tag--rounded {
     border-radius: 290486px; }
