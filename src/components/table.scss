@@ -1,0 +1,55 @@
+@import '../config';
+
+.table {
+  margin-bottom: spacing('1-5');
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+
+  td,
+  th {
+    border: 1px solid grays('300');
+    border-width: 0 0 1px;
+    padding: spacing('0-75');
+    vertical-align: top;
+    text-align: inherit;
+    margin: 0;
+  }
+
+  tr {
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: grays('200');
+    }
+  }
+
+  caption {
+    padding-top: spacing('0-75');
+    padding-bottom: spacing('0-75');
+    color: grays('700');
+    text-align: left;
+    caption-side: bottom;
+  }
+
+  thead,
+  thead th {
+    border-bottom: 2px solid grays('300');
+    padding: spacing('1');
+  }
+
+  tfoot th {
+    padding: spacing('1');
+    border-top: 2px solid grays('300');
+    border-bottom: none;
+  }
+
+  &.striped tbody tr:nth-child(even) {
+    background-color: grays('100');
+
+    &:hover {
+      background-color: grays('300');
+    }
+  }
+}
