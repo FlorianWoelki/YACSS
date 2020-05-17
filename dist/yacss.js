@@ -65,11 +65,11 @@ function initTheme(theme) {
                 root.style.setProperty("--primary-color-" + i, primaryColors[i]);
                 root.style.setProperty("--accent-color-" + i, accentColors[i]);
             }
-            applyStyles();
+            applyStyles(theme.classes);
         }
     }
 }
-function applyStyles() {
+function applyStyles(classes) {
     var style = document.createElement('style');
     style.type = 'text/css';
     var styles = [
@@ -78,6 +78,9 @@ function applyStyles() {
         { name: 'align', selector: 'align-items', rules: ['center', 'flex-start', 'flex-end'] },
         { name: 'justify', selector: 'justify-content', rules: ['center', 'flex-start', 'flex-end', 'space-around', 'space-between'] },
     ];
+    if (classes[0] !== 'all') {
+        styles = styles.filter(function (style) { return classes.indexOf(style.selector) > -1; });
+    }
     var head = document.getElementsByTagName('head')[0];
     if (head) {
         styles.forEach(function (styleClass) {

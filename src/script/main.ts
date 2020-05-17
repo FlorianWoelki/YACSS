@@ -6,7 +6,7 @@ global.colors = require('../colors');
 type Theme = {
   primaryColor: string;
   accentColor: string;
-  classes: string;
+  classes: string[];
 }
 
 function initTheme(theme: Theme): void {
@@ -20,21 +20,24 @@ function initTheme(theme: Theme): void {
         root.style.setProperty(`--accent-color-${i}`, accentColors[i]);
       }
 
-      applyStyles();
+      applyStyles(theme.classes);
     }
   }
 }
 
-function applyStyles() {
+function applyStyles(classes: string[]) {
   const style = document.createElement('style');
   style.type = 'text/css';
 
-  const styles = [
+  let styles = [
     { name: 'flex', selector: 'flex-direction', rules: ['column', 'row', 'row-reverse', 'column-reverse'] },
     { name: 'pos', selector: 'position', rules: ['fixed', 'relative', 'absolute'] },
     { name: 'align', selector: 'align-items', rules: ['center', 'flex-start', 'flex-end'] },
     { name: 'justify', selector: 'justify-content', rules: ['center', 'flex-start', 'flex-end', 'space-around', 'space-between'] },
   ];
+  if (classes[0] !== 'all') {
+    styles = styles.filter((style) => classes.indexOf(style.selector) > -1);
+  }
 
   const head = document.getElementsByTagName('head')[0];
   if (head) {
