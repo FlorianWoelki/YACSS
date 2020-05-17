@@ -12,7 +12,7 @@
     <div class="nav-brand">
       <div class="nav-item">
         <a href="#">
-          Logo
+          Awesome navbar
         </a>
       </div>
       <div class="nav-item nav-btn" id="nav-btn">
@@ -25,44 +25,72 @@
       <div class="nav-item">
         <a href="#">Dashboard</a>
       </div>
-      <div class="nav-item selected bc-red-600">
-        <a class="text-red-700" href="#">Products</a>
-      </div>
-      <div class="nav-item bc-red-600">
-        <a class="text-hover-red-700" href="#">Orders</a>
+      <div class="nav-item selected">
+        <a href="#">Products</a>
       </div>
       <div class="nav-item">
         <a href="#">Discord</a>
       </div>
+      <div class="nav-item bc-red-600">
+        <a class="text-hover-red-700" href="#">Customize Me</a>
+      </div>
     </div>
   </nav>
 
-  <div class="row">
-    <div class="col-3">
-      <div class="card card-equal-height">
-        <h5>Awesome Card</h5>
-        <div class="flex align-center justify-space-between">
-          <div>test</div>
-          <div>test2</div>
-        </div>
+  <div class="container mt-6">
+    <h3>
+      <a class="font-bold" href="https://github.com/FlorianWoelki/YACSS/blob/master/src/grid.scss" target="_blank">#</a>
+      12 grid layout
+    </h3>
+    <p>
+      You can use the grid layout by defining a <span class="tag bg-red-200 text-red-700">row</span>
+      and in that parent you can define columns from 1-12 by using for example <span class="tag bg-red-200 text-red-700">col-4</span>.
+    </p>
+    <div class="row text-center">
+      <div class="col-4 text-red-600 bg-gray-200 border-radius-reg">
+        <h3>Simple</h3>
+      </div>
+      <div class="col-4 text-red-700 bg-gray-300 border-radius-reg">
+        <h3>12-grid</h3>
+      </div>
+      <div class="col-4 text-red-800 bg-gray-400 border-radius-reg">
+        <h3>grid layout</h3>  
       </div>
     </div>
-    <div class="col-6">
-      <div class="card card-equal-height">
-        <h1 class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit hic minima, ad rerum, adipisci delectus blanditiis illum odit totam deserunt veritatis, unde eveniet at provident doloremque rem eum praesentium?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit hic minima, ad rerum, adipisci delectus blanditiis illum odit totam deserunt veritatis, unde eveniet at provident doloremque rem eum praesentium?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit hic minima, ad rerum, adipisci delectus blanditiis illum odit totam deserunt veritatis, unde eveniet at provident doloremque rem eum praesentium?
-        </h1>
-      </div>
+    <p>
+      Furthermore, you can use different grid classes to control the flow of the grid (e.g. on smaller devices), by using
+      <span class="tag bg-red-200 text-red-700">.sm-pos-x</span>,
+      <span class="tag bg-red-200 text-red-700">.md-pos-x</span>,
+      <span class="tag bg-red-200 text-red-700">.lg-pos-x</span> to control the position on small, medium or large devices.
+    </p>
+  </div>
+
+  <div class="container mt-6">
+    <h3>
+      <a class="font-bold" href="https://github.com/FlorianWoelki/YACSS/blob/master/src/components/button.scss" target="_blank">#</a>
+      Buttons
+    </h3>
+    <h5 class="mt-1-5">Button styles</h5>
+    <div class="flex justify-space-between">
+      <button>Primary Button</button>
+      <button class="btn secondary">Secondary Button</button>
+      <button class="btn tertiary">Tertiary Button</button>
     </div>
-    <div class="col-3">
-      <div class="card card-equal-height">
-        <h5 class="text-center">Awesome Col-3</h5>
-      </div>
+    <h5 class="mt-1-5">Button sizes</h5>
+    <div class="justify-space-between mt-1">
+      <button class="btn btn--xsmall">xsmall Button</button>
+      <button class="btn btn--small mt-0-25">small Button</button>
+      <button class="btn btn--large mt-0-25">large Button</button>
+      <button class="btn btn--xlarge mt-0-25">xlarge Button</button>
+    </div>
+    <h5 class="mt-1-5">Button animation</h5>
+    <div class="flex justify-space-around mt-1">
+      <button class="btn animated loading loading-left">Animated</button>
+      <button class="btn secondary animated loading loading-right">Animated</button>
     </div>
   </div>
 
+  <!--
   <div class="row">
     <div class="col-8">
       <table class="table striped">
@@ -98,7 +126,6 @@
       </table>
     </div>
   </div>
-  <!--
   <div class="container">
     <div class="card">
       <h1 class="font-72 m-3 text-indigo-500">test</h1>
@@ -224,7 +251,6 @@
       </div>
     </div>
   </div>
-  -->
 
   <a href="#modal-id" class="inline-block">
     <button>Show Modal</button>
@@ -244,36 +270,37 @@
       </div>
     </div>
   </div>
+  -->
 
   <footer>
-    <h6>Hello World</h6>
+    <h6>YACSS Footer</h6>
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <p class="footer-list-title bc-blue-300">hello</p>
+          <p class="footer-list-title">Contact</p>
           <ul>
             <li class="list-item">
-              <a href="#">a</a>
+              <a href="#">Facebook</a>
             </li>
             <li class="list-item">
-              <a href="#">b</a>
+              <a href="#">Twitter</a>
             </li>
             <li class="list-item">
-              <a href="#">c</a>
+              <a href="#">Instagram</a>
             </li>
           </ul>
         </div>
         <div class="col-6">
-          <p class="footer-list-title">hello</p>
+          <p class="footer-list-title">Util</p>
           <ul>
             <li class="list-item">
-              <a href="#">a</a>
+              <a href="#">Address</a>
             </li>
             <li class="list-item">
-              <a href="#">b</a>
+              <a href="#">Email</a>
             </li>
             <li class="list-item">
-              <a href="#">c</a>
+              <a href="#">Data Privacy</a>
             </li>
           </ul>
         </div>
@@ -284,8 +311,8 @@
   <script src="./assets/yacss.min.js"></script>
   <script>
     initTheme({
-      primaryColor: 'blue',
-      accentColor: 'purple',
+      primaryColor: 'purple',
+      accentColor: 'red',
       classes: ['all'],
     });
   </script>
