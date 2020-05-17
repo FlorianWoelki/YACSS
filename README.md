@@ -43,7 +43,7 @@ Import YACSS by importing the css and js file
 ```html
 <link rel="stylesheet" href="./yacss.min.css">
 ...
-<script src="./yacss.min.js">
+<script src="./yacss.min.js"></script>
 <script>
   initTheme({
     primaryColor: 'blue',
