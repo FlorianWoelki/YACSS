@@ -65,8 +65,33 @@ function initTheme(theme) {
                 root.style.setProperty("--primary-color-" + i, primaryColors[i]);
                 root.style.setProperty("--accent-color-" + i, accentColors[i]);
             }
+            applyStyles();
         }
     }
+}
+function applyStyles() {
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    var styles = [
+        { name: 'flex', selector: 'flex-direction', rules: ['column', 'row', 'row-reverse', 'column-reverse'] },
+        { name: 'pos', selector: 'position', rules: ['fixed', 'relative', 'absolute'] },
+        { name: 'align', selector: 'align-items', rules: ['center', 'flex-start', 'flex-end'] },
+        { name: 'justify', selector: 'justify-content', rules: ['center', 'flex-start', 'flex-end', 'space-around', 'space-between'] },
+    ];
+    var head = document.getElementsByTagName('head')[0];
+    if (head) {
+        styles.forEach(function (styleClass) {
+            style.innerHTML += createClass(styleClass.name, styleClass.selector, styleClass.rules);
+        });
+        head.appendChild(style);
+    }
+}
+function createClass(name, selector, rules) {
+    var result = '';
+    rules.forEach(function (rule) {
+        result += "." + name + "-" + rule + " { " + selector + ": " + rule + " }";
+    });
+    return result;
 }
 // @ts-ignore
 window.initTheme = initTheme;

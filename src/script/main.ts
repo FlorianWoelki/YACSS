@@ -6,6 +6,7 @@ global.colors = require('../colors');
 type Theme = {
   primaryColor: string;
   accentColor: string;
+  classes: string;
 }
 
 function initTheme(theme: Theme): void {
@@ -18,8 +19,38 @@ function initTheme(theme: Theme): void {
         root.style.setProperty(`--primary-color-${i}`, primaryColors[i]);
         root.style.setProperty(`--accent-color-${i}`, accentColors[i]);
       }
+
+      applyStyles();
     }
   }
+}
+
+function applyStyles() {
+  const style = document.createElement('style');
+  style.type = 'text/css';
+
+  const styles = [
+    { name: 'flex', selector: 'flex-direction', rules: ['column', 'row', 'row-reverse', 'column-reverse'] },
+    { name: 'pos', selector: 'position', rules: ['fixed', 'relative', 'absolute'] },
+    { name: 'align', selector: 'align-items', rules: ['center', 'flex-start', 'flex-end'] },
+    { name: 'justify', selector: 'justify-content', rules: ['center', 'flex-start', 'flex-end', 'space-around', 'space-between'] },
+  ];
+
+  const head = document.getElementsByTagName('head')[0];
+  if (head) {
+    styles.forEach((styleClass) => {
+      style.innerHTML += createClass(styleClass.name, styleClass.selector, styleClass.rules);
+    });
+    head.appendChild(style);
+  }
+}
+
+function createClass(name: string, selector: string, rules: string[]): string {
+  let result = '';
+  rules.forEach((rule) => {
+    result += `.${name}-${rule} { ${selector}: ${rule} }`;
+  });
+  return result;
 }
 
 // @ts-ignore
