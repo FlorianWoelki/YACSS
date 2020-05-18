@@ -4,6 +4,9 @@
   "description": "Yet another CSS framework.",
   "main": "./dist/yacss.min.css",
   "repository": "git+https://github.com/FlorianWoelki/YACSS.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@FlorianWoelki"
+  },
   "keywords": [
     "yacss",
     "css",
