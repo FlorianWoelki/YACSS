@@ -188,6 +188,17 @@ $border-radius-system: (
   @return map-get($border-radius-system, $border-radius-value);
 }
 
+$border-system: (
+  '0': 0,
+  '1': 1px,
+  '2': 2px,
+  '4': 4px,
+  '8': 8px,
+);
+@function border($border-value) {
+  @return map-get($border-system, $border-value);
+}
+
 $shadow-system: (
   'xsmall': 0 1px 3px hsla(0, 0%, 0%, 0.12),
   'small': 0 4px 6px hsla(0, 0%, 0%, 0.12),

@@ -129,3 +129,21 @@
     border-radius: $border-radius-value;
   }
 }
+
+@each $border-name, $border-value in $border-system {
+  .b-#{$border-name} {
+    border: $border-value solid #fff;
+  }
+  .bt-#{$border-name} {
+    border-top: $border-value solid #fff;
+  }
+  .bb-#{$border-name} {
+    border-bottom: $border-value solid #fff;
+  }
+  .bl-#{$border-name} {
+    border-left: $border-value solid #fff;
+  }
+  .br-#{$border-name} {
+    border-right: $border-value solid #fff;
+  }
+}

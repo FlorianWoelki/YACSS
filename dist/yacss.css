@@ -18400,3 +18400,78 @@ h6 {
 
 .border-radius-lg {
   border-radius: 8px; }
+
+.b-0 {
+  border: 0 solid #fff; }
+
+.bt-0 {
+  border-top: 0 solid #fff; }
+
+.bb-0 {
+  border-bottom: 0 solid #fff; }
+
+.bl-0 {
+  border-left: 0 solid #fff; }
+
+.br-0 {
+  border-right: 0 solid #fff; }
+
+.b-1 {
+  border: 1px solid #fff; }
+
+.bt-1 {
+  border-top: 1px solid #fff; }
+
+.bb-1 {
+  border-bottom: 1px solid #fff; }
+
+.bl-1 {
+  border-left: 1px solid #fff; }
+
+.br-1 {
+  border-right: 1px solid #fff; }
+
+.b-2 {
+  border: 2px solid #fff; }
+
+.bt-2 {
+  border-top: 2px solid #fff; }
+
+.bb-2 {
+  border-bottom: 2px solid #fff; }
+
+.bl-2 {
+  border-left: 2px solid #fff; }
+
+.br-2 {
+  border-right: 2px solid #fff; }
+
+.b-4 {
+  border: 4px solid #fff; }
+
+.bt-4 {
+  border-top: 4px solid #fff; }
+
+.bb-4 {
+  border-bottom: 4px solid #fff; }
+
+.bl-4 {
+  border-left: 4px solid #fff; }
+
+.br-4 {
+  border-right: 4px solid #fff; }
+
+.b-8 {
+  border: 8px solid #fff; }
+
+.bt-8 {
+  border-top: 8px solid #fff; }
+
+.bb-8 {
+  border-bottom: 8px solid #fff; }
+
+.bl-8 {
+  border-left: 8px solid #fff; }
+
+.br-8 {
+  border-right: 8px solid #fff; }
