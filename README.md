@@ -35,8 +35,8 @@ yarn add yacss
 **CDN**
 
 ```sh
-https://unpkg.com/yacss@0.0.1/dist/yacss.min.css
-https://unpkg.com/yacss@0.0.1/dist/yacss.min.js
+https://unpkg.com/yacss@0.0.2/dist/yacss.min.css
+https://unpkg.com/yacss@0.0.2/dist/yacss.min.js
 ```
 
 Import YACSS by importing the css and js file
