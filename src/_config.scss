@@ -19,6 +19,9 @@ $background-color: #fff;
   }
   .bg-blue-#{$blue-name} {
     background-color: #{$blue-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($blue, '300');
+    }
   }
   .bc-blue-#{$blue-name} {
     border-color: #{$blue-value} !important;
@@ -32,6 +35,7 @@ $background-color: #fff;
   }
   .bg-hover-blue-#{$blue-name}:hover {
     background-color: #{$blue-value} !important;
+    border-color: #{$blue-value} !important;
   }
 }
 
@@ -41,6 +45,9 @@ $background-color: #fff;
   }
   .bg-red-#{$red-name} {
     background-color: #{$red-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($red, '300');
+    }
   }
   .bc-red-#{$red-name} {
     border-color: #{$red-value} !important;
@@ -54,6 +61,7 @@ $background-color: #fff;
   }
   .bg-hover-red-#{$red-name}:hover {
     background-color: #{$red-value} !important;
+    border-color: #{$red-value} !important;
   }
 }
 
@@ -63,6 +71,9 @@ $background-color: #fff;
   }
   .bg-indigo-#{$indigo-name} {
     background-color: #{$indigo-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($indigo, '300');
+    }
   }
   .bc-indigo-#{$indigo-name} {
     border-color: #{$indigo-value} !important;
@@ -76,6 +87,7 @@ $background-color: #fff;
   }
   .bg-hover-indigo-#{$indigo-name}:hover {
     background-color: #{$indigo-value} !important;
+    border-color: #{$indigo-value} !important;
   }
 }
 
@@ -85,6 +97,9 @@ $background-color: #fff;
   }
   .bg-purple-#{$purple-name} {
     background-color: #{$purple-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($purple, '300');
+    }
   }
   .bc-purple-#{$purple-name} {
     border-color: #{$purple-value} !important;
@@ -98,6 +113,7 @@ $background-color: #fff;
   }
   .bg-hover-purple-#{$purple-name}:hover {
     background-color: #{$purple-value} !important;
+    border-color: #{$purple-value} !important;
   }
 }
 
@@ -121,6 +137,9 @@ $grays: (
   }
   .bg-gray-#{$gray-name} {
     background-color: #{$gray-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem grays('300');
+    }
   }
   .bc-gray-#{$gray-name} {
     border-color: #{$gray-value} !important;
@@ -134,6 +153,7 @@ $grays: (
   }
   .bg-hover-gray-#{$gray-name}:hover {
     background-color: #{$gray-value} !important;
+    border-color: #{$gray-value} !important;
   }
 }
 
