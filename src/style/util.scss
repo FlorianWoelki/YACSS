@@ -125,8 +125,20 @@
 }
 
 @each $border-radius-name, $border-radius-value in $border-radius-system {
-  .border-radius-#{$border-radius-name} {
+  .b-radius-#{$border-radius-name} {
     border-radius: $border-radius-value;
+  }
+  .btl-radius-#{$border-radius-name} {
+    border-top-left-radius: $border-radius-value;
+  }
+  .btr-radius-#{$border-radius-name} {
+    border-top-right-radius: $border-radius-value;
+  }
+  .bbl-radius-#{$border-radius-name} {
+    border-bottom-left-radius: $border-radius-value;
+  }
+  .bbr-radius-#{$border-radius-name} {
+    border-bottom-right-radius: $border-radius-value;
   }
 }
 

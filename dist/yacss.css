@@ -1,5 +1,5 @@
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -957,7 +957,7 @@ body {
   color: #374054; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -1929,7 +1929,7 @@ body {
       left: auto; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -2953,7 +2953,7 @@ input.input-contains-icon-right {
   z-index: 1; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -3979,7 +3979,7 @@ input.input-contains-icon-right {
     padding: 0; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -4927,7 +4927,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
   display: inline; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -5878,7 +5878,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     color: var(--primary-color-900); }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -6849,7 +6849,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     width: 100%; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -7855,7 +7855,7 @@ button,
     opacity: 0.5; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -8803,7 +8803,7 @@ button,
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -9779,7 +9779,7 @@ footer {
     bottom: 0; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -11836,7 +11836,7 @@ nav {
       padding: 0 32px; } }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -13766,7 +13766,7 @@ nav {
     text-align: right; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -14748,7 +14748,7 @@ nav {
       border-color: transparent; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -16693,7 +16693,7 @@ nav {
       margin: 0; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -17661,7 +17661,7 @@ nav {
       background-color: #e2e8f0; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -18674,7 +18674,7 @@ nav {
         transition: all 0.3s; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -19624,7 +19624,7 @@ nav {
     border-radius: 290486px; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -20598,7 +20598,7 @@ h6 {
   font-weight: 700; }
 
 /*
-* YACSS 0.0.1
+* YACSS 0.0.2
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -23172,17 +23172,65 @@ h6 {
 .shadow-xlarge {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12); }
 
-.border-radius-sm {
+.b-radius-sm {
   border-radius: 2px; }
 
-.border-radius-reg {
+.btl-radius-sm {
+  border-top-left-radius: 2px; }
+
+.btr-radius-sm {
+  border-top-right-radius: 2px; }
+
+.bbl-radius-sm {
+  border-bottom-left-radius: 2px; }
+
+.bbr-radius-sm {
+  border-bottom-right-radius: 2px; }
+
+.b-radius-reg {
   border-radius: 4px; }
 
-.border-radius-md {
+.btl-radius-reg {
+  border-top-left-radius: 4px; }
+
+.btr-radius-reg {
+  border-top-right-radius: 4px; }
+
+.bbl-radius-reg {
+  border-bottom-left-radius: 4px; }
+
+.bbr-radius-reg {
+  border-bottom-right-radius: 4px; }
+
+.b-radius-md {
   border-radius: 6px; }
 
-.border-radius-lg {
+.btl-radius-md {
+  border-top-left-radius: 6px; }
+
+.btr-radius-md {
+  border-top-right-radius: 6px; }
+
+.bbl-radius-md {
+  border-bottom-left-radius: 6px; }
+
+.bbr-radius-md {
+  border-bottom-right-radius: 6px; }
+
+.b-radius-lg {
   border-radius: 8px; }
+
+.btl-radius-lg {
+  border-top-left-radius: 8px; }
+
+.btr-radius-lg {
+  border-top-right-radius: 8px; }
+
+.bbl-radius-lg {
+  border-bottom-left-radius: 8px; }
+
+.bbr-radius-lg {
+  border-bottom-right-radius: 8px; }
 
 .b-0 {
   border: 0 solid #fff; }
