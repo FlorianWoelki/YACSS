@@ -199,6 +199,7 @@ $font-size-system: (
 }
 
 $border-radius-system: (
+  'none': 0px,
   'sm': 2px,
   'reg': 4px,
   'md': 6px,
@@ -220,6 +221,7 @@ $border-system: (
 }
 
 $shadow-system: (
+  'none': none,
   'xsmall': 0 1px 3px hsla(0, 0%, 0%, 0.12),
   'small': 0 4px 6px hsla(0, 0%, 0%, 0.12),
   'medium': 0 5px 15px hsla(0, 0%, 0%, 0.12),

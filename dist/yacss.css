@@ -23157,6 +23157,9 @@ h6 {
 .line-height-72 {
   line-height: 72px; }
 
+.shadow-none {
+  box-shadow: none; }
+
 .shadow-xsmall {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
 
@@ -23171,6 +23174,21 @@ h6 {
 
 .shadow-xlarge {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12); }
+
+.b-radius-none {
+  border-radius: 0px; }
+
+.btl-radius-none {
+  border-top-left-radius: 0px; }
+
+.btr-radius-none {
+  border-top-right-radius: 0px; }
+
+.bbl-radius-none {
+  border-bottom-left-radius: 0px; }
+
+.bbr-radius-none {
+  border-bottom-right-radius: 0px; }
 
 .b-radius-sm {
   border-radius: 2px; }
