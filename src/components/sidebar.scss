@@ -1,0 +1,113 @@
+@import '../config';
+@import '../style/media';
+
+.sidebar-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+
+  .sidebar-content {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    padding: spacing('2');
+
+    @include media-below('tablet') {
+      margin-top: spacing('2');
+    }
+  }
+
+  .sidebar-header {
+    @include media-below('tablet') {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: grays('100');
+      height: 3.5rem;
+      padding: spacing('0-75') spacing('0-5');
+      text-align: center;
+      z-index: 300;
+    }
+
+    @include media-above('tablet') {
+      display: none;
+    }
+  }
+
+  .sidebar {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    padding: spacing('2') spacing('1') spacing('2') spacing('2');
+    min-width: 15rem;
+    height: 100vh;
+    overflow: auto;
+
+    @include media-below('tablet') {
+      height: 100%;
+      overflow-y: auto;
+      padding: spacing('3') spacing('1-5');
+      position: fixed;
+      left: 0;
+      top: 0;
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      transition: transform 300ms ease, -webkit-transform 300ms ease;
+      -webkit-transition: -webkit-transform 300ms ease;
+      transition: transform 300ms ease;
+      transition: -webkit-transform 300ms ease;
+      z-index: 400;
+
+      &:target {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        transition: transform 300ms ease, -webkit-transform 300ms ease;
+        -webkit-transition: -webkit-transform 300ms ease;
+        transition: -webkit-transform 300ms ease;
+        transition: transform 300ms ease;
+
+        + .sidebar-close {
+          display: block;
+          background-color: rgba(0, 0, 0, 0.15);
+          height: 100%;
+          left: 0;
+          position: fixed;
+          right: 0;
+          top: 0;
+          width: 100%;
+          z-index: 300;
+        }
+      }
+
+      + .sidebar-body {
+        max-width: inherit;
+      }
+    }
+
+    .sidebar-container {
+      overflow-y: auto;
+      top: spacing('4');
+      bottom: spacing('1');
+    }
+
+    + .sidebar-close {
+      display: none;
+    }
+
+    + .sidebar-content {
+      max-width: 100%;
+      padding: spacing('2');
+      -ms-flex: 1 0 auto;
+      -webkit-box-flex: 1;
+      flex: 1 0 auto;
+      overflow: auto;
+      margin: 0;
+    }
+  }
+}
