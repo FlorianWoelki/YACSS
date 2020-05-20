@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - 2020-05-20
+
+### 🔨 Added
+- Add specific border radius system
+- Add none values for shadow and border radius
+- Add changelog file
+- Add width (now has width and max-width classes) system
+
+### ⚡️ Changed
+- Change license to MIT
+- Margin auto is now important
+
+
 ## [0.0.2] - 2020-05-19
 
 ### 🔨 Added
