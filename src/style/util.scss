@@ -118,6 +118,15 @@
   }
 }
 
+@each $width-name, $width-value in $width-system {
+  .w-#{$width-name} {
+    width: $width-value;
+  }
+  .mw-#{$width-name} {
+    max-width: $width-value;
+  }
+}
+
 @each $shadow-name, $shadow-value in $shadow-system {
   .shadow-#{$shadow-name} {
     box-shadow: $shadow-value;
