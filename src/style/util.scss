@@ -97,16 +97,16 @@
   }
 }
 .m-auto {
-  margin: auto;
+  margin: auto !important;
 }
 .mt-auto {
-  margin-top: auto;
+  margin-top: auto !important;
 }
 .ml-auto {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 .mr-auto {
-  margin-right: auto;
+  margin-right: auto !important;
 }
 
 @each $font-size-name, $font-size-value in $font-size-system {

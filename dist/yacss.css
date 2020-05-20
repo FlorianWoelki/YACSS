@@ -23080,16 +23080,16 @@ h6 {
   padding-bottom: 768px !important; }
 
 .m-auto {
-  margin: auto; }
+  margin: auto !important; }
 
 .mt-auto {
-  margin-top: auto; }
+  margin-top: auto !important; }
 
 .ml-auto {
-  margin-left: auto; }
+  margin-left: auto !important; }
 
 .mr-auto {
-  margin-right: auto; }
+  margin-right: auto !important; }
 
 .font-12 {
   font-size: 12px; }
