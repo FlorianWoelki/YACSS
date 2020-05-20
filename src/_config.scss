@@ -251,7 +251,15 @@ $width-system: (
   '10': $width-base-value * 10,
   '12': $width-base-value * 12,
   '14': $width-base-value * 14,
-  '16': $width-base-value * 16
+  '16': $width-base-value * 16,
+  '18': $width-base-value * 18,
+  '20': $width-base-value * 20,
+  '22': $width-base-value * 22,
+  '24': $width-base-value * 24,
+  '28': $width-base-value * 28,
+  '32': $width-base-value * 32,
+  '36': $width-base-value * 36,
+  '40': $width-base-value * 40
 );
 @function width($width-value) {
   @return map-get($width-system, $width-value);
