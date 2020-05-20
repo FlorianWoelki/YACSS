@@ -232,6 +232,31 @@ $shadow-system: (
   @return map-get($shadow-system, $shadow-value);
 }
 
+$width-base-value: 16px;
+$width-system: (
+  '0': $width-base-value * 0,
+  '0-25': $width-base-value * 0.25,
+  '0-5': $width-base-value * 0.5,
+  '0-75': $width-base-value * 0.75,
+  '1': $width-base-value * 1,
+  '1-25': $width-base-value * 1.25,
+  '1-5': $width-base-value * 1.5,
+  '2': $width-base-value * 2,
+  '2-5': $width-base-value * 2.5,
+  '3': $width-base-value * 3,
+  '4': $width-base-value * 4,
+  '5': $width-base-value * 5,
+  '6': $width-base-value * 6,
+  '8': $width-base-value * 8,
+  '10': $width-base-value * 10,
+  '12': $width-base-value * 12,
+  '14': $width-base-value * 14,
+  '16': $width-base-value * 16
+);
+@function width($width-value) {
+  @return map-get($width-system, $width-value);
+}
+
 :root {
   --primary-color-100: #ebf8ff;
   --primary-color-200: #bee3f8;
