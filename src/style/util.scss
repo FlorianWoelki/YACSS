@@ -135,19 +135,19 @@
 
 @each $border-radius-name, $border-radius-value in $border-radius-system {
   .b-radius-#{$border-radius-name} {
-    border-radius: $border-radius-value;
+    border-radius: $border-radius-value !important;
   }
   .btl-radius-#{$border-radius-name} {
-    border-top-left-radius: $border-radius-value;
+    border-top-left-radius: $border-radius-value !important;
   }
   .btr-radius-#{$border-radius-name} {
-    border-top-right-radius: $border-radius-value;
+    border-top-right-radius: $border-radius-value !important;
   }
   .bbl-radius-#{$border-radius-name} {
-    border-bottom-left-radius: $border-radius-value;
+    border-bottom-left-radius: $border-radius-value !important;
   }
   .bbr-radius-#{$border-radius-name} {
-    border-bottom-right-radius: $border-radius-value;
+    border-bottom-right-radius: $border-radius-value !important;
   }
 }
 
