@@ -9736,6 +9736,9 @@ button,
 .dropdown {
   display: inline-block;
   position: relative; }
+  .dropdown.dropdown-right {
+    left: auto;
+    right: 0; }
   .dropdown .menu {
     list-style: none;
     position: absolute;

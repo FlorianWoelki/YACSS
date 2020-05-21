@@ -4,6 +4,11 @@
   display: inline-block;
   position: relative;
 
+  &.dropdown-right {
+    left: auto;
+    right: 0;
+  }
+
   .menu {
     list-style: none;
     position: absolute;
