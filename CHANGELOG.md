@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.31] - 2020-05-21
+
+### 🔨 Added
+- /
+
+### ⚡️ Changed
+- Changed npm package includes to only the dist directory
+
+
 ## [0.0.3] - 2020-05-20
 
 ### 🔨 Added
@@ -35,3 +44,5 @@ INITIAL RELEASE
 
 [0.0.1]: https://www.npmjs.com/package/yacss/v/0.0.1
 [0.0.2]: https://www.npmjs.com/package/yacss/v/0.0.2
+[0.0.3]: https://www.npmjs.com/package/yacss/v/0.0.3
+[0.0.31]: https://www.npmjs.com/package/yacss/v/0.0.31
