@@ -1,0 +1,13 @@
+node_modules
+src
+.github
+docs
+index.html
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+devmode.sh
+gulpfile.js
+LICENSE
+package.json
+README.md
+tsconfig.json
