@@ -10,6 +10,11 @@
 
 :star: Star us on GitHub — it helps!
 
+<a href="https://www.npmjs.com/package/yacss"><img src="https://badge.fury.io/js/yacss.svg"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/FlorianWoelki/yacss.svg"></a>
+<a href="https://www.npmjs.com/package/yacss"><img src="https://img.shields.io/npm/dt/yacss.svg"></a>
+<a href="https://www.npmjs.com/package/yacss"><img src="https://img.shields.io/npm/dm/yacss.svg"></a>
+
 **Y**et**A**nother**CSS** Framework is a new utility based modern framework. This simple to use framework is inspired by the Tailwind framework with some extra pre defined components you can use.
 
 There are a lot of beautiful prestyled components you can use and customize easily with the help of the utility based classes.
