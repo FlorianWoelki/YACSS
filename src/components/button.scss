@@ -57,28 +57,28 @@ button,
     }
   }
 
-  &.btn--transparent {
+  &.btn-transparent {
     background-color: transparent;
     color: var(--accent-color-600);
     border-color: transparent;
   }
 
-  &.btn--xlarge {
+  &.btn-xl {
     font-size: font('24');
     padding: spacing('1-5') spacing('3');
   }
 
-  &.btn--large {
+  &.btn-lg {
     font-size: font('20');
     padding: spacing('1') spacing('2');
   }
 
-  &.btn--small {
+  &.btn-sm {
     font-size: font('14');
     padding: spacing('0-5') spacing('0-5') + 2px;
   }
 
-  &.btn--xsmall {
+  &.btn-xs {
     font-size: font('12');
     padding: spacing('0-5') - 2px spacing('0-5');
   }
