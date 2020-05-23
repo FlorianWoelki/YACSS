@@ -23,25 +23,25 @@
     -ms-transform: translate(-50%, -50%);
   }
 
-  &.avatar--xsmall {
+  &.avatar-xs {
     font-size: font('12');
     width: spacing('2');
     height: spacing('2');
   }
 
-  &.avatar--small {
+  &.avatar-sm {
     font-size: font('16');
     width: spacing('3');
     height: spacing('3');
   }
 
-  &.avatar--large {
+  &.avatar-lg {
     font-size: font('36');
     width: spacing('6');
     height: spacing('6');
   }
 
-  &.avatar--xlarge {
+  &.avatar-xl {
     font-size: font('48');
     width: spacing('8');
     height: spacing('8');

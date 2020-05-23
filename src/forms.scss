@@ -12,21 +12,21 @@ select {
   outline: 0;
   padding: spacing('0-5') spacing('1');
 
-  &.input--xsmall {
+  &.input-xs {
     font-size: font('12');
     padding: spacing('0-25') spacing('1');
   }
 
-  &.input--small {
+  &.input-sm {
     font-size: font('14');
     padding: spacing('0-5') spacing('1');
   }
 
-  &.input--large {
+  &.input-lg {
     font-size: font('20');
   }
 
-  &.input--xlarge {
+  &.input-xl {
     font-size: font('30');
   }
 }

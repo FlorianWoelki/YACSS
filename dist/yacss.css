@@ -2870,19 +2870,19 @@ select {
   letter-spacing: 0.32px;
   outline: 0;
   padding: 8px 16px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--xsmall,
-  select.input--xsmall {
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-xs,
+  select.input-xs {
     font-size: 12px;
     padding: 4px 16px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--small,
-  select.input--small {
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-sm,
+  select.input-sm {
     font-size: 14px;
     padding: 8px 16px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--large,
-  select.input--large {
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-lg,
+  select.input-lg {
     font-size: 20px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input--xlarge,
-  select.input--xlarge {
+  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-xl,
+  select.input-xl {
     font-size: 30px; }
 
 input:not([type=checkbox]):not([type=radio]):not([type=submit]):focus,
@@ -6828,19 +6828,19 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); }
-  .avatar.avatar--xsmall {
+  .avatar.avatar-xs {
     font-size: 12px;
     width: 32px;
     height: 32px; }
-  .avatar.avatar--small {
+  .avatar.avatar-sm {
     font-size: 16px;
     width: 48px;
     height: 48px; }
-  .avatar.avatar--large {
+  .avatar.avatar-lg {
     font-size: 36px;
     width: 96px;
     height: 96px; }
-  .avatar.avatar--xlarge {
+  .avatar.avatar-xl {
     font-size: 48px;
     width: 128px;
     height: 128px; }
@@ -7828,25 +7828,25 @@ button,
     .btn.btn-tertiary:hover {
       background-color: transparent;
       color: var(--accent-color-800); }
-  button.btn--transparent,
-  .btn.btn--transparent {
+  button.btn-transparent,
+  .btn.btn-transparent {
     background-color: transparent;
     color: var(--accent-color-600);
     border-color: transparent; }
-  button.btn--xlarge,
-  .btn.btn--xlarge {
+  button.btn-xl,
+  .btn.btn-xl {
     font-size: 24px;
     padding: 24px 48px; }
-  button.btn--large,
-  .btn.btn--large {
+  button.btn-lg,
+  .btn.btn-lg {
     font-size: 20px;
     padding: 16px 32px; }
-  button.btn--small,
-  .btn.btn--small {
+  button.btn-sm,
+  .btn.btn-sm {
     font-size: 14px;
     padding: 8px 10px; }
-  button.btn--xsmall,
-  .btn.btn--xsmall {
+  button.btn-xs,
+  .btn.btn-xs {
     font-size: 12px;
     padding: 6px 8px; }
   button:disabled,
@@ -20602,11 +20602,11 @@ nav {
   padding: 0 12px;
   font-weight: 600;
   white-space: nowrap; }
-  .tag.tag--large {
+  .tag.tag-lg {
     font-size: 100%; }
-  .tag.tag--xlarge {
+  .tag.tag-xl {
     font-size: 150%; }
-  .tag.tag--rounded {
+  .tag.tag-rounded {
     border-radius: 290486px; }
 
 /*
