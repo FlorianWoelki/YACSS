@@ -10,6 +10,9 @@
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -966,6 +969,9 @@ body {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -1938,6 +1944,9 @@ body {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -2962,6 +2971,9 @@ input.input-contains-icon-right {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -3989,6 +4001,9 @@ input.input-contains-icon-right {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -4936,6 +4951,9 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -5887,6 +5905,9 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -6858,6 +6879,9 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -7865,6 +7889,9 @@ button,
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -8812,6 +8839,9 @@ button,
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -9799,6 +9829,9 @@ button,
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -10775,6 +10808,9 @@ footer {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -11700,6 +11736,9 @@ footer {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -12832,6 +12871,9 @@ nav {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -13757,6 +13799,9 @@ nav {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -14762,6 +14807,9 @@ nav {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -15744,6 +15792,9 @@ nav {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -16669,6 +16720,9 @@ nav {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -17689,6 +17743,9 @@ nav {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -18656,6 +18713,9 @@ nav {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -19670,6 +19730,9 @@ nav {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -20609,6 +20672,24 @@ nav {
   .tag.tag-rounded {
     border-radius: 290486px; }
 
+.tag-container {
+  display: flex;
+  flex-wrap: wrap; }
+  .tag-container:not(:last-child) {
+    margin: 16px 0; }
+  .tag-container .tag {
+    margin-bottom: 8px; }
+    .tag-container .tag:not(:last-child) {
+      margin-right: 8px; }
+  .tag-container.group-tags .tag {
+    margin-right: 0; }
+    .tag-container.group-tags .tag:first-child {
+      border-radius: 4px 0 0 4px; }
+    .tag-container.group-tags .tag:not(:first-child):not(:last-child) {
+      border-radius: 0; }
+    .tag-container.group-tags .tag:last-child {
+      border-radius: 0 4px 4px 0; }
+
 /*
 * YACSS 0.0.31
 * Florian Woelki, Copyright 2020
@@ -20619,6 +20700,9 @@ nav {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }
@@ -21594,6 +21678,9 @@ h6 {
 .bg-color {
   background-color: #fff; }
 
+.text-white {
+  color: #fff; }
+
 .text-blue-100 {
   color: #ebf8ff !important; }
 
@@ -22519,6 +22606,9 @@ h6 {
 
 .bg-color {
   background-color: #fff; }
+
+.text-white {
+  color: #fff; }
 
 .text-blue-100 {
   color: #ebf8ff !important; }

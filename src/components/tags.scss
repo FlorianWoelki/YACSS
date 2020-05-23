@@ -25,3 +25,36 @@
     border-radius: 290486px;
   }
 }
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  &:not(:last-child) {
+    margin: spacing('1') 0;
+  }
+
+  .tag {
+    margin-bottom: spacing('0-5');
+
+    &:not(:last-child) {
+      margin-right: spacing('0-5');
+    }
+  }
+
+  &.group-tags .tag {
+    margin-right: 0;
+
+    &:first-child {
+      border-radius: border-radius('reg') 0 0 border-radius('reg');
+    }
+
+    &:not(:first-child):not(:last-child) {
+      border-radius: 0;
+    }
+
+    &:last-child {
+      border-radius: 0 border-radius('reg') border-radius('reg') 0;
+    }
+  }
+}
