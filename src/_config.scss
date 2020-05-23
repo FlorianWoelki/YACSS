@@ -12,6 +12,9 @@ $background-color: #fff;
 .bg-color {
   background-color: $background-color;
 }
+.text-white {
+  color: $background-color;
+}
 
 @each $blue-name, $blue-value in $blue {
   .text-blue-#{$blue-name} {
