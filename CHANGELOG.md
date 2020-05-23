@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.4] - 2020-05-23
+
+### 🔨 Added
+- Add dropdown component
+- Add badges to readme file
+- Add text-white utility class
+- Add grouping for tags
+
+### ⚡️ Changed
+- Change class names of sizes (e.g. button or tags)
+
+
 ## [0.0.31] - 2020-05-21
 
 ### 🔨 Added
@@ -46,3 +58,4 @@ INITIAL RELEASE
 [0.0.2]: https://www.npmjs.com/package/yacss/v/0.0.2
 [0.0.3]: https://www.npmjs.com/package/yacss/v/0.0.3
 [0.0.31]: https://www.npmjs.com/package/yacss/v/0.0.31
+[0.0.4]: https://www.npmjs.com/package/yacss/v/0.0.4
