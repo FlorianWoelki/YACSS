@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.5] - 2020-05-24
+
+### 🔨 Added
+- Add .center utility class to center elements
+- Add .form-group for grouping input and button
+- Add grouping for input and button
+- Add .w-100 and .h-100 for 100% width or height
+
+### ⚡️ Changed
+- /
+
+
 ## [0.0.4] - 2020-05-23
 
 ### 🔨 Added
@@ -59,3 +71,4 @@ INITIAL RELEASE
 [0.0.3]: https://www.npmjs.com/package/yacss/v/0.0.3
 [0.0.31]: https://www.npmjs.com/package/yacss/v/0.0.31
 [0.0.4]: https://www.npmjs.com/package/yacss/v/0.0.4
+[0.0.5]: https://www.npmjs.com/package/yacss/v/0.0.5
