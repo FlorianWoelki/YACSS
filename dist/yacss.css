@@ -2938,6 +2938,11 @@ input.input-contains-icon-right {
   position: relative;
   margin: 8px 0; }
 
+.form-group {
+  display: flex;
+  display: -ms-flexbox;
+  margin: 8px 0; }
+
 .input-contains-icon ~ .icon {
   display: flex;
   align-items: center;
