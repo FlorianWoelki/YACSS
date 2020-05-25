@@ -188,3 +188,7 @@
     border-right: $border-value solid #fff;
   }
 }
+
+.b-hover-none:hover {
+  border: none !important;
+}

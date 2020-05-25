@@ -14660,7 +14660,7 @@ nav {
       transition: all 0.3s; }
       nav .nav-item:hover a {
         color: var(--primary-color-700); }
-      nav .nav-item:hover::after {
+      nav .nav-item:hover:not(.b-hover-none)::after {
         content: '';
         display: block;
         width: 100%;
@@ -24595,3 +24595,6 @@ h6 {
 
 .br-8 {
   border-right: 8px solid #fff; }
+
+.b-hover-none:hover {
+  border: none !important; }
