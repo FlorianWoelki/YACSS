@@ -43,14 +43,13 @@ nav {
     &:not(.selected)::after {
       content: '';
       display: block;
-      width: 80%;
+      width: 100%;
       opacity: 0;
       margin: auto;
       border-bottom: 2px solid transparent;
       transition: all 0.3s;
       position: absolute;
       bottom: 0;
-      left: calc((100% - 80%) / 2);
     }
 
     &:hover {
@@ -63,7 +62,7 @@ nav {
       &::after {
         content: '';
         display: block;
-        width: 80%;
+        width: 100%;
         opacity: 1;
         margin: auto;
         border-bottom: 2px solid var(--primary-color-600);
@@ -77,13 +76,13 @@ nav {
 
       &::after {
         content: '';
-        width: 80%;
+        width: 100%;
+        left: 1px;
         border-bottom: 2px solid var(--primary-color-600);
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         position: absolute;
         bottom: 0;
-        left: calc((100% - 80%) / 2);
       }
     }
   }

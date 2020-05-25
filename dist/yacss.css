@@ -12713,14 +12713,13 @@ nav {
     nav .nav-item:not(.selected)::after {
       content: '';
       display: block;
-      width: 80%;
+      width: 100%;
       opacity: 0;
       margin: auto;
       border-bottom: 2px solid transparent;
       transition: all 0.3s;
       position: absolute;
-      bottom: 0;
-      left: calc((100% - 80%) / 2); }
+      bottom: 0; }
     nav .nav-item:hover {
       transition: all 0.3s; }
       nav .nav-item:hover a {
@@ -12728,7 +12727,7 @@ nav {
       nav .nav-item:hover::after {
         content: '';
         display: block;
-        width: 80%;
+        width: 100%;
         opacity: 1;
         margin: auto;
         border-bottom: 2px solid var(--primary-color-600); }
@@ -12736,13 +12735,13 @@ nav {
       color: var(--primary-color-700); }
     nav .nav-item.selected::after {
       content: '';
-      width: 80%;
+      width: 100%;
+      left: 1px;
       border-bottom: 2px solid var(--primary-color-600);
       -webkit-transition: all 0.3s;
       transition: all 0.3s;
       position: absolute;
-      bottom: 0;
-      left: calc((100% - 80%) / 2); }
+      bottom: 0; }
   nav .nav-brand {
     -webkit-overflow-scrolling: touch;
     -webkit-box-align: stretch;
