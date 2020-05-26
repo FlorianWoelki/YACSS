@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YACSS | Yet another CSS framework</title>
+
+  <link rel="stylesheet" href="./assets/yacss.min.css">
+
+  <style>
+    code {
+      padding: 0.3rem;
+      margin: 0.5em 0;
+      overflow: auto;
+      background-color: black;
+      color: white;
+      border-radius: 3px;
+    }
+
+    code:before {
+      color: #acb3c2;
+      content: attr(data-lang);
+      font-size: 0.9rem;
+      position: absolute;
+      right: 1rem;
+      top: 0.7rem;
+    }
+
+    pre > code {
+      font-size: 14px;
+      display: block;
+      padding: 2rem 1.5rem 1rem;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: Consolas, Monaco, 'Andale Mono', monospace;
+      text-align: left;
+      line-height: 1.5;
+      -moz-tab-size: 4;
+      tab-size: 4;
+      -moz-hyphens: none;
+      -ms-hyphens: none;
+      hyphens: none;
+      border-left: .3rem solid var(--primary-color-700);
+      margin: 0;
+      position: relative;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-4">
+    <h1>Buttons</h1>
+
+    <div class="row">
+      <div class="col-6">
+        Some Preview
+      </div>
+      <div class="col-6">
+        <code>
+          <pre>test</pre>
+        </code>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/yacss.min.js"></script>
+  <script>
+    initTheme({
+      primaryColor: 'indigo',
+      accentColor: 'red',
+      classes: ['all'],
+    });
+
+    document.querySelectorAll('code').forEach(function(element) {
+      element.innerHTML = element.innerHTML.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+    });
+  </script>
+</body>
+</html>

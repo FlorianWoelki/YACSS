@@ -12,7 +12,7 @@
     <h3>What do you want to create?</h3>
     <div class="row pl-0">
       <div class="col-6 pl-0 mt-1">
-        <div class="card bg-gray-100 card-equal-height">
+        <div id="button-card" class="card bg-gray-100 card-equal-height">
           <div class="container mb-2 pt-2 pr-2 pl-2">
             <h3 class="text-center">Button</h3>
           </div>
@@ -37,6 +37,10 @@
   </div>
   <script src="./assets/yacss.min.js"></script>
   <script>
+    document.getElementById('button-card').addEventListener('click', () => {
+      window.location.assign('./buttons.html');
+    });
+
     initTheme({
       primaryColor: 'indigo',
       accentColor: 'red',
