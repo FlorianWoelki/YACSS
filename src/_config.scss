@@ -5,14 +5,17 @@ $breakpoints: (
 ) !default;
 
 $foreground-color: #374054;
-.text-fg-color {
+.text-black {
+  color: $foreground-color;
+}
+.text-hover-black:hover {
   color: $foreground-color;
 }
 $background-color: #fff;
-.bg-color {
-  background-color: $background-color;
-}
 .text-white {
+  color: $background-color;
+}
+.text-hover-white:hover {
   color: $background-color;
 }
 
