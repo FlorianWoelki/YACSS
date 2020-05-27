@@ -4,13 +4,16 @@
 * http://florianwoelki.github.io/YACSS
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:200,300,400,600,700");
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -964,13 +967,16 @@ body {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -1939,13 +1945,16 @@ body {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -2987,13 +2996,16 @@ input.input-contains-icon-right {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -4016,13 +4028,16 @@ input.input-contains-icon-right {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -4967,13 +4982,16 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -5921,13 +5939,16 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -6895,13 +6916,16 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -7904,13 +7928,16 @@ button,
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -8855,13 +8882,16 @@ button,
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -9844,13 +9874,16 @@ button,
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -10823,13 +10856,16 @@ footer {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -11752,13 +11788,16 @@ footer {
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
 
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -12759,13 +12798,16 @@ footer {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -13688,13 +13730,16 @@ footer {
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
 
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -14821,13 +14866,16 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -15806,13 +15854,16 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -16735,13 +16786,16 @@ nav {
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
 
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -17757,13 +17811,16 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -18728,13 +18785,16 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -19744,13 +19804,16 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -20715,13 +20778,16 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -21692,13 +21758,16 @@ h6 {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -22621,13 +22690,16 @@ h6 {
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
 
-.text-fg-color {
+.text-black {
   color: #374054; }
 
-.bg-color {
-  background-color: #fff; }
+.text-hover-black:hover {
+  color: #374054; }
 
 .text-white {
+  color: #fff; }
+
+.text-hover-white:hover {
   color: #fff; }
 
 .text-blue-100 {
@@ -23557,6 +23629,9 @@ h6 {
   .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
     line-height: 1.125em;
     margin: 16px 0; }
+
+.pointer {
+  cursor: pointer !important; }
 
 .center {
   display: -webkit-box;
@@ -24598,3 +24673,10 @@ h6 {
 
 .b-hover-none:hover {
   border: none !important; }
+
+kbd {
+  padding: 4px;
+  margin: 8px 0;
+  background-color: var(--accent-color-200);
+  color: var(--accent-color-700);
+  border-radius: 4px; }
