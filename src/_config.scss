@@ -22,6 +22,9 @@ $background-color: #fff;
 @each $blue-name, $blue-value in $blue {
   .text-blue-#{$blue-name} {
     color: #{$blue-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($blue, '300');
+    }
   }
   .bg-blue-#{$blue-name} {
     background-color: #{$blue-value} !important;
@@ -39,15 +42,23 @@ $background-color: #fff;
   .text-hover-blue-#{$blue-name}:hover {
     color: #{$blue-value} !important;
   }
-  .bg-hover-blue-#{$blue-name}:hover {
-    background-color: #{$blue-value} !important;
-    border-color: #{$blue-value} !important;
+  .bg-hover-blue-#{$blue-name} {
+    &:hover {
+      background-color: #{$blue-value} !important;
+      border-color: #{$blue-value} !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($blue, '300');
+    }
   }
 }
 
 @each $red-name, $red-value in $red {
   .text-red-#{$red-name} {
     color: #{$red-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($red, '300');
+    }
   }
   .bg-red-#{$red-name} {
     background-color: #{$red-value} !important;
@@ -65,15 +76,23 @@ $background-color: #fff;
   .text-hover-red-#{$red-name}:hover {
     color: #{$red-value} !important;
   }
-  .bg-hover-red-#{$red-name}:hover {
-    background-color: #{$red-value} !important;
-    border-color: #{$red-value} !important;
+  .bg-hover-red-#{$red-name} {
+    &:hover {
+      background-color: #{$red-value} !important;
+      border-color: #{$red-value} !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($red, '300');
+    }
   }
 }
 
 @each $indigo-name, $indigo-value in $indigo {
   .text-indigo-#{$indigo-name} {
     color: #{$indigo-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($indigo, '300');
+    }
   }
   .bg-indigo-#{$indigo-name} {
     background-color: #{$indigo-value} !important;
@@ -91,15 +110,23 @@ $background-color: #fff;
   .text-hover-indigo-#{$indigo-name}:hover {
     color: #{$indigo-value} !important;
   }
-  .bg-hover-indigo-#{$indigo-name}:hover {
-    background-color: #{$indigo-value} !important;
-    border-color: #{$indigo-value} !important;
+  .bg-hover-indigo-#{$indigo-name} {
+    &:hover {
+      background-color: #{$indigo-value} !important;
+      border-color: #{$indigo-value} !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($indigo, '300');
+    }
   }
 }
 
 @each $purple-name, $purple-value in $purple {
   .text-purple-#{$purple-name} {
     color: #{$purple-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($purple, '300');
+    }
   }
   .bg-purple-#{$purple-name} {
     background-color: #{$purple-value} !important;
@@ -117,9 +144,14 @@ $background-color: #fff;
   .text-hover-purple-#{$purple-name}:hover {
     color: #{$purple-value} !important;
   }
-  .bg-hover-purple-#{$purple-name}:hover {
-    background-color: #{$purple-value} !important;
-    border-color: #{$purple-value} !important;
+  .bg-hover-purple-#{$purple-name} {
+    &:hover {
+      background-color: #{$purple-value} !important;
+      border-color: #{$purple-value} !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($purple, '300');
+    }
   }
 }
 
@@ -140,6 +172,9 @@ $grays: (
 @each $gray-name, $gray-value in $grays {
   .text-gray-#{$gray-name} {
     color: #{$gray-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($grays, '300');
+    }
   }
   .bg-gray-#{$gray-name} {
     background-color: #{$gray-value} !important;
@@ -157,9 +192,14 @@ $grays: (
   .text-hover-gray-#{$gray-name}:hover {
     color: #{$gray-value} !important;
   }
-  .bg-hover-gray-#{$gray-name}:hover {
-    background-color: #{$gray-value} !important;
-    border-color: #{$gray-value} !important;
+  .bg-hover-gray-#{$gray-name} {
+    &:hover {
+      background-color: #{$gray-value} !important;
+      border-color: #{$gray-value} !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($grays, '300');
+    }
   }
 }
 
