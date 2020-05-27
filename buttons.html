@@ -12,8 +12,8 @@
       padding: 0.3rem;
       margin: 0.5em 0;
       overflow: auto;
-      background-color: black;
-      color: white;
+      background-color: #f1f1f1;
+      color: #0f0f0f;
       border-radius: 3px;
     }
 
@@ -29,7 +29,7 @@
     pre > code {
       font-size: 14px;
       display: block;
-      padding: 2rem 1.5rem 1rem;
+      padding: 1rem 1.5rem 1rem;
       white-space: pre-wrap;
       word-wrap: break-word;
       font-family: Consolas, Monaco, 'Andale Mono', monospace;
@@ -51,14 +51,20 @@
   <div class="container mt-4">
     <h1>Buttons</h1>
 
-    <div class="row">
-      <div class="col-6">
-        Some Preview
+    <div class="row align-center">
+      <div class="col-4">
+        <button class="mb-1">Primary Button</button>
+        <button class="mb-1 btn-secondary">Secondary Button</button>
+        <button class="mb-1 btn-tertiary">Tertiary Button</button>
       </div>
-      <div class="col-6">
-        <code>
-          <pre>test</pre>
-        </code>
+      <div class="col-8">
+        <pre>
+          <code data-lang="Html">
+<button>Primary Button</button>
+<button class="btn-secondary">Secondary Button</button>
+<button class="btn-tertiary">Tertiary Button</button>
+          </code>
+        </pre>
       </div>
     </div>
   </div>
