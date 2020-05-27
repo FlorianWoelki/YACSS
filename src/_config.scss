@@ -6,17 +6,17 @@ $breakpoints: (
 
 $foreground-color: #374054;
 .text-black {
-  color: $foreground-color;
+  color: $foreground-color !important;
 }
 .text-hover-black:hover {
-  color: $foreground-color;
+  color: $foreground-color !important;
 }
 $background-color: #fff;
 .text-white {
-  color: $background-color;
+  color: $background-color !important;
 }
 .text-hover-white:hover {
-  color: $background-color;
+  color: $background-color !important;
 }
 
 @each $blue-name, $blue-value in $blue {
