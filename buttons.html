@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YACSS | Yet another CSS framework</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/github-gist.min.css">
   <link rel="stylesheet" href="./assets/yacss.min.css">
 
   <style>
@@ -12,7 +13,7 @@
       padding: 0.3rem;
       margin: 0.5em 0;
       overflow: auto;
-      background-color: #f1f1f1;
+      background-color: #f1f1f1 !important;
       color: #0f0f0f;
       border-radius: 3px;
     }
@@ -29,7 +30,7 @@
     pre > code {
       font-size: 14px;
       display: block;
-      padding: 1rem 1.5rem 1rem;
+      padding: 1rem 1.5rem 1rem !important;
       white-space: pre-wrap;
       word-wrap: break-word;
       font-family: Consolas, Monaco, 'Andale Mono', monospace;
@@ -40,7 +41,7 @@
       -moz-hyphens: none;
       -ms-hyphens: none;
       hyphens: none;
-      border-left: .3rem solid var(--primary-color-700);
+      border-left: .3rem solid var(--primary-color-500);
       margin: 0;
       position: relative;
       color: #222;
@@ -59,7 +60,7 @@
       </div>
       <div class="col-8">
         <pre>
-          <code data-lang="Html">
+          <code class="html" data-lang="Html">
 <button>Primary Button</button>
 <button class="btn-secondary">Secondary Button</button>
 <button class="btn-tertiary">Tertiary Button</button>
@@ -69,6 +70,7 @@
     </div>
   </div>
   <script src="./assets/yacss.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
   <script>
     initTheme({
       primaryColor: 'indigo',
@@ -79,6 +81,8 @@
     document.querySelectorAll('code').forEach(function(element) {
       element.innerHTML = element.innerHTML.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
     });
+
+    hljs.initHighlightingOnLoad();
   </script>
 </body>
 </html>
