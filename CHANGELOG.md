@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.6] - 2020-05-27
+
+### 🔨 Added
+- Add kbd tag styling
+- Add black and white text and hover utility classes
+
+### ⚡️ Changed
+- /
+
+
 ## [0.0.5] - 2020-05-24
 
 ### 🔨 Added

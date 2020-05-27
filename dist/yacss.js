@@ -1,5 +1,5 @@
 /*
-* YACSS 0.0.5
+* YACSS 0.0.6
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
