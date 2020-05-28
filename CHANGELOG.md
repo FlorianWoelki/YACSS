@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.7] - 2020-05-28
+
+### 🔨 Added
+- Add tooltip component
+- Add badge component
+
+### ⚡️ Changed
+- Text classes black and white are important
+- Fix hover box-shadow for secondary and tertiary button
+
+
 ## [0.0.6] - 2020-05-27
 
 ### 🔨 Added
