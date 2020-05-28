@@ -1,0 +1,39 @@
+@import '../config';
+
+.tooltip {
+  position: relative;
+  overflow: visible;
+  white-space: nowrap;
+
+  &::after {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    color: #fff;
+    font-size: font('12');
+    background-color: rgba(69, 77, 93, 0.9);
+    content: attr(data-tooltip);
+    display: block;
+    line-height: spacing('1');
+    opacity: 0;
+    text-overflow: ellipsis;
+    max-width: 15rem;
+    padding: spacing('0-25') spacing('0-75');
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    transition: all 300ms ease;
+    z-index: 200;
+    pointer-events: none;
+    bottom: 100%;
+    left: 50%;
+    border-radius: border-radius('reg');
+  }
+
+  &:focus::after,
+  &:hover::after {
+    opacity: 1;
+    -webkit-transform: translate(-50%, -0.5rem);
+    transform: translate(-50%, -0.5rem);
+    transition: all 300ms ease;
+  }
+}
