@@ -27867,13 +27867,12 @@ nav {
     position: absolute;
     color: #fff;
     font-size: 12px;
-    background-color: rgba(69, 77, 93, 0.9);
+    background-color: #4a5568;
     content: attr(data-tooltip);
     display: block;
     line-height: 16px;
     opacity: 0;
     text-overflow: ellipsis;
-    max-width: 15rem;
     padding: 4px 12px;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
