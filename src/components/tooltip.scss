@@ -36,4 +36,63 @@
     transform: translate(-50%, -0.5rem);
     transition: all 300ms ease;
   }
+
+  &.tooltip-bottom {
+    &::after {
+      top: 100%;
+      -webkit-transform: translate(-50%, -1rem);
+      -moz-transform: translate(-50%, -1rem);
+      -ms-transform: translate(-50%, -1rem);
+      transform: translate(-50%, -1rem);
+      bottom: auto;
+    }
+
+    &:hover::after,
+    &:focus::after {
+      -webkit-transform: translate(-50%, 0.5rem);
+      -moz-transform: translate(-50%, 0.5rem);
+      -ms-transform: translate(-50%, 0.5rem);
+      transform: translate(-50%, 0.5rem);
+      bottom: auto;
+    }
+  }
+
+  &.tooltip-right {
+    &::after {
+      left: 100%;
+      bottom: 50%;
+      -webkit-transform: translate(-1rem, 50%);
+      -moz-transform: translate(-1rem, 50%);
+      -ms-transform: translate(-1rem, 50%);
+      transform: translate(-1rem, 50%);
+    }
+
+    &:hover::after,
+    &:focus::after {
+      -webkit-transform: translate(0.5rem, 50%);
+      -moz-transform: translate(0.5rem, 50%);
+      -ms-transform: translate(0.5rem, 50%);
+      transform: translate(0.5rem, 50%);
+    }
+  }
+
+  &.tooltip-left {
+    &::after {
+      right: 100%;
+      bottom: 50%;
+      left: auto;
+      -webkit-transform: translate(1rem, 50%);
+      -moz-transform: translate(1rem, 50%);
+      -ms-transform: translate(1rem, 50%);
+      transform: translate(1rem, 50%);
+    }
+
+    &:hover::after,
+    &:focus::after {
+      -webkit-transform: translate(-0.5rem, 50%);
+      -moz-transform: translate(-0.5rem, 50%);
+      -ms-transform: translate(-0.5rem, 50%);
+      transform: translate(-0.5rem, 50%);
+    }
+  }
 }
