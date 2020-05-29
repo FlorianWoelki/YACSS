@@ -53,6 +53,40 @@ $background-color: #fff;
   }
 }
 
+@each $green-name, $green-value in $green {
+  .text-green-#{$green-name} {
+    color: #{$green-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($green, '300');
+    }
+  }
+  .bg-green-#{$green-name} {
+    background-color: #{$green-value} !important;
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($green, '300');
+    }
+  }
+  .bc-green-#{$green-name} {
+    border-color: #{$green-value} !important;
+
+    &:after {
+      border-bottom-color: #{$green-value} !important;
+    }
+  }
+  .text-hover-green-#{$green-name}:hover {
+    color: #{$green-value} !important;
+  }
+  .bg-hover-green-#{$green-name} {
+    &:hover {
+      background-color: #{$green-value} !important;
+      border-color: #{$green-value} !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem map-get($green, '300');
+    }
+  }
+}
+
 @each $red-name, $red-value in $red {
   .text-red-#{$red-name} {
     color: #{$red-value} !important;
@@ -238,7 +272,7 @@ $font-size-system: (
   '36': 36px,
   '48': 48px,
   '60': 60px,
-  '72': 72px,
+  '72': 72px
 );
 @function font($font-size-value) {
   @return map-get($font-size-system, $font-size-value);
