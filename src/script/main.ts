@@ -67,3 +67,15 @@ if (navBtn) {
     document.getElementsByClassName('nav-content')[0]!.classList.toggle('active');
   });
 }
+
+/* Apply data-image to hero images */
+const heroImages = document.getElementsByClassName('hero-img');
+for (let i = 0; i < heroImages.length; i++) {
+  const dataImage = heroImages[i].getAttribute('data-image');
+  if (dataImage) {
+    const heroImage = heroImages[i] as HTMLElement;
+    heroImage.style.background = 'url(' + dataImage + ')';
+    heroImage.style.backgroundSize = 'cover';
+    heroImage.style.backgroundRepeat = 'no-repeat';
+  }
+}

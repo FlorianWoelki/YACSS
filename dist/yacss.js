@@ -106,6 +106,17 @@ if (navBtn) {
         document.getElementsByClassName('nav-content')[0].classList.toggle('active');
     });
 }
+/* Apply data-image to hero images */
+var heroImages = document.getElementsByClassName('hero-img');
+for (var i = 0; i < heroImages.length; i++) {
+    var dataImage = heroImages[i].getAttribute('data-image');
+    if (dataImage) {
+        var heroImage = heroImages[i];
+        heroImage.style.background = 'url(' + dataImage + ')';
+        heroImage.style.backgroundSize = 'cover';
+        heroImage.style.backgroundRepeat = 'no-repeat';
+    }
+}
 
 }).call(this,typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"../colors":1}]},{},[2])
