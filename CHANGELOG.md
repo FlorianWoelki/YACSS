@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.0.8] - 2020-05-29
+
+### 🔨 Added
+- Add hero component with parallax effect
+
+### ⚡️ Changed
+- /
+
+
 ## [0.0.7] - 2020-05-28
 
 ### 🔨 Added
@@ -93,3 +102,6 @@ INITIAL RELEASE
 [0.0.31]: https://www.npmjs.com/package/yacss/v/0.0.31
 [0.0.4]: https://www.npmjs.com/package/yacss/v/0.0.4
 [0.0.5]: https://www.npmjs.com/package/yacss/v/0.0.5
+[0.0.6]: https://www.npmjs.com/package/yacss/v/0.0.6
+[0.0.7]: https://www.npmjs.com/package/yacss/v/0.0.7
+[0.0.8]: https://www.npmjs.com/package/yacss/v/0.0.8
