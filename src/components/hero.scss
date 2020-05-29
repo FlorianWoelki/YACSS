@@ -1,0 +1,40 @@
+.parallax-img {
+  background-attachment: fixed !important;
+}
+
+.fullscreen {
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.hero {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.hero-body {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.hero-img img {
+  background-size: cover;
+}
