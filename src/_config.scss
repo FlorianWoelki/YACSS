@@ -272,7 +272,10 @@ $font-size-system: (
   '36': 36px,
   '48': 48px,
   '60': 60px,
-  '72': 72px
+  '72': 72px,
+  '96': 96px,
+  '144': 144px,
+  '288': 288px,
 );
 @function font($font-size-value) {
   @return map-get($font-size-system, $font-size-value);
