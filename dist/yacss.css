@@ -10031,6 +10031,9 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
   height: 64px;
   background-color: var(--primary-color-700);
   overflow: hidden; }
+  .avatar img {
+    max-width: 100%;
+    height: auto; }
   .avatar::before {
     content: attr(data-text);
     color: #fff;
