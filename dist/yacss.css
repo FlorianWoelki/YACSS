@@ -22891,6 +22891,9 @@ nav {
   max-height: 100vh;
   padding: 0 32px;
   transition: all 0.3s; }
+  nav.nav-clear {
+    background-color: transparent;
+    box-shadow: none; }
   nav .nav-btn {
     cursor: pointer;
     display: block;
