@@ -104,7 +104,7 @@ function applyStyles(classes) {
 function createClass(name, selector, rules) {
     var result = '';
     rules.forEach(function (rule) {
-        result += "." + name + "-" + rule + " { " + selector + ": " + rule + " }";
+        result += "." + name + "-" + rule + " { " + selector + ": " + rule + " !important }";
     });
     return result;
 }

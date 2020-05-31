@@ -52,7 +52,7 @@ function applyStyles(classes: string[]) {
 function createClass(name: string, selector: string, rules: string[]): string {
   let result = '';
   rules.forEach((rule) => {
-    result += `.${name}-${rule} { ${selector}: ${rule} }`;
+    result += `.${name}-${rule} { ${selector}: ${rule} !important }`;
   });
   return result;
 }

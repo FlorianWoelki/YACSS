@@ -37383,13 +37383,13 @@ h6 {
   padding-right: 24px; }
 
 .flex {
-  display: flex; }
+  display: flex !important; }
 
 .inline-block {
-  display: inline-block; }
+  display: inline-block !important; }
 
 .text-center {
-  text-align: center; }
+  text-align: center !important; }
 
 .pull-right {
   float: right !important; }
