@@ -24328,33 +24328,49 @@ nav {
     color: #718096; }
   nav .nav-content {
     overflow: auto; }
-  nav .nav-item {
-    position: relative;
+  nav .nav-item.nav-hover {
+    -webkit-transition: all 0.3s;
     transition: all 0.3s; }
-    nav .nav-item:not(.selected)::after {
+    nav .nav-item.nav-hover a {
+      padding-left: 12px;
+      padding-right: 12px; }
+      nav .nav-item.nav-hover a:hover {
+        color: #697888; }
+    nav .nav-item.nav-hover:hover {
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+      background-color: #edf2f7; }
+    nav .nav-item.nav-hover.selected, nav .nav-item.nav-hover.selected:hover {
+      background-color: #edf2f7; }
+  nav .nav-item:not(.nav-hover) {
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    nav .nav-item:not(.nav-hover):not(.selected)::after {
       content: '';
       display: block;
       width: 100%;
       opacity: 0;
       margin: auto;
       border-bottom: 2px solid transparent;
+      -webkit-transition: all 0.3s;
       transition: all 0.3s;
       position: absolute;
       bottom: 0; }
-    nav .nav-item:hover {
+    nav .nav-item:not(.nav-hover):hover {
       transition: all 0.3s; }
-      nav .nav-item:hover a {
+      nav .nav-item:not(.nav-hover):hover a {
         color: var(--primary-color-700); }
-      nav .nav-item:hover:not(.b-hover-none)::after {
+      nav .nav-item:not(.nav-hover):hover:not(.b-hover-none)::after {
         content: '';
         display: block;
         width: 100%;
         opacity: 1;
         margin: auto;
         border-bottom: 2px solid var(--primary-color-600); }
-    nav .nav-item.selected a {
+    nav .nav-item:not(.nav-hover).selected a {
       color: var(--primary-color-700); }
-    nav .nav-item.selected::after {
+    nav .nav-item:not(.nav-hover).selected::after {
       content: '';
       width: 100%;
       left: 1px;
@@ -24442,7 +24458,7 @@ nav {
     nav {
       display: flex;
       flex-direction: column; }
-      nav .nav-item.selected::after {
+      nav .nav-item:not(.nav-hover).selected::after {
         width: 100%;
         left: 0; }
       nav .nav-btn {

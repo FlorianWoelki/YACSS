@@ -42,52 +42,81 @@ nav {
   }
 
   .nav-item {
-    position: relative;
-    transition: all 0.3s;
-
-    &:not(.selected)::after {
-      content: '';
-      display: block;
-      width: 100%;
-      opacity: 0;
-      margin: auto;
-      border-bottom: 2px solid transparent;
-      transition: all 0.3s;
-      position: absolute;
-      bottom: 0;
-    }
-
-    &:hover {
+    &.nav-hover {
+      -webkit-transition: all 0.3s;
       transition: all 0.3s;
 
       a {
-        color: var(--primary-color-700);
+        padding-left: spacing('0-75');
+        padding-right: spacing('0-75');
+
+        &:hover {
+          color: #697888;
+        }
       }
 
-      &:not(.b-hover-none)::after {
+      &:hover {
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        background-color: grays('200');
+      }
+
+      &.selected,
+      &.selected:hover {
+        background-color: grays('200');
+      }
+    }
+
+    &:not(.nav-hover) {
+      position: relative;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+
+      &:not(.selected)::after {
         content: '';
         display: block;
         width: 100%;
-        opacity: 1;
+        opacity: 0;
         margin: auto;
-        border-bottom: 2px solid var(--primary-color-600);
-      }
-    }
-
-    &.selected {
-      a {
-        color: var(--primary-color-700);
-      }
-
-      &::after {
-        content: '';
-        width: 100%;
-        left: 1px;
-        border-bottom: 2px solid var(--primary-color-600);
+        border-bottom: 2px solid transparent;
         -webkit-transition: all 0.3s;
         transition: all 0.3s;
         position: absolute;
         bottom: 0;
+      }
+
+      &:hover {
+        transition: all 0.3s;
+
+        a {
+          color: var(--primary-color-700);
+        }
+
+        &:not(.b-hover-none)::after {
+          content: '';
+          display: block;
+          width: 100%;
+          opacity: 1;
+          margin: auto;
+          border-bottom: 2px solid var(--primary-color-600);
+        }
+      }
+
+      &.selected {
+        a {
+          color: var(--primary-color-700);
+        }
+
+        &::after {
+          content: '';
+          width: 100%;
+          left: 1px;
+          border-bottom: 2px solid var(--primary-color-600);
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+          position: absolute;
+          bottom: 0;
+        }
       }
     }
   }
@@ -190,7 +219,7 @@ nav {
     display: flex;
     flex-direction: column;
 
-    .nav-item.selected {
+    .nav-item:not(.nav-hover).selected {
       &::after {
         width: 100%;
         left: 0;
