@@ -7,15 +7,15 @@ code {
   background-color: $foreground-color !important;
   color: $background-color;
   border-radius: border-radius('reg');
-}
 
-code:before {
-  color: #acb3c2;
-  content: attr(data-lang);
-  font-size: font('16');
-  position: absolute;
-  right: spacing('1');
-  top: spacing('0-75');
+  &:before {
+    color: #acb3c2;
+    content: attr(data-lang);
+    font-size: font('16');
+    position: absolute;
+    right: spacing('1');
+    top: spacing('0-75');
+  }
 }
 
 pre > code {
