@@ -15743,17 +15743,16 @@ code {
   padding: 4px;
   margin: 8px 0;
   overflow: auto;
-  background-color: #374054 !important;
-  color: #fff;
+  background-color: #f1f1f1 !important;
+  color: #374054;
   border-radius: 4px; }
-
-code:before {
-  color: #acb3c2;
-  content: attr(data-lang);
-  font-size: 16px;
-  position: absolute;
-  right: 16px;
-  top: 12px; }
+  code:before {
+    color: #acb3c2;
+    content: attr(data-lang);
+    font-size: 16px;
+    position: absolute;
+    right: 16px;
+    top: 12px; }
 
 pre > code {
   font-size: 14px;
