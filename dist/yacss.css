@@ -38822,6 +38822,12 @@ h6 {
 .flex {
   display: flex !important; }
 
+.block {
+  display: block !important; }
+
+.inline-flex {
+  display: inline-flex !important; }
+
 .inline-block {
   display: inline-block !important; }
 
