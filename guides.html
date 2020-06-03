@@ -46,35 +46,35 @@
     <h3>What do you want to create?</h3>
     <div class="row pl-0">
       <div class="col-6 pl-0 mt-1">
-        <div id="button-card" class="card bg-gray-100 card-equal-height pointer">
-          <div class="container mb-2 pt-2 pr-2 pl-2">
-            <h3 class="text-center">Button</h3>
-          </div>
-          <button class="center">Primary</button>
+        <div id="button-card" class="card bg-gray-100 card-equal-height">
+          <a href="buttons.html">
+            <div class="container mb-2 pt-2 pr-2 pl-2">
+              <h3 class="text-center">Buttons</h3>
+            </div>
+            <button class="center">Primary</button>
+          </a>
         </div>
       </div>
       <div class="col-6 pl-0 mt-1">
         <div class="card bg-gray-100 card-equal-height">
-          <div class="container mb-2 pt-2 pr-2 pl-2">
-            <h3 class="text-center">Tags</h3>
-          </div>
-          <div class="flex justify-space-around pb-2">
-            <div class="tag-container group-tags">
-              <div class="tag">Awesome</div>
-              <div class="tag text-purple-800 bg-purple-200">Grouping</div>
-              <div class="tag text-red-800 bg-red-200">Tags</div>
+          <a href="tags.html">
+            <div class="container mb-2 pt-2 pr-2 pl-2">
+              <h3 class="text-center">Tags</h3>
             </div>
-          </div>
+            <div class="flex justify-space-around pb-2">
+              <div class="tag-container group-tags">
+                <div class="tag">Awesome</div>
+                <div class="tag text-purple-800 bg-purple-200">Grouping</div>
+                <div class="tag text-red-800 bg-red-200">Tags</div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
   <script src="./assets/yacss.min.js"></script>
   <script>
-    document.getElementById('button-card').addEventListener('click', () => {
-      window.location.assign('./buttons.html');
-    });
-
     initTheme({
       primaryColor: 'indigo',
       accentColor: 'red',
