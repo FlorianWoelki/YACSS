@@ -11,7 +11,7 @@
         <div
           v-for="index in [guideIndex - 1, guideIndex]"
           :key="guideIndex + index * 2"
-          class="col-6 pl-0 mt-0-5"
+          class="col-5 offset-1 pl-0 mt-2"
         >
           <div
             class="card card-equal-height pointer"
