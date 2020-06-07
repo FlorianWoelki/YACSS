@@ -7,7 +7,6 @@ Vue.config.productionTip = false;
 
 Vue.directive('escape', {
   bind(el) {
-    console.log(el);
     /* eslint-disable-next-line */
     el.innerHTML = el.innerHTML.replace(/&/g, '&amp;').replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
