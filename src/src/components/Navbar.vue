@@ -25,7 +25,10 @@
       </div>
       <div class="nav-right">
         <div class="nav-item b-hover-none">
-          <a href="#" class="font-14 bg-red-600 text-white b-radius-reg pl-1 pr-1 bg-hover-red-700">
+          <a
+            href="/#/guides"
+            class="font-14 bg-red-600 text-white b-radius-reg pl-1 pr-1 bg-hover-red-700"
+          >
             Go to guides
           </a>
         </div>
