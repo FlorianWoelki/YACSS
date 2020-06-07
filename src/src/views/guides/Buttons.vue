@@ -27,10 +27,10 @@
         </div>
         <div class="col-8">
           <pre>
-            <code class="html" data-lang="Html">
-  <button>Primary Button</button>
-  <button class="btn-secondary">Secondary Button</button>
-  <button class="btn-tertiary">Tertiary Button</button>
+            <code v-escape class="html" data-lang="Html">
+<button>Primary Button</button>
+<button class="btn-secondary">Secondary Button</button>
+<button class="btn-tertiary">Tertiary Button</button>
             </code>
           </pre>
         </div>
@@ -53,10 +53,11 @@
         </div>
         <div class="col-8">
           <pre>
-            <code class="html" data-lang="Html">
+            <code v-escape class="html" data-lang="Html">
 <button class="bg-purple-600 bc-purple-600">Purple Button</button>
-<!-- eslint-disable-next-line -->
-<button class="btn-secondary text-purple-600 text-hover-white bc-purple-400 bg-hover-purple-600">Purple Button</button>
+<button class="btn-secondary text-purple-600 text-hover-white bc-purple-400 bg-hover-purple-600">
+  Purple Button
+</button>
 <button class="btn-tertiary text-purple-600 text-hover-purple-700">Purple Button</button>
             </code>
           </pre>
@@ -74,9 +75,9 @@
         </div>
         <div class="col-8">
           <pre>
-            <code class="html" data-lang="Html">
-  <button class="animated loading loading-left">Button</button>
-  <button class="animated loading loading-right">Button</button>
+            <code v-escape class="html" data-lang="Html">
+<button class="animated loading loading-left">Button</button>
+<button class="animated loading loading-right">Button</button>
             </code>
           </pre>
         </div>
@@ -95,11 +96,11 @@
         </div>
         <div class="col-8">
           <pre>
-            <code class="html" data-lang="Html">
-  <button class="mb-1 btn-xs">xs</button>
-  <button class="mb-1 btn-sm">sm</button>
-  <button class="mb-1 btn-lg">lg</button>
-  <button class="mb-1 btn-xl">xl</button>
+            <code v-escape class="html" data-lang="Html">
+<button class="mb-1 btn-xs">xs</button>
+<button class="mb-1 btn-sm">sm</button>
+<button class="mb-1 btn-lg">lg</button>
+<button class="mb-1 btn-xl">xl</button>
             </code>
           </pre>
         </div>
