@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Guides from '../views/Guides.vue';
 import Buttons from '../views/guides/Buttons.vue';
+import Avatars from '../views/guides/Avatars.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/buttons',
     name: 'Buttons',
     component: Buttons,
+  },
+  {
+    path: '/avatars',
+    name: 'Avatars',
+    component: Avatars,
   },
 ];
 
