@@ -26,12 +26,11 @@
         </template>
       </ComponentExample>
 
-      <h3 class="mt-3">Button Styles</h3>
-      <p>
-        You can use our background and color utility classes to easily customize your buttons.
-      </p>
-      <div class="row align-center">
-        <div class="col-4">
+      <ComponentExample title="Button Styles">
+        <template #description>
+          You can use our background and color utility classes to easily customize your buttons.
+        </template>
+        <template #preview>
           <button class="mb-1 bg-purple-600 bc-purple-600">Purple Button</button>
           <button
             class="mb-1 btn-secondary text-purple-600
@@ -40,61 +39,30 @@
           <button
             class="mb-1 btn-tertiary text-purple-600 text-hover-purple-700"
           >Purple Button</button>
-        </div>
-        <div class="col-8">
-          <pre>
-            <code v-escape class="html" data-lang="Html">
-<button class="bg-purple-600 bc-purple-600">Purple Button</button>
-<button class="btn-secondary text-purple-600 text-hover-white bc-purple-400 bg-hover-purple-600">
-  Purple Button
-</button>
-<button class="btn-tertiary text-purple-600 text-hover-purple-700">Purple Button</button>
-            </code>
-          </pre>
-        </div>
-      </div>
+        </template>
+      </ComponentExample>
 
-      <h3 class="mt-3">Button Loading Animation</h3>
-      <p>
-        You can add this small loading animation for every element. But it's special for buttons.
-      </p>
-      <div class="row align-center">
-        <div class="col-4">
+      <ComponentExample title="Button Loading Animation">
+        <template #description>
+          You can add this small loading animation for every element. But it's special for buttons.
+        </template>
+        <template #preview>
           <button class="mb-1 animated loading loading-left">Button</button>
           <button class="mb-1 animated loading loading-right">Button</button>
-        </div>
-        <div class="col-8">
-          <pre>
-            <code v-escape class="html" data-lang="Html">
-<button class="animated loading loading-left">Button</button>
-<button class="animated loading loading-right">Button</button>
-            </code>
-          </pre>
-        </div>
-      </div>
+        </template>
+      </ComponentExample>
 
-      <h3 class="mt-3">Different Sizes</h3>
-      <p>
-        There are different sizes for buttons. The default size is the used above.
-      </p>
-      <div class="row align-center">
-        <div class="col-4">
+      <ComponentExample title="Different Sizes">
+        <template #description>
+          There are different sizes for buttons. The default size is the used above.
+        </template>
+        <template #preview>
           <button class="mb-1 btn-xs">xs</button>
           <button class="mb-1 btn-sm">sm</button>
           <button class="mb-1 btn-lg">lg</button>
           <button class="mb-1 btn-xl">xl</button>
-        </div>
-        <div class="col-8">
-          <pre>
-            <code v-escape class="html" data-lang="Html">
-<button class="mb-1 btn-xs">xs</button>
-<button class="mb-1 btn-sm">sm</button>
-<button class="mb-1 btn-lg">lg</button>
-<button class="mb-1 btn-xl">xl</button>
-            </code>
-          </pre>
-        </div>
-      </div>
+        </template>
+      </ComponentExample>
     </div>
   </section>
 </template>
