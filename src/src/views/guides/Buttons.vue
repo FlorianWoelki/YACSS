@@ -12,29 +12,19 @@
         text color it has <kbd>white</kbd> or <kbd>accent-color-600</kbd>.
       </p>
 
-      <h3 class="mt-3">Button Types</h3>
-      <p>
-        There are different button types for styling your Webapp.
-        We have <kbd>primary</kbd> buttons for displaying important action buttons
-        and <kbd>secondary</kbd> buttons for displaying minor actions. Furthermore,
-        we have <kbd>tertiary</kbd> buttons for link buttons.
-      </p>
-      <div class="row align-center">
-        <div class="col-4">
+      <ComponentExample title="Button Types">
+        <template #description>
+          There are different button types for styling your Webapp.
+          We have <kbd>primary</kbd> buttons for displaying important action buttons
+          and <kbd>secondary</kbd> buttons for displaying minor actions. Furthermore,
+          we have <kbd>tertiary</kbd> buttons for link buttons.
+        </template>
+        <template #preview>
           <button class="mb-1">Primary Button</button>
           <button class="mb-1 btn-secondary">Secondary Button</button>
           <button class="mb-1 btn-tertiary">Tertiary Button</button>
-        </div>
-        <div class="col-8">
-          <pre>
-            <code v-escape class="html" data-lang="Html">
-<button>Primary Button</button>
-<button class="btn-secondary">Secondary Button</button>
-<button class="btn-tertiary">Tertiary Button</button>
-            </code>
-          </pre>
-        </div>
-      </div>
+        </template>
+      </ComponentExample>
 
       <h3 class="mt-3">Button Styles</h3>
       <p>
@@ -111,11 +101,13 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue';
+import ComponentExample from '@/components/ComponentExample.vue';
 
 export default {
   name: 'Buttons',
   components: {
     Navbar,
+    ComponentExample,
   },
 };
 </script>
