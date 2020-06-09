@@ -4,7 +4,7 @@
     <p>
       <slot name="description"></slot>
     </p>
-    <div class="row align-center">
+    <div class="row align-center mt-1">
       <div class="col-4">
         <slot name="preview"></slot>
       </div>
