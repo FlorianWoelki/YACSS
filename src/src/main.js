@@ -13,6 +13,7 @@ Vue.directive('escape', {
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#039;')
       .replace(/&lt;\/(.*?)&gt;/g, '&lt;/$1&gt;<br/>')
+      .replace(/&lt;kbd&gt;&lt;\/kbd&gt;/g, '')
       .replace(/(<br\/>)$/, '');
     /* eslint-disable-next-line */
     el.innerHTML = el.innerHTML.substr(0, el.innerHTML.length - 15);

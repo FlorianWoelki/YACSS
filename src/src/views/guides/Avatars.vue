@@ -43,13 +43,13 @@
           a perfect match.
         </template>
         <template #preview>
-          <div class="avatar avatar-xs">
+          <div class="avatar avatar-xs"><kbd />
             <img src="https://images.unsplash.com/profile-1495427732560-fe5248ad6638?dpr=1&auto=format&fit=crop&w=256&h=256&q=60&cs=tinysrgb&crop=faces&bg=fff">
           </div>
-          <div class="avatar">
+          <div class="avatar"><kbd />
             <img src="https://images.unsplash.com/profile-1495427732560-fe5248ad6638?dpr=1&auto=format&fit=crop&w=256&h=256&q=60&cs=tinysrgb&crop=faces&bg=fff">
           </div>
-          <div class="avatar avatar-xl">
+          <div class="avatar avatar-xl"><kbd />
             <img src="https://images.unsplash.com/profile-1495427732560-fe5248ad6638?dpr=1&auto=format&fit=crop&w=256&h=256&q=60&cs=tinysrgb&crop=faces&bg=fff">
           </div>
         </template>
