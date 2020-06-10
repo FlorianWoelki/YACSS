@@ -11465,7 +11465,8 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     text-align: center;
     width: 24px;
     height: 24px;
-    line-height: 24px; }
+    line-height: 24px;
+    font-size: 12px; }
     .badge span.number.badge-sm {
       width: 20px;
       height: 20px;
