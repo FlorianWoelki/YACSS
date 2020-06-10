@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 import Guides from '../views/Guides.vue';
 import Buttons from '../views/guides/Buttons.vue';
 import Avatars from '../views/guides/Avatars.vue';
+import Badges from '../views/guides/Badges.vue';
 
 Vue.use(VueRouter);
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/avatars',
     name: 'Avatars',
     component: Avatars,
+  },
+  {
+    path: '/badges',
+    name: 'Badges',
+    component: Badges,
   },
 ];
 
