@@ -2,9 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Guides from '../views/Guides.vue';
-import Buttons from '../views/guides/Buttons.vue';
-import Avatars from '../views/guides/Avatars.vue';
-import Badges from '../views/guides/Badges.vue';
+import GuideView from '../views/guides/GuideView.vue';
 
 Vue.use(VueRouter);
 
@@ -20,19 +18,8 @@ const routes = [
     component: Guides,
   },
   {
-    path: '/buttons',
-    name: 'Buttons',
-    component: Buttons,
-  },
-  {
-    path: '/avatars',
-    name: 'Avatars',
-    component: Avatars,
-  },
-  {
-    path: '/badges',
-    name: 'Badges',
-    component: Badges,
+    path: '/guides/:guide',
+    component: GuideView,
   },
 ];
 
