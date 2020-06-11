@@ -5,10 +5,10 @@
       <slot name="description"></slot>
     </p>
     <div class="row align-center mt-1">
-      <div class="col-4">
+      <div :class="`col-${columnLeft}`">
         <slot name="preview"></slot>
       </div>
-      <div class="col-8">
+      <div :class="`col-${columnRight}`">
         <pre>
           <code v-escape class="html" data-lang="Html">
 <slot name="preview"></slot>
@@ -22,6 +22,14 @@
 <script>
 export default {
   props: {
+    columnRight: {
+      type: String,
+      default: '8',
+    },
+    columnLeft: {
+      type: String,
+      default: '4',
+    },
     title: {
       type: String,
       required: true,
