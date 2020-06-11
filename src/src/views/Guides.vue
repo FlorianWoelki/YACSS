@@ -15,7 +15,7 @@
         >
           <div
             class="card card-equal-height pointer"
-            @click="$router.push(`/${guides[guideIndex - 1 + index].toLowerCase()}`)"
+            @click="$router.push(`/guides/${guides[guideIndex - 1 + index].toLowerCase()}`)"
           >
             <div class="container pt-4 pb-2 pr-2 pl-2">
               <h3 class="text-center text-indigo-800">
