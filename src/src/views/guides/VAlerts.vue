@@ -32,7 +32,7 @@
 
       <ComponentExample title="Alert Icons" columnLeft="6" columnRight="6">
         <template #description>
-          Give your alerts simple and powerful information icon. 
+          Give your alerts simple and powerful information icon.
         </template>
         <template #preview>
           <div class="alert"><span class="spacer"></span>
