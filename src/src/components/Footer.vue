@@ -6,12 +6,12 @@
         <div v-for="index in sortedListItems.length / 4" :key="index" class="col-3">
           <ul>
             <li
-              v-for="listItemIndex in sortedListItems.slice((index - 1) * 4, index * 4)"
-              :key="listItemIndex + index"
+              v-for="listItem in sortedListItems.slice((index - 1) * 4, index * 4)"
+              :key="listItem + index"
               class="list-item"
             >
-              <a href="#">
-                {{ listItemIndex }}
+              <a :href="`/#/guides/${listItem.toLowerCase()}`">
+                {{ listItem }}
               </a>
             </li>
           </ul>
@@ -26,9 +26,9 @@ export default {
   data() {
     return {
       listItems: [
-        'Alert', 'Avatar', 'Badge', 'Button', 'Card', 'Code',
-        'Footer', 'Hero', 'Modal', 'Navigation', 'Pagination',
-        'Table', 'Tabs', 'Tags', 'Tooltip', 'Utility',
+        'Alerts', 'Avatars', 'Badges', 'Buttons', 'Cards', 'Code',
+        'Footer', 'Hero', 'Modals', 'Navigation', 'Pagination',
+        'Table', 'Tabs', 'Tags', 'Tooltips', 'Utility',
       ],
     };
   },
