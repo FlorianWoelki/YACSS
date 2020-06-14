@@ -16,28 +16,29 @@
         element or component you like. You can apply these classes wherever you want.
       </p>
 
-      <h3 class="mt-3">Colors</h3>
-      <p>Color ranges: <kbd>100, 200, 300, 400, 500, 600, 700, 800, 900</kbd></p>
-      <table class="table">
-        <tr>
-          <th>class</th>
-          <th>description</th>
-        </tr>
-        <tr>
-          <td>.text-blue-{100-900}</td>
-          <td>Colorize the text with blue (see color range)</td>
-        </tr>
-      </table>
+      <UtilityTable title="Colors">
+        <template #description>
+          <p>Color ranges: <kbd>100, 200, 300, 400, 500, 600, 700, 800, 900</kbd></p>
+        </template>
+        <slot>
+          <tr>
+            <td>.text-blue-{100-900}</td>
+            <td>Colorize the text with blue (see color range)</td>
+          </tr>
+        </slot>
+      </UtilityTable>
     </div>
   </section>
 </template>
 
 <script>
 import Navbar from '@/components/Navbar.vue';
+import UtilityTable from '@/components/UtilityTable.vue';
 
 export default {
   components: {
     Navbar,
+    UtilityTable,
   },
 };
 </script>
