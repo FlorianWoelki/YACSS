@@ -101,6 +101,74 @@
           <td>Set the line height to the specific size (see font sizes)</td>
         </tr>
       </UtilityTable>
+
+      <UtilityTable title="Padding and Margin">
+        <template #description>
+          <p>
+            Spacing Sizes: <kbd>0, 0-25, 0-5, 0-75, 1, 1-5, 2, 3, 4, 8, 12, 16, 24, 32, 40, 48</kbd>
+          </p>
+        </template>
+        <tr>
+          <td>.m-{0-48}</td>
+          <td>Set the margin to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.ml-{0-48}</td>
+          <td>Set the margin left to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.mr-{0-48}</td>
+          <td>Set the margin right to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.mt-{0-48}</td>
+          <td>Set the margin top to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.mb-{0-48}</td>
+          <td>Set the margin bottom to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.p-{0-48}</td>
+          <td>Set the padding to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.pl-{0-48}</td>
+          <td>Set the padding left to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.pr-{0-48}</td>
+          <td>Set the padding right to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.pt-{0-48}</td>
+          <td>Set the padding top to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.pb-{0-48}</td>
+          <td>Set the padding bottom to the specific size (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.m-auto</td>
+          <td>Set the margin size to auto</td>
+        </tr>
+        <tr>
+          <td>.mt-auto</td>
+          <td>Set the margin top size to auto</td>
+        </tr>
+        <tr>
+          <td>.ml-auto</td>
+          <td>Set the margin left size to auto</td>
+        </tr>
+        <tr>
+          <td>.mr-auto</td>
+          <td>Set the margin right size to auto</td>
+        </tr>
+        <tr>
+          <td>.mb-auto</td>
+          <td>Set the margin bottom size to auto</td>
+        </tr>
+      </UtilityTable>
     </div>
   </section>
 </template>
