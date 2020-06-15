@@ -61,6 +61,9 @@
       </UtilityTable>
 
       <UtilityTable title="Font">
+        <template #description>
+          <p>Font sizes: <kbd>12, 14, 16, 18, 20, 24, 30, 36, 48, 60, 72, 96, 144, 288</kbd></p>
+        </template>
         <tr>
           <td>.uppercase</td>
           <td>Uppercase all characters</td>
@@ -88,6 +91,14 @@
         <tr>
           <td>.font-bold</td>
           <td>Set the font weight to bold (700)</td>
+        </tr>
+        <tr>
+          <td>.font-{12-288}</td>
+          <td>Set the font size to the specific size (see font sizes)</td>
+        </tr>
+        <tr>
+          <td>.line-height-{12-288}</td>
+          <td>Set the line height to the specific size (see font sizes)</td>
         </tr>
       </UtilityTable>
     </div>
