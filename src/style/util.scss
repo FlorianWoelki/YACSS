@@ -6,7 +6,12 @@
   margin: 0 auto spacing('1-5');
   width: 80%;
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     line-height: 1.125em;
     margin: spacing('1') 0;
   }
@@ -131,6 +136,9 @@
 }
 .mr-auto {
   margin-right: auto !important;
+}
+.mb-auto {
+  margin-bottom: auto !important;
 }
 
 @each $font-size-name, $font-size-value in $font-size-system {

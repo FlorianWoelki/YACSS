@@ -38789,7 +38789,12 @@ h6 {
   max-width: 60em;
   margin: 0 auto 24px;
   width: 80%; }
-  .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
+  .container h1,
+  .container h2,
+  .container h3,
+  .container h4,
+  .container h5,
+  .container h6 {
     line-height: 1.125em;
     margin: 16px 0; }
 
@@ -39443,6 +39448,9 @@ h6 {
 
 .mr-auto {
   margin-right: auto !important; }
+
+.mb-auto {
+  margin-bottom: auto !important; }
 
 .font-12 {
   font-size: 12px; }
