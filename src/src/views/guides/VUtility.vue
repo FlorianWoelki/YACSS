@@ -59,6 +59,37 @@
           </tr>
         </slot>
       </UtilityTable>
+
+      <UtilityTable title="Font">
+        <tr>
+          <td>.uppercase</td>
+          <td>Uppercase all characters</td>
+        </tr>
+        <tr>
+          <td>.lowercase</td>
+          <td>Lowercase all characters</td>
+        </tr>
+        <tr>
+          <td>.font-thin</td>
+          <td>Set the font weight to thin (200)</td>
+        </tr>
+        <tr>
+          <td>.font-light</td>
+          <td>Set the font weight to light (300)</td>
+        </tr>
+        <tr>
+          <td>.font-normal</td>
+          <td>Set the font weight to normal (400)</td>
+        </tr>
+        <tr>
+          <td>.font-semibold</td>
+          <td>Set the font weight to semibold (600)</td>
+        </tr>
+        <tr>
+          <td>.font-bold</td>
+          <td>Set the font weight to bold (700)</td>
+        </tr>
+      </UtilityTable>
     </div>
   </section>
 </template>
