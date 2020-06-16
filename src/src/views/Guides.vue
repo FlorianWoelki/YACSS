@@ -3,7 +3,7 @@
     <Navbar />
     <div class="container mt-8">
       <h3>What do you want to create?</h3>
-      <div v-for="guideIndex in guides.length / 2" :key="guideIndex" class="row pl-0">
+      <div v-for="guideIndex in sortedGuides.length / 2" :key="guideIndex" class="row pl-0">
         <div
           v-for="index in [guideIndex - 1, guideIndex]"
           :key="guideIndex + index * 2"
@@ -11,11 +11,11 @@
         >
           <div
             class="card card-equal-height pointer"
-            @click="$router.push(`/guides/${guides[guideIndex - 1 + index].toLowerCase()}`)"
+            @click="$router.push(`/guides/${sortedGuides[guideIndex - 1 + index].toLowerCase()}`)"
           >
             <div class="container pt-4 pb-2 pr-2 pl-2">
               <h3 class="text-center text-indigo-800">
-                {{ guides[guideIndex - 1 + index] }}
+                {{ sortedGuides[guideIndex - 1 + index] }}
               </h3>
             </div>
           </div>
@@ -32,6 +32,16 @@ export default {
   name: 'Guides',
   components: {
     Navbar,
+  },
+  computed: {
+    sortedGuides() {
+      const tempGuides = this.guides;
+      return tempGuides.sort((a, b) => {
+        if (a < b) return -1;
+        if (a > b) return 1;
+        return 0;
+      });
+    },
   },
   data() {
     return {
