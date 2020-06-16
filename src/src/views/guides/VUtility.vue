@@ -169,6 +169,16 @@
           <td>Set the margin bottom size to auto</td>
         </tr>
       </UtilityTable>
+
+      <UtilityTable title="Shadow">
+        <template #description>
+          <p>Shadow sizes: <kbd>none, xs, sm, md, lg, xl</kbd></p>
+        </template>
+        <tr>
+          <td>.shadow-{size}</td>
+          <td>Set the box shadow size of the current element or component (see shadow sizes)</td>
+        </tr>
+      </UtilityTable>
     </div>
   </section>
 </template>
