@@ -180,7 +180,7 @@
         </tr>
       </UtilityTable>
 
-      <UilityTable title="Width">
+      <UtilityTable title="Width">
         <template #description>
           <p>
             Width sizes:
@@ -206,7 +206,58 @@
           <td>.h-100</td>
           <td>Set the height to 100%</td>
         </tr>
-      </UilityTable>
+      </UtilityTable>
+
+      <UtilityTable title="Border">
+        <template #description>
+          <p>Border Size: <kbd>0, 1, 2, 4, 8</kbd></p>
+          <p>Border Radius Size: <kbd>none, sm, reg, md, lg</kbd></p>
+        </template>
+        <tr>
+          <td>.b-{border size}</td>
+          <td>Set the border of the element to a white one (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.bt-{border size}</td>
+          <td>Set the border top of the element to a white one (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.bb-{border size}</td>
+          <td>Set the border bottom of the element to a white one (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.bl-{border size}</td>
+          <td>Set the border left of the element to a white one (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.br-{border size}</td>
+          <td>Set the border right of the element to a white one (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.b-hover-none</td>
+          <td>Set the border to none on hover</td>
+        </tr>
+        <tr>
+          <td>.b-radius-{border radius size}</td>
+          <td>Set the border radius of an element (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.bt-radius-{border radius size}</td>
+          <td>Set the border top radius of an element (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.bb-radius-{border radius size}</td>
+          <td>Set the border bottom radius of an element (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.bl-radius-{border radius size}</td>
+          <td>Set the border left radius of an element (see border sizes)</td>
+        </tr>
+        <tr>
+          <td>.br-radius-{border radius size}</td>
+          <td>Set the border right radius of an element (see border sizes)</td>
+        </tr>
+      </UtilityTable>
     </div>
   </section>
 </template>
