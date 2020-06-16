@@ -179,6 +179,34 @@
           <td>Set the box shadow size of the current element or component (see shadow sizes)</td>
         </tr>
       </UtilityTable>
+
+      <UilityTable title="Width">
+        <template #description>
+          <p>
+            Width sizes:
+            <kbd
+              >0, 0-25, 0-5, 0-75, 1, 1-25, 1-5, 2, 2-5, 3, 4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22,
+              24, 28, 32, 36, 40</kbd
+            >
+          </p>
+        </template>
+        <tr>
+          <td>.w-{0-40}</td>
+          <td>Set the width of the element (see width sizes)</td>
+        </tr>
+        <tr>
+          <td>.mw-{0-40}</td>
+          <td>Set the max width of the element (see width sizes)</td>
+        </tr>
+        <tr>
+          <td>.w-100</td>
+          <td>Set the width to 100%</td>
+        </tr>
+        <tr>
+          <td>.h-100</td>
+          <td>Set the height to 100%</td>
+        </tr>
+      </UilityTable>
     </div>
   </section>
 </template>
