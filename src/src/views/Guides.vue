@@ -54,6 +54,8 @@ export default {
         'Tags',
         'Tooltips',
         'Utility',
+        'Grid',
+        'Forms',
       ],
     };
   },
