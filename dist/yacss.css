@@ -4259,8 +4259,7 @@ textarea:focus,
 textarea[type=text]:focus,
 input[type=text].input-focused,
 .input-focused {
-  border-color: var(--primary-color-300);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
+  border-color: var(--primary-color-300); }
 
 input[type="search"] {
   -webkit-appearance: none; }
@@ -14343,15 +14342,13 @@ button,
   overflow: hidden;
   transition: all 0.3s;
   backface-visibility: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
   margin-bottom: 16px; }
   .card.card-equal-height {
     display: flex !important;
     flex-direction: column !important;
     height: 100%; }
   .card:hover {
-    transition: all 0.3s;
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
+    transition: all 0.3s; }
 
 /*
 * YACSS 0.0.8
@@ -17176,7 +17173,6 @@ pre > code {
     animation: 300ms ease;
     background-color: #fff;
     border-radius: 4px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
     margin: 0;
     opacity: 0;
     min-width: 15rem;
@@ -21502,7 +21498,6 @@ footer {
   padding: 0;
   display: block;
   border-radius: 4px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
   z-index: 1;
   color: #374054;
   max-width: 40rem; }
@@ -24308,7 +24303,6 @@ nav {
   width: 100%;
   z-index: 100;
   margin-bottom: 24px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
   background-color: #fff;
   max-height: 100vh;
   padding: 0 32px;
@@ -39701,19 +39695,19 @@ h6 {
 .shadow-none {
   box-shadow: none; }
 
-.shadow-xsmall {
+.shadow-xs {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
 
-.shadow-small {
+.shadow-sm {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12); }
 
-.shadow-medium {
+.shadow-md {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12); }
 
-.shadow-large {
+.shadow-lg {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
 
-.shadow-xlarge {
+.shadow-xl {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12); }
 
 .b-radius-none {

@@ -1,7 +1,7 @@
 $breakpoints: (
   'phone': 640px,
   'tablet': 769px,
-  'desktop': 1024px
+  'desktop': 1024px,
 ) !default;
 
 $foreground-color: #374054;
@@ -198,7 +198,7 @@ $grays: (
   '600': #718096,
   '700': #4a5568,
   '800': #2d3748,
-  '900': #1a202c
+  '900': #1a202c,
 ) !default;
 @function grays($color-value) {
   @return map-get($grays, $color-value);
@@ -305,11 +305,11 @@ $border-system: (
 
 $shadow-system: (
   'none': none,
-  'xsmall': 0 1px 3px hsla(0, 0%, 0%, 0.12),
-  'small': 0 4px 6px hsla(0, 0%, 0%, 0.12),
-  'medium': 0 5px 15px hsla(0, 0%, 0%, 0.12),
-  'large': 0 10px 24px hsla(0, 0%, 0%, 0.12),
-  'xlarge': 0 15px 35px hsla(0, 0%, 0%, 0.12),
+  'xs': 0 1px 3px hsla(0, 0%, 0%, 0.12),
+  'sm': 0 4px 6px hsla(0, 0%, 0%, 0.12),
+  'md': 0 5px 15px hsla(0, 0%, 0%, 0.12),
+  'lg': 0 10px 24px hsla(0, 0%, 0%, 0.12),
+  'xl': 0 15px 35px hsla(0, 0%, 0%, 0.12),
 );
 @function shadow($shadow-value) {
   @return map-get($shadow-system, $shadow-value);
@@ -342,7 +342,7 @@ $width-system: (
   '28': $width-base-value * 28,
   '32': $width-base-value * 32,
   '36': $width-base-value * 36,
-  '40': $width-base-value * 40
+  '40': $width-base-value * 40,
 );
 @function width($width-value) {
   @return map-get($width-system, $width-value);
