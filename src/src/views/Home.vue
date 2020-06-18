@@ -25,8 +25,8 @@
         created by <span class="text-red-600">Florian Woelki</span>
       </h5>
       <h5 class="text-center font-light mt-3">
-        YACSS is another <b>responsive</b> and <b>beautiful</b> designed CSS framework
-        with the twist that it has a lot of <b>utility</b> and <b>prestyled components</b>.
+        YACSS is another <b>responsive</b> and <b>beautiful</b> designed CSS framework with the
+        twist that it has a lot of <b>utility</b> and <b>prestyled components</b>.
       </h5>
 
       <div class="mt-6">
@@ -60,6 +60,10 @@
           </div>
         </div>
       </div>
+
+      <h2 class="text-center mt-4 mb-2 font-thin">
+        <a class="font-bold" href="#/guides/">Go ahead</a> and explore the possibilities with YACSS!
+      </h2>
     </div>
     <Footer />
   </div>
