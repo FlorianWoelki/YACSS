@@ -79,7 +79,7 @@
             <div class="tag bg-green-200 text-green-900">Tags</div>
           </div>
           <span class="spacer"></span>
-          <div class="tag-container group-tags tag-container-rounded">
+          <div class="tag-container group-tags tag-container-pilled">
             <span class="spacer"></span>
             <div class="tag bg-red-200 text-red-900">Rounded Group</div>
             <div class="tag bg-green-200 text-green-900">Tags</div>
