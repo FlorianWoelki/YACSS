@@ -33123,6 +33123,12 @@ nav {
       border-radius: 0; }
     .tag-container.group-tags .tag:last-child {
       border-radius: 0 4px 4px 0; }
+  .tag-container.group-tags.group-tags-pilled .tag:first-child {
+    border-radius: 290486px 0 0 290486px; }
+  .tag-container.group-tags.group-tags-pilled .tag:not(:first-child):not(:last-child) {
+    border-radius: 0; }
+  .tag-container.group-tags.group-tags-pilled .tag:last-child {
+    border-radius: 0 290486px 290486px 0; }
 
 /*
 * YACSS 0.0.8

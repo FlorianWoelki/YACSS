@@ -42,19 +42,34 @@
     }
   }
 
-  &.group-tags .tag {
-    margin-right: 0;
+  &.group-tags {
+    .tag {
+      margin-right: 0;
 
-    &:first-child {
-      border-radius: border-radius('reg') 0 0 border-radius('reg');
+      &:first-child {
+        border-radius: border-radius('reg') 0 0 border-radius('reg');
+      }
+
+      &:not(:first-child):not(:last-child) {
+        border-radius: 0;
+      }
+
+      &:last-child {
+        border-radius: 0 border-radius('reg') border-radius('reg') 0;
+      }
     }
+    &.group-tags-pilled .tag {
+      &:first-child {
+        border-radius: 290486px 0 0 290486px;
+      }
 
-    &:not(:first-child):not(:last-child) {
-      border-radius: 0;
-    }
+      &:not(:first-child):not(:last-child) {
+        border-radius: 0;
+      }
 
-    &:last-child {
-      border-radius: 0 border-radius('reg') border-radius('reg') 0;
+      &:last-child {
+        border-radius: 0 290486px 290486px 0;
+      }
     }
   }
 }
