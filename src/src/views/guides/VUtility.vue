@@ -258,6 +258,76 @@
           <td>Set the border right radius of an element (see border sizes)</td>
         </tr>
       </UtilityTable>
+
+      <UtilityTable title="Other">
+        <tr>
+          <td>.container</td>
+          <td>Create a containerized element</td>
+        </tr>
+        <tr>
+          <td>.pointer</td>
+          <td>Set the cursor style to pointer</td>
+        </tr>
+        <tr>
+          <td>.center</td>
+          <td>Centerize the element with the help of flexbox</td>
+        </tr>
+        <tr>
+          <td>.circle</td>
+          <td>Circlize the element</td>
+        </tr>
+        <tr>
+          <td>.pilled</td>
+          <td>Pillerize the element</td>
+        </tr>
+        <tr>
+          <td>.flex</td>
+          <td>Set the display to flex</td>
+        </tr>
+        <tr>
+          <td>.block</td>
+          <td>Set the display to block</td>
+        </tr>
+        <tr>
+          <td>.inline-flex</td>
+          <td>Set the display to inline-flex</td>
+        </tr>
+        <tr>
+          <td>.inline-block</td>
+          <td>Set the display to inline-block</td>
+        </tr>
+        <tr>
+          <td>.text-center</td>
+          <td>Set the text alignment to center</td>
+        </tr>
+        <tr>
+          <td>.pull-right</td>
+          <td>Right pull the item with float attribute</td>
+        </tr>
+        <tr>
+          <td>.flex-{direction}</td>
+          <td>Set the flex direction of the element (column, row, row-reverse, column-reverse)</td>
+        </tr>
+        <tr>
+          <td>.pos-{position}</td>
+          <td>Set the position of the element (fixed, relative, absolute)</td>
+        </tr>
+        <tr>
+          <td>.align-{alignment}</td>
+          <td>Set the flex alignment of the element (center, flex-start, flex-end)</td>
+        </tr>
+        <tr>
+          <td>.justify-{option}</td>
+          <td>
+            Set the flex justify of the element (center, flex-start, flex-end, space-around,
+            space-between)
+          </td>
+        </tr>
+        <tr>
+          <td>.overflow-y-{option}</td>
+          <td>Set the overflow-y of the element (auto, hidden, overlay, scroll)</td>
+        </tr>
+      </UtilityTable>
     </div>
   </section>
 </template>
