@@ -14,7 +14,7 @@ export default {
 
   watch: {
     $route() {
-      guides.guides.forEach((guide) => {
+      guides.guides.forEach(guide => {
         if (this.$route.params.guide === guide.toLowerCase()) {
           this.currentView = guide;
         }

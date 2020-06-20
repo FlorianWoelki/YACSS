@@ -59,7 +59,7 @@ export default {
         'Navbar',
         'Pagination',
         'Sidebar',
-        'Table',
+        'Tables',
         'Tabs',
         'Tags',
         'Tooltips',
