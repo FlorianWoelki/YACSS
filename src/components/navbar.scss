@@ -9,7 +9,7 @@ nav {
   width: 100%;
   z-index: 100;
   margin-bottom: spacing('1-5');
-  box-shadow: shadow('small');
+  box-shadow: shadow('sm');
   background-color: $background-color;
   max-height: 100vh;
   padding: 0 spacing('2');
@@ -271,11 +271,11 @@ nav {
         &:nth-child(1) {
           margin-top: -6px;
         }
-      
+
         &:nth-child(2) {
           margin-top: -1px;
         }
-      
+
         &:nth-child(3) {
           margin-top: 4px;
         }
@@ -298,7 +298,7 @@ nav {
         margin: auto 0;
         padding: spacing('1');
 
-        &> a {
+        & > a {
           padding: 0;
           width: 100%;
         }
