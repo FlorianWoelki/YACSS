@@ -4227,7 +4227,7 @@ body {
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
 
-input:not([type=checkbox]):not([type=radio]):not([type=submit]),
+input:not([type='checkbox']):not([type='radio']):not([type='submit']),
 select {
   width: 100%;
   border: 1px solid #ddd;
@@ -4238,33 +4238,34 @@ select {
   letter-spacing: 0.32px;
   outline: 0;
   padding: 8px 16px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-xs,
+  input:not([type='checkbox']):not([type='radio']):not([type='submit']).input-xs,
   select.input-xs {
     font-size: 12px;
     padding: 4px 16px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-sm,
+  input:not([type='checkbox']):not([type='radio']):not([type='submit']).input-sm,
   select.input-sm {
     font-size: 14px;
     padding: 8px 16px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-lg,
+  input:not([type='checkbox']):not([type='radio']):not([type='submit']).input-lg,
   select.input-lg {
     font-size: 20px; }
-  input:not([type=checkbox]):not([type=radio]):not([type=submit]).input-xl,
+  input:not([type='checkbox']):not([type='radio']):not([type='submit']).input-xl,
   select.input-xl {
     font-size: 30px; }
 
-input:not([type=checkbox]):not([type=radio]):not([type=submit]):focus,
+input:not([type='checkbox']):not([type='radio']):not([type='submit']):focus,
 select:focus,
 textarea:focus,
-textarea[type=text]:focus,
-input[type=text].input-focused,
+textarea[type='text']:focus,
+input[type='text'].input-focused,
 .input-focused {
-  border-color: var(--primary-color-300); }
+  border-color: var(--primary-color-300);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
 
-input[type="search"] {
+input[type='search'] {
   -webkit-appearance: none; }
 
-input[type="search"],
+input[type='search'],
 input.search {
   background-repeat: no-repeat;
   background-position: left 8px center;
@@ -14342,13 +14343,15 @@ button,
   overflow: hidden;
   transition: all 0.3s;
   backface-visibility: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
   margin-bottom: 16px; }
   .card.card-equal-height {
     display: flex !important;
     flex-direction: column !important;
     height: 100%; }
   .card:hover {
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
 
 /*
 * YACSS 0.0.8
@@ -21499,6 +21502,7 @@ footer {
   padding: 0;
   display: block;
   border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
   z-index: 1;
   color: #374054;
   max-width: 40rem; }
@@ -24304,6 +24308,7 @@ nav {
   width: 100%;
   z-index: 100;
   margin-bottom: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12);
   background-color: #fff;
   max-height: 100vh;
   padding: 0 32px;
