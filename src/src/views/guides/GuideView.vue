@@ -1,11 +1,19 @@
 <template>
-  <component :is="currentView"></component>
+  <div class="guide-view">
+    <component :is="currentView"></component>
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer.vue';
 import guides from './guides';
 
 export default {
+  components: {
+    Footer,
+  },
+
   data() {
     return {
       currentView: this.$route.params.guide,
