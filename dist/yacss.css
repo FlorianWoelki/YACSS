@@ -17164,7 +17164,7 @@ pre > code {
 .dropdown {
   display: inline-block;
   position: relative; }
-  .dropdown.dropdown-right {
+  .dropdown.dropdown-right .menu {
     left: auto;
     right: 0; }
   .dropdown .menu {
