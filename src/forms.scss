@@ -1,6 +1,6 @@
 @import './config';
 
-input:not([type=checkbox]):not([type=radio]):not([type=submit]),
+input:not([type='checkbox']):not([type='radio']):not([type='submit']),
 select {
   width: 100%;
   border: 1px solid #ddd;
@@ -31,21 +31,21 @@ select {
   }
 }
 
-input:not([type=checkbox]):not([type=radio]):not([type=submit]):focus,
+input:not([type='checkbox']):not([type='radio']):not([type='submit']):focus,
 select:focus,
 textarea:focus,
-textarea[type=text]:focus,
-input[type=text].input-focused,
+textarea[type='text']:focus,
+input[type='text'].input-focused,
 .input-focused {
   border-color: var(--primary-color-300);
-  box-shadow: shadow('xsmall');
+  box-shadow: shadow('xs');
 }
 
-input[type="search"] {
+input[type='search'] {
   -webkit-appearance: none;
 }
 
-input[type="search"],
+input[type='search'],
 input.search {
   background-repeat: no-repeat;
   background-position: left spacing('0-5') center;
