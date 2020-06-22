@@ -51,7 +51,7 @@ export default {
         'Badges',
         'Buttons',
         'Cards',
-        'Code',
+        'Codes',
         'Dropdown',
         'Footer',
         'Hero',
