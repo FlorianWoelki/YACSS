@@ -4313,7 +4313,7 @@ label ~ .input-control {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"); }
   .form-group.form-checkbox input:checked ~ label:before {
     border: none;
-    background-color: var(--primary-color-600); }
+    background-color: var(--accent-color-600); }
   .form-group.form-checkbox label {
     margin-left: 8px;
     margin-bottom: 0;
@@ -4336,9 +4336,9 @@ label ~ .input-control {
       height: 16px;
       left: -1.5rem;
       position: absolute;
-      top: 0.3rem;
+      top: 5.7px;
       transition: all 300ms;
-      width: 1rem; }
+      width: 16px; }
   .form-group .form-group-input:not(:last-child) {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important; }

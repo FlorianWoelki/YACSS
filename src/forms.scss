@@ -147,9 +147,9 @@ label ~ .input-control {
         height: spacing('1');
         left: -1.5rem;
         position: absolute;
-        top: 0.3rem;
+        top: 5.7px;
         transition: all 300ms;
-        width: 1rem;
+        width: spacing('1');
       }
     }
   }
