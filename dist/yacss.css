@@ -4293,6 +4293,11 @@ input.input-contains-icon, input.input-contains-icon-left {
 input.input-contains-icon-right {
   padding-right: 48px !important; }
 
+input[type='checkbox'] {
+  opacity: 0;
+  position: absolute;
+  z-index: -1; }
+
 .input-control {
   position: relative;
   margin: 8px 0; }
@@ -4304,6 +4309,36 @@ label ~ .input-control {
   display: flex;
   display: -ms-flexbox;
   margin: 8px 0; }
+  .form-group.form-checkbox input:checked ~ label:after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"); }
+  .form-group.form-checkbox input:checked ~ label:before {
+    border: none;
+    background-color: var(--primary-color-600); }
+  .form-group.form-checkbox label {
+    margin-left: 8px;
+    margin-bottom: 0;
+    position: relative;
+    font-weight: normal; }
+    .form-group.form-checkbox label::before {
+      border-radius: 4px;
+      background-color: #fff;
+      border: 1px solid #cbd5e0;
+      pointer-events: none;
+      user-select: none;
+      box-sizing: border-box; }
+    .form-group.form-checkbox label::after {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 50% 50%; }
+    .form-group.form-checkbox label::before, .form-group.form-checkbox label::after {
+      content: '';
+      display: block;
+      height: 16px;
+      left: -1.5rem;
+      position: absolute;
+      top: 0.3rem;
+      transition: all 300ms;
+      width: 1rem; }
   .form-group .form-group-input:not(:last-child) {
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important; }
