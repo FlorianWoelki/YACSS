@@ -53,6 +53,20 @@
           </div>
         </template>
       </ComponentExample>
+
+      <ComponentExample title="Easy Checkbox">
+        <template #description
+          >You can use YACSS beautiful prestyled checkboxes. It uses the accent color to set the
+          background color of the checkbox.</template
+        >
+        <template #preview>
+          <div class="form-group form-checkbox">
+            <span class="spacer"></span>
+            <input id="check-1" type="checkbox" /><span class="spacer"></span>
+            <label for="check-1">My Checkbox</label>
+          </div>
+        </template>
+      </ComponentExample>
     </div>
   </section>
 </template>
