@@ -119,6 +119,12 @@ label ~ .input-control {
       }
     }
 
+    input:disabled {
+      & ~ label {
+        opacity: 0.4;
+      }
+    }
+
     label {
       margin-left: spacing('0-5');
       margin-bottom: 0;

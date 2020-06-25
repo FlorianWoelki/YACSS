@@ -4314,6 +4314,8 @@ label ~ .input-control {
   .form-group.form-checkbox input:checked ~ label:before {
     border: none;
     background-color: var(--accent-color-600); }
+  .form-group.form-checkbox input:disabled ~ label {
+    opacity: 0.4; }
   .form-group.form-checkbox label {
     margin-left: 8px;
     margin-bottom: 0;
