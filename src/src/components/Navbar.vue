@@ -2,7 +2,7 @@
   <nav class="nav-fixed">
     <div class="nav-brand align-center">
       <div class="b-hover-none nav-item">
-        <a href="/">
+        <a href="#">
           YACSS
         </a>
       </div>

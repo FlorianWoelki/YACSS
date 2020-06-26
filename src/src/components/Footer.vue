@@ -10,7 +10,7 @@
               :key="listItem + index"
               class="list-item"
             >
-              <a :href="`/#/guides/${listItem.toLowerCase()}`">
+              <a :href="`#/guides/${listItem.toLowerCase()}`">
                 {{ listItem }}
               </a>
             </li>
