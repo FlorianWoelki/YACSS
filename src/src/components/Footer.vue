@@ -27,7 +27,7 @@ export default {
     return {
       listItems: [
         'Alerts', 'Avatars', 'Badges', 'Buttons', 'Cards', 'Code',
-        'Footer', 'Hero', 'Modals', 'Navigation', 'Pagination',
+        'Footers', 'Hero', 'Modals', 'Navigation', 'Pagination',
         'Table', 'Tabs', 'Tags', 'Tooltips', 'Utility',
       ],
     };

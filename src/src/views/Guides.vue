@@ -53,7 +53,7 @@ export default {
         'Cards',
         'Codes',
         'Dropdown',
-        'Footer',
+        'Footers',
         'Hero',
         'Modals',
         'Navbar',
