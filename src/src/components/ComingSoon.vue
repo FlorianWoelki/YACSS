@@ -1,6 +1,6 @@
 <template>
   <div class="coming-soon">
-    <div class="container mt-4 mb-48">
+    <div class="container mt-4 mb-48 text-center">
       <h1>Coming Soon! We are working on it!</h1>
     </div>
   </div>
