@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+
+## [0.1.0] - 2020-06-26
+
+### 🔨 Added
+- Add green color
+- Add more font sizes
+- Add clear style for navbar
+- Add code component
+- Add different hover styles for navbar
+- Add block and inline-flex classes
+- Add margin bottom auto utility class
+- Add pilled group tags class
+- Add checkbox and radiobox
+
+### ⚡️ Changed
+- Fix doubled red color values 
+- Fix avatar image size
+- Fix navbar alignment with brand title
+- Fix flex not important
+- Change fore and background color
+- Fix font size for default badges
+- Change shadow size classes
+- Fix dropdown right alignment
+- Fix icon not correct aligned with label
+
+
 ## [0.0.8] - 2020-05-29
 
 ### 🔨 Added
@@ -105,3 +131,4 @@ INITIAL RELEASE
 [0.0.6]: https://www.npmjs.com/package/yacss/v/0.0.6
 [0.0.7]: https://www.npmjs.com/package/yacss/v/0.0.7
 [0.0.8]: https://www.npmjs.com/package/yacss/v/0.0.8
+[0.1.0]: https://www.npmjs.com/package/yacss/v/0.1.0
