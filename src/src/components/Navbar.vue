@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav-fixed">
+  <nav :class="`nav-fixed ${scrollTop > 150 ? '' : 'nav-clear'}`">
     <div class="nav-brand align-center">
       <div class="b-hover-none nav-item">
         <a href="#">
@@ -40,5 +40,15 @@
 <script>
 export default {
   name: 'Navbar',
+  data() {
+    return {
+      scrollTop: 0,
+    };
+  },
+  mounted() {
+    document.addEventListener('scroll', () => {
+      this.scrollTop = document.documentElement.scrollTop;
+    });
+  },
 };
 </script>
