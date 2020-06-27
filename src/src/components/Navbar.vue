@@ -3,7 +3,7 @@
     <div class="nav-brand align-center">
       <div class="b-hover-none nav-item">
         <a href="#">
-          YACSS
+          <h5 class="font-bold">YACSS</h5>
         </a>
       </div>
       <div class="nav-item nav-btn" id="nav-btn">
