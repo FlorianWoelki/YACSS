@@ -2,8 +2,8 @@
     <img src="https://i.imgur.com/m3yGh5b.png" alt="Vueply Logo" align="right" height="100" />
 </a>
 
-🎨 YACSS
-======================
+# 🎨 YACSS
+
 [![forthebadge uses-css](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com/)
 [![forthebadge uses-js](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com/)
 [![forthebadge uses-html](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com/)
@@ -40,21 +40,21 @@ yarn add yacss
 **CDN**
 
 ```sh
-https://unpkg.com/yacss/dist/yacss.min.css
-https://unpkg.com/yacss/dist/yacss.min.js
+https://cdn.jsdelivr.net/npm/yacss@0.1.0/dist/yacss.min.css
+https://cdn.jsdelivr.net/npm/yacss@0.1.0/dist/yacss.min.js
 ```
 
 Import YACSS by importing the css and js file
 
 ```html
-<link rel="stylesheet" href="./yacss.min.css">
+<link rel="stylesheet" href="./yacss.min.css" />
 ...
 <script src="./yacss.min.js"></script>
 <script>
   initTheme({
     primaryColor: 'blue',
     accentColor: 'purple',
-    classes: ['all']
+    classes: ['all'],
   });
 </script>
 ```
@@ -68,7 +68,7 @@ With the following lines of code, you can initialize the theme of YACSS.
   initTheme({
     primaryColor: 'blue',
     accentColor: 'purple',
-    classes: ['all']
+    classes: ['all'],
   });
 </script>
 ```
@@ -87,7 +87,7 @@ _Coming Soon_
 
 ## 😎 Authors
 
-* **Florian Woelki** - *Initial work* - [FlorianWoelki](https://github.com/FlorianWoelki/)
+- **Florian Woelki** - _Initial work_ - [FlorianWoelki](https://github.com/FlorianWoelki/)
 
 ## 📕 License
 
