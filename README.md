@@ -14,6 +14,7 @@
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/FlorianWoelki/yacss.svg"></a>
 <a href="https://www.npmjs.com/package/yacss"><img src="https://img.shields.io/npm/dt/yacss.svg"></a>
 <a href="https://www.npmjs.com/package/yacss"><img src="https://img.shields.io/npm/dm/yacss.svg"></a>
+[![](https://data.jsdelivr.com/v1/package/npm/yacss/badge)](https://www.jsdelivr.com/package/npm/yacss)
 
 **Y**et**A**nother**CSS** Framework is a new utility and component based modern framework. This simple to use framework is inspired by the Tailwind framework with some extra predefined components you can use.
 
