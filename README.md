@@ -41,8 +41,8 @@ yarn add yacss
 **CDN**
 
 ```sh
-https://cdn.jsdelivr.net/npm/yacss@0.1.0/dist/yacss.min.css
-https://cdn.jsdelivr.net/npm/yacss@0.1.0/dist/yacss.min.js
+https://cdn.jsdelivr.net/npm/yacss@0.1.1/dist/yacss.min.css
+https://cdn.jsdelivr.net/npm/yacss@0.1.1/dist/yacss.min.js
 ```
 
 Import YACSS by importing the css and js file
