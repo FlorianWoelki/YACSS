@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2] - 2020-07-02
+
+### 🔨 Added
+
+- Add spacing system for absolute positions
+
+### ⚡️ Changed
+
+- Change `pos-absolute` and all other positions to only `absolute`
+
 ## [0.1.1] - 2020-06-29
 
 ### 🔨 Added
