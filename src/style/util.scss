@@ -70,6 +70,9 @@
 }
 
 @include media-below('tablet') {
+  .sm-hide {
+    display: none;
+  }
   @for $i from 0 through 12 {
     .sm-pos-#{$i} {
       order: #{$i};
@@ -78,6 +81,9 @@
 }
 
 @include media-between('tablet', 'desktop') {
+  .md-hide {
+    display: none;
+  }
   @for $i from 0 through 12 {
     .md-pos-#{$i} {
       order: #{$i};
@@ -86,6 +92,9 @@
 }
 
 @include media-above('desktop') {
+  .lg-hide {
+    display: none;
+  }
   @for $i from 0 through 12 {
     .lg-pos-#{$i} {
       order: #{$i};

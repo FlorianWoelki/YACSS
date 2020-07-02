@@ -38899,6 +38899,8 @@ h6 {
   float: right !important; }
 
 @media screen and (max-width: 768px) {
+  .sm-hide {
+    display: none; }
   .sm-pos-0 {
     order: 0; }
   .sm-pos-1 {
@@ -38927,6 +38929,8 @@ h6 {
     order: 12; } }
 
 @media (min-width: 769px) and (max-width: 1023px) {
+  .md-hide {
+    display: none; }
   .md-pos-0 {
     order: 0; }
   .md-pos-1 {
@@ -38955,6 +38959,8 @@ h6 {
     order: 12; } }
 
 @media screen and (min-width: 1024px) {
+  .lg-hide {
+    display: none; }
   .lg-pos-0 {
     order: 0; }
   .lg-pos-1 {
