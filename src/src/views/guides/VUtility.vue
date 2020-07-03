@@ -45,6 +45,14 @@
             <td>.bg-{{ color }}-{100-900}</td>
             <td>Colorize the background with {{ color }} (see color range)</td>
           </tr>
+          <tr>
+            <td>.bc-black</td>
+            <td>Colorize the border color to black</td>
+          </tr>
+          <tr>
+            <td>.bc-white</td>
+            <td>Colorize the border color to white</td>
+          </tr>
           <tr v-for="color in colors" :key="color">
             <td>.bc-{{ color }}-{100-900}</td>
             <td>Colorize the border color with {{ color }} (see color range)</td>
@@ -309,7 +317,7 @@
           <td>Set the flex direction of the element (column, row, row-reverse, column-reverse)</td>
         </tr>
         <tr>
-          <td>.pos-{position}</td>
+          <td>.{position}</td>
           <td>Set the position of the element (fixed, relative, absolute)</td>
         </tr>
         <tr>

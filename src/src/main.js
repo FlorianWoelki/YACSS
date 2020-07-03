@@ -1,7 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
-import 'yacss/dist/yacss';
 
 Vue.config.productionTip = false;
 
@@ -36,10 +35,3 @@ for (let i = 0; i < heroImages.length; i += 1) {
     heroImage.style.backgroundRepeat = 'no-repeat';
   }
 }
-
-/* eslint-disable-next-line */
-initTheme({
-  primaryColor: 'indigo',
-  accentColor: 'red',
-  classes: ['all'],
-});

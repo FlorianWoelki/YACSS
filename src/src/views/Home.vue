@@ -9,7 +9,7 @@
         <div class="container text-center">
           <h3 class="text-light">Utility and component framework</h3>
           <h1 class="font-72">YACSS</h1>
-          <h5>v.0.1.0 ~65kb</h5>
+          <h5>v.0.1.3 ~70kb</h5>
           <a href="#getting-started">
             <button
               class="btn-secondary center mt-3 text-gray-100
