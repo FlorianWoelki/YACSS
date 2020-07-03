@@ -4,6 +4,30 @@
 * http://florianwoelki.github.io/YACSS
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:200,300,400,600,700");
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -1423,6 +1447,30 @@ body {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -2857,6 +2905,30 @@ body {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -4411,6 +4483,30 @@ label ~ .input-control {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -5899,6 +5995,30 @@ label ~ .input-control {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -7299,24 +7419,6 @@ a {
   a:visited, a:hover, a:active {
     backface-visibility: hidden;
     text-decoration: none; }
-  a.underline-indigo {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
-    background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
-  a.underline-blue {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
-    background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
-  a.underline-red {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
-    background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
-  a.underline-purple {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
-    background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
-  a.underline-green {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
-    background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
-  a.underline-gray {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
-    background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
 
 p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
   display: inline; }
@@ -7326,6 +7428,30 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -8739,6 +8865,30 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -10175,6 +10325,30 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -11604,6 +11778,30 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -13072,6 +13270,30 @@ button,
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -14482,6 +14704,30 @@ button,
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -15909,6 +16155,30 @@ pre > code {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -17357,6 +17627,30 @@ pre > code {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -18836,6 +19130,30 @@ footer {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -20223,6 +20541,30 @@ footer {
   --accent-color-700: #c53030;
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
+
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
 
 .text-black {
   color: #374054 !important; }
@@ -21690,6 +22032,30 @@ footer {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -23077,6 +23443,30 @@ footer {
   --accent-color-700: #c53030;
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
+
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
 
 .text-black {
   color: #374054 !important; }
@@ -24691,6 +25081,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -26135,6 +26549,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -27522,6 +27960,30 @@ nav {
   --accent-color-700: #c53030;
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
+
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
 
 .text-black {
   color: #374054 !important; }
@@ -29004,6 +29466,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -30434,6 +30920,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -31909,6 +32419,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -33345,6 +33879,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -34807,6 +35365,30 @@ nav {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -36243,6 +36825,30 @@ h6 {
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
+
 .text-black {
   color: #374054 !important; }
 
@@ -37630,6 +38236,30 @@ h6 {
   --accent-color-700: #c53030;
   --accent-color-800: #9b2c2c;
   --accent-color-900: #742a2a; }
+
+.underline-indigo {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+
+.underline-blue {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+
+.underline-red {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+
+.underline-purple {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+
+.underline-green {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+
+.underline-gray {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+  background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
 
 .text-black {
   color: #374054 !important; }
