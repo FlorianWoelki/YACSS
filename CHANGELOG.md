@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] - 2020-07-04
+
+### 🔨 Added
+
+- Add xs-hide class
+- Add underline can be applied to all elements now
+
+### ⚡️ Changed
+
+- CRUCIAL FIX: underline for element colors
+
 ## [0.1.3] - 2020-07-03
 
 ### 🔨 Added

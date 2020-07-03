@@ -1,6 +1,6 @@
 {
   "name": "yacss",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Yet another CSS framework.",
   "main": "./dist/yacss.min.css",
   "repository": "git+https://github.com/FlorianWoelki/YACSS.git",
