@@ -39707,6 +39707,10 @@ h6 {
 .pull-right {
   float: right !important; }
 
+@media screen and (max-width: 639px) {
+  .xs-hide {
+    display: none; } }
+
 @media screen and (max-width: 768px) {
   .sm-hide {
     display: none; }

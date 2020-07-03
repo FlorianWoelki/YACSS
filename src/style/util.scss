@@ -69,6 +69,12 @@
   float: right !important;
 }
 
+@include media-below('phone') {
+  .xs-hide {
+    display: none
+  }
+}
+
 @include media-below('tablet') {
   .sm-hide {
     display: none;
