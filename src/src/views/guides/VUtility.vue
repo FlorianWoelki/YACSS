@@ -335,6 +335,10 @@
           <td>.overflow-y-{option}</td>
           <td>Set the overflow-y of the element (auto, hidden, overlay, scroll)</td>
         </tr>
+        <tr>
+          <td>.{screen}-hide</td>
+          <td>Hide the element at this specific screen size (sm, md, lg)</td>
+        </tr>
       </UtilityTable>
     </div>
   </section>
