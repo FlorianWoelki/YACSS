@@ -8,12 +8,18 @@ $foreground-color: #374054;
 .text-black {
   color: $foreground-color !important;
 }
+.bc-black {
+  color: $foreground-color !important;
+}
 .text-hover-black:hover {
   color: $foreground-color !important;
 }
 $background-color: #fff;
 .text-white {
   color: $background-color !important;
+}
+.bc-white {
+  border-color: $background-color !important;
 }
 .text-hover-white:hover {
   color: $background-color !important;
