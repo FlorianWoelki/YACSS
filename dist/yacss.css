@@ -7299,6 +7299,24 @@ a {
   a:visited, a:hover, a:active {
     backface-visibility: hidden;
     text-decoration: none; }
+  a.underline-indigo {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+    background-image: linear-gradient(180deg, transparent 70%, rgba(101, 125, 225, 0.4) 0); }
+  a.underline-blue {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+    background-image: linear-gradient(180deg, transparent 70%, rgba(66, 153, 225, 0.4) 0); }
+  a.underline-red {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+    background-image: linear-gradient(180deg, transparent 70%, rgba(245, 101, 101, 0.4) 0); }
+  a.underline-purple {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+    background-image: linear-gradient(180deg, transparent 70%, rgba(159, 122, 234, 0.4) 0); }
+  a.underline-green {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+    background-image: linear-gradient(180deg, transparent 70%, rgba(72, 187, 120, 0.4) 0); }
+  a.underline-gray {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, rgba(101, 125, 225, 0.4)));
+    background-image: linear-gradient(180deg, transparent 70%, rgba(160, 174, 192, 0.4) 0); }
 
 p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
   display: inline; }
