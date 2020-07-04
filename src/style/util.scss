@@ -109,16 +109,16 @@
 }
 
 @each $spacing-name, $spacing-value in $spacing-system {
-  .t-#{$spacing-name} {
+  .top-#{$spacing-name} {
     top: $spacing-value !important;
   }
-  .b-#{$spacing-name} {
+  .bottom-#{$spacing-name} {
     bottom: $spacing-value !important;
   }
-  .l-#{$spacing-name} {
+  .left-#{$spacing-name} {
     left: $spacing-value !important;
   }
-  .r-#{$spacing-name} {
+  .right-#{$spacing-name} {
     right: $spacing-value !important;
   }
   .m-#{$spacing-name} {
