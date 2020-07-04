@@ -117,6 +117,22 @@
           </p>
         </template>
         <tr>
+          <td>.top-{0-48}</td>
+          <td>If display -> absolute, then you can set the top position with this class (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.bottom-{0-48}</td>
+          <td>If display -> absolute, then you can set the bottom position with this class (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.left-{0-48}</td>
+          <td>If display -> absolute, then you can set the left position with this class (see spacing sizes)</td>
+        </tr>
+        <tr>
+          <td>.right-{0-48}</td>
+          <td>If display -> absolute, then you can set the right position with this class (see spacing sizes)</td>
+        </tr>
+        <tr>
           <td>.m-{0-48}</td>
           <td>Set the margin to the specific size (see spacing sizes)</td>
         </tr>
