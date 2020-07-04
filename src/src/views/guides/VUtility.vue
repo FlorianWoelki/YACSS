@@ -188,10 +188,10 @@
         </tr>
       </UtilityTable>
 
-      <UtilityTable title="Width">
+      <UtilityTable title="Width & Height">
         <template #description>
           <p>
-            Width sizes:
+            Width & Height sizes:
             <kbd
               >0, 0-25, 0-5, 0-75, 1, 1-25, 1-5, 2, 2-5, 3, 4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22,
               24, 28, 32, 36, 40</kbd
@@ -209,6 +209,14 @@
         <tr>
           <td>.w-100</td>
           <td>Set the width to 100%</td>
+        </tr>
+        <tr>
+          <td>.h-{0-40}</td>
+          <td>Set the height of the element (see height sizes)</td>
+        </tr>
+        <tr>
+          <td>.mh-{0-40}</td>
+          <td>Set the max height of the element (see height sizes)</td>
         </tr>
         <tr>
           <td>.h-100</td>
