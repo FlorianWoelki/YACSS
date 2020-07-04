@@ -184,6 +184,12 @@
   .mw-#{$width-name} {
     max-width: $width-value;
   }
+  .h-#{$width-name} {
+    height: $width-value;
+  }
+  .mh-#{$width-name} {
+    max-height: $width-value;
+  }
 }
 .w-100 {
   width: 100%;
