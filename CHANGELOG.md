@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.41] - 2020-07-05
+
+### 🔨 Added
+
+- Add height classes
+
+### ⚡️ Changed
+
+- Fix crucial issue with bottom and overlapping border classes
+
 ## [0.1.4] - 2020-07-04
 
 ### 🔨 Added
