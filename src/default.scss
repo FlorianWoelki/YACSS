@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:200,300,400,600,700");
 @import './_config.scss';
+@import './style/colors.scss';
 
 * {
   margin: 0;
@@ -30,4 +31,26 @@ body {
   letter-spacing: 0.01rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   color: $foreground-color;
+}
+
+:root {
+  --primary-color-100: #ebf8ff;
+  --primary-color-200: #bee3f8;
+  --primary-color-300: #90cdf4;
+  --primary-color-400: #63b3ed;
+  --primary-color-500: #4299e1;
+  --primary-color-600: #3182ce;
+  --primary-color-700: #2b6cb0;
+  --primary-color-800: #2c5282;
+  --primary-color-900: #2a4365;
+
+  --accent-color-100: #fff5f5;
+  --accent-color-200: #fed7d7;
+  --accent-color-300: #feb2b2;
+  --accent-color-400: #fc8181;
+  --accent-color-500: #fc8181;
+  --accent-color-600: #e53e3e;
+  --accent-color-700: #c53030;
+  --accent-color-800: #9b2c2c;
+  --accent-color-900: #742a2a;
 }
