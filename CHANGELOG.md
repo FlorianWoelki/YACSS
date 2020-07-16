@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.5] - 2020-07-16
+
+### 🔨 Added
+
+- Add pulse and pulse-hover animation
+
+### ⚡️ Changed
+
+- Refactor colors to its custom file
+- Refactor font alignments
+
 ## [0.1.41] - 2020-07-05
 
 ### 🔨 Added
