@@ -120,6 +120,14 @@
   .m-#{$spacing-name} {
     margin: $spacing-value !important;
   }
+  .mx-#{$spacing-name} {
+    margin-left: $spacing-value !important;
+    margin-right: $spacing-value !important;
+  }
+  .my-#{$spacing-name} {
+    margin-top: $spacing-value !important;
+    margin-bottom: $spacing-value !important;
+  }
   .ml-#{$spacing-name} {
     margin-left: $spacing-value !important;
   }
@@ -134,6 +142,14 @@
   }
   .p-#{$spacing-name} {
     padding: $spacing-value !important;
+  }
+  .px-#{$spacing-name} {
+    padding-left: $spacing-value !important;
+    padding-right: $spacing-value !important;
+  }
+  .py-#{$spacing-name} {
+    padding-top: $spacing-value !important;
+    padding-bottom: $spacing-value !important;
   }
   .pl-#{$spacing-name} {
     padding-left: $spacing-value !important;

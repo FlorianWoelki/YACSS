@@ -1,5 +1,5 @@
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -1443,7 +1443,7 @@ body {
   --accent-color-900: #742a2a; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -1507,7 +1507,7 @@ body {
       left: auto; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -3065,7 +3065,7 @@ label ~ .input-control {
   z-index: 1; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -3165,7 +3165,7 @@ label ~ .input-control {
     padding: 0; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -3186,7 +3186,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
   display: inline; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -3211,7 +3211,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     color: var(--primary-color-900); }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -3259,7 +3259,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
     width: 100%; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -4692,7 +4692,7 @@ p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, blockquote a, article a {
       right: -16px; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -4772,7 +4772,7 @@ button,
     opacity: 0.5; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -4794,7 +4794,7 @@ button,
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12); }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -6225,7 +6225,7 @@ pre > code {
   color: #222; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -7677,7 +7677,7 @@ pre > code {
     transition: all 300ms; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -9119,7 +9119,7 @@ footer {
     bottom: 0; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -9160,7 +9160,7 @@ footer {
   background-size: cover; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -10630,7 +10630,7 @@ footer {
     text-align: right; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -12247,7 +12247,7 @@ nav {
       padding: 0 32px; } }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -12303,7 +12303,7 @@ nav {
       border-color: transparent; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -12396,7 +12396,7 @@ nav {
       margin: 0; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -12438,7 +12438,7 @@ nav {
       background-color: grays("300"); }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -13917,7 +13917,7 @@ nav {
         transition: all 0.3s; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -15357,7 +15357,7 @@ nav {
     border-radius: 0 290486px 290486px 0; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -15431,7 +15431,7 @@ nav {
     transform: translate(-0.5rem, 50%); }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -16828,7 +16828,7 @@ nav {
   box-shadow: 0 0 0 0.2rem #e2e8f0; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -16886,7 +16886,7 @@ h6 {
   font-weight: 700; }
 
 /*
-* YACSS 0.1.41
+* YACSS 0.1.5
 * Florian Woelki, Copyright 2020
 * http://florianwoelki.github.io/YACSS
 */
@@ -17054,6 +17054,14 @@ h6 {
 .m-0 {
   margin: 0px !important; }
 
+.mx-0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important; }
+
+.my-0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important; }
+
 .ml-0 {
   margin-left: 0px !important; }
 
@@ -17068,6 +17076,14 @@ h6 {
 
 .p-0 {
   padding: 0px !important; }
+
+.px-0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important; }
+
+.py-0 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
 
 .pl-0 {
   padding-left: 0px !important; }
@@ -17096,6 +17112,14 @@ h6 {
 .m-0-25 {
   margin: 4px !important; }
 
+.mx-0-25 {
+  margin-left: 4px !important;
+  margin-right: 4px !important; }
+
+.my-0-25 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important; }
+
 .ml-0-25 {
   margin-left: 4px !important; }
 
@@ -17110,6 +17134,14 @@ h6 {
 
 .p-0-25 {
   padding: 4px !important; }
+
+.px-0-25 {
+  padding-left: 4px !important;
+  padding-right: 4px !important; }
+
+.py-0-25 {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important; }
 
 .pl-0-25 {
   padding-left: 4px !important; }
@@ -17138,6 +17170,14 @@ h6 {
 .m-0-5 {
   margin: 8px !important; }
 
+.mx-0-5 {
+  margin-left: 8px !important;
+  margin-right: 8px !important; }
+
+.my-0-5 {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important; }
+
 .ml-0-5 {
   margin-left: 8px !important; }
 
@@ -17152,6 +17192,14 @@ h6 {
 
 .p-0-5 {
   padding: 8px !important; }
+
+.px-0-5 {
+  padding-left: 8px !important;
+  padding-right: 8px !important; }
+
+.py-0-5 {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important; }
 
 .pl-0-5 {
   padding-left: 8px !important; }
@@ -17180,6 +17228,14 @@ h6 {
 .m-0-75 {
   margin: 12px !important; }
 
+.mx-0-75 {
+  margin-left: 12px !important;
+  margin-right: 12px !important; }
+
+.my-0-75 {
+  margin-top: 12px !important;
+  margin-bottom: 12px !important; }
+
 .ml-0-75 {
   margin-left: 12px !important; }
 
@@ -17194,6 +17250,14 @@ h6 {
 
 .p-0-75 {
   padding: 12px !important; }
+
+.px-0-75 {
+  padding-left: 12px !important;
+  padding-right: 12px !important; }
+
+.py-0-75 {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important; }
 
 .pl-0-75 {
   padding-left: 12px !important; }
@@ -17222,6 +17286,14 @@ h6 {
 .m-1 {
   margin: 16px !important; }
 
+.mx-1 {
+  margin-left: 16px !important;
+  margin-right: 16px !important; }
+
+.my-1 {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important; }
+
 .ml-1 {
   margin-left: 16px !important; }
 
@@ -17236,6 +17308,14 @@ h6 {
 
 .p-1 {
   padding: 16px !important; }
+
+.px-1 {
+  padding-left: 16px !important;
+  padding-right: 16px !important; }
+
+.py-1 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important; }
 
 .pl-1 {
   padding-left: 16px !important; }
@@ -17264,6 +17344,14 @@ h6 {
 .m-1-5 {
   margin: 24px !important; }
 
+.mx-1-5 {
+  margin-left: 24px !important;
+  margin-right: 24px !important; }
+
+.my-1-5 {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important; }
+
 .ml-1-5 {
   margin-left: 24px !important; }
 
@@ -17278,6 +17366,14 @@ h6 {
 
 .p-1-5 {
   padding: 24px !important; }
+
+.px-1-5 {
+  padding-left: 24px !important;
+  padding-right: 24px !important; }
+
+.py-1-5 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important; }
 
 .pl-1-5 {
   padding-left: 24px !important; }
@@ -17306,6 +17402,14 @@ h6 {
 .m-2 {
   margin: 32px !important; }
 
+.mx-2 {
+  margin-left: 32px !important;
+  margin-right: 32px !important; }
+
+.my-2 {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important; }
+
 .ml-2 {
   margin-left: 32px !important; }
 
@@ -17320,6 +17424,14 @@ h6 {
 
 .p-2 {
   padding: 32px !important; }
+
+.px-2 {
+  padding-left: 32px !important;
+  padding-right: 32px !important; }
+
+.py-2 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important; }
 
 .pl-2 {
   padding-left: 32px !important; }
@@ -17348,6 +17460,14 @@ h6 {
 .m-3 {
   margin: 48px !important; }
 
+.mx-3 {
+  margin-left: 48px !important;
+  margin-right: 48px !important; }
+
+.my-3 {
+  margin-top: 48px !important;
+  margin-bottom: 48px !important; }
+
 .ml-3 {
   margin-left: 48px !important; }
 
@@ -17362,6 +17482,14 @@ h6 {
 
 .p-3 {
   padding: 48px !important; }
+
+.px-3 {
+  padding-left: 48px !important;
+  padding-right: 48px !important; }
+
+.py-3 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important; }
 
 .pl-3 {
   padding-left: 48px !important; }
@@ -17390,6 +17518,14 @@ h6 {
 .m-4 {
   margin: 64px !important; }
 
+.mx-4 {
+  margin-left: 64px !important;
+  margin-right: 64px !important; }
+
+.my-4 {
+  margin-top: 64px !important;
+  margin-bottom: 64px !important; }
+
 .ml-4 {
   margin-left: 64px !important; }
 
@@ -17404,6 +17540,14 @@ h6 {
 
 .p-4 {
   padding: 64px !important; }
+
+.px-4 {
+  padding-left: 64px !important;
+  padding-right: 64px !important; }
+
+.py-4 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important; }
 
 .pl-4 {
   padding-left: 64px !important; }
@@ -17432,6 +17576,14 @@ h6 {
 .m-6 {
   margin: 96px !important; }
 
+.mx-6 {
+  margin-left: 96px !important;
+  margin-right: 96px !important; }
+
+.my-6 {
+  margin-top: 96px !important;
+  margin-bottom: 96px !important; }
+
 .ml-6 {
   margin-left: 96px !important; }
 
@@ -17446,6 +17598,14 @@ h6 {
 
 .p-6 {
   padding: 96px !important; }
+
+.px-6 {
+  padding-left: 96px !important;
+  padding-right: 96px !important; }
+
+.py-6 {
+  padding-top: 96px !important;
+  padding-bottom: 96px !important; }
 
 .pl-6 {
   padding-left: 96px !important; }
@@ -17474,6 +17634,14 @@ h6 {
 .m-8 {
   margin: 128px !important; }
 
+.mx-8 {
+  margin-left: 128px !important;
+  margin-right: 128px !important; }
+
+.my-8 {
+  margin-top: 128px !important;
+  margin-bottom: 128px !important; }
+
 .ml-8 {
   margin-left: 128px !important; }
 
@@ -17488,6 +17656,14 @@ h6 {
 
 .p-8 {
   padding: 128px !important; }
+
+.px-8 {
+  padding-left: 128px !important;
+  padding-right: 128px !important; }
+
+.py-8 {
+  padding-top: 128px !important;
+  padding-bottom: 128px !important; }
 
 .pl-8 {
   padding-left: 128px !important; }
@@ -17516,6 +17692,14 @@ h6 {
 .m-12 {
   margin: 192px !important; }
 
+.mx-12 {
+  margin-left: 192px !important;
+  margin-right: 192px !important; }
+
+.my-12 {
+  margin-top: 192px !important;
+  margin-bottom: 192px !important; }
+
 .ml-12 {
   margin-left: 192px !important; }
 
@@ -17530,6 +17714,14 @@ h6 {
 
 .p-12 {
   padding: 192px !important; }
+
+.px-12 {
+  padding-left: 192px !important;
+  padding-right: 192px !important; }
+
+.py-12 {
+  padding-top: 192px !important;
+  padding-bottom: 192px !important; }
 
 .pl-12 {
   padding-left: 192px !important; }
@@ -17558,6 +17750,14 @@ h6 {
 .m-16 {
   margin: 256px !important; }
 
+.mx-16 {
+  margin-left: 256px !important;
+  margin-right: 256px !important; }
+
+.my-16 {
+  margin-top: 256px !important;
+  margin-bottom: 256px !important; }
+
 .ml-16 {
   margin-left: 256px !important; }
 
@@ -17572,6 +17772,14 @@ h6 {
 
 .p-16 {
   padding: 256px !important; }
+
+.px-16 {
+  padding-left: 256px !important;
+  padding-right: 256px !important; }
+
+.py-16 {
+  padding-top: 256px !important;
+  padding-bottom: 256px !important; }
 
 .pl-16 {
   padding-left: 256px !important; }
@@ -17600,6 +17808,14 @@ h6 {
 .m-24 {
   margin: 384px !important; }
 
+.mx-24 {
+  margin-left: 384px !important;
+  margin-right: 384px !important; }
+
+.my-24 {
+  margin-top: 384px !important;
+  margin-bottom: 384px !important; }
+
 .ml-24 {
   margin-left: 384px !important; }
 
@@ -17614,6 +17830,14 @@ h6 {
 
 .p-24 {
   padding: 384px !important; }
+
+.px-24 {
+  padding-left: 384px !important;
+  padding-right: 384px !important; }
+
+.py-24 {
+  padding-top: 384px !important;
+  padding-bottom: 384px !important; }
 
 .pl-24 {
   padding-left: 384px !important; }
@@ -17642,6 +17866,14 @@ h6 {
 .m-32 {
   margin: 512px !important; }
 
+.mx-32 {
+  margin-left: 512px !important;
+  margin-right: 512px !important; }
+
+.my-32 {
+  margin-top: 512px !important;
+  margin-bottom: 512px !important; }
+
 .ml-32 {
   margin-left: 512px !important; }
 
@@ -17656,6 +17888,14 @@ h6 {
 
 .p-32 {
   padding: 512px !important; }
+
+.px-32 {
+  padding-left: 512px !important;
+  padding-right: 512px !important; }
+
+.py-32 {
+  padding-top: 512px !important;
+  padding-bottom: 512px !important; }
 
 .pl-32 {
   padding-left: 512px !important; }
@@ -17684,6 +17924,14 @@ h6 {
 .m-40 {
   margin: 640px !important; }
 
+.mx-40 {
+  margin-left: 640px !important;
+  margin-right: 640px !important; }
+
+.my-40 {
+  margin-top: 640px !important;
+  margin-bottom: 640px !important; }
+
 .ml-40 {
   margin-left: 640px !important; }
 
@@ -17698,6 +17946,14 @@ h6 {
 
 .p-40 {
   padding: 640px !important; }
+
+.px-40 {
+  padding-left: 640px !important;
+  padding-right: 640px !important; }
+
+.py-40 {
+  padding-top: 640px !important;
+  padding-bottom: 640px !important; }
 
 .pl-40 {
   padding-left: 640px !important; }
@@ -17726,6 +17982,14 @@ h6 {
 .m-48 {
   margin: 768px !important; }
 
+.mx-48 {
+  margin-left: 768px !important;
+  margin-right: 768px !important; }
+
+.my-48 {
+  margin-top: 768px !important;
+  margin-bottom: 768px !important; }
+
 .ml-48 {
   margin-left: 768px !important; }
 
@@ -17740,6 +18004,14 @@ h6 {
 
 .p-48 {
   padding: 768px !important; }
+
+.px-48 {
+  padding-left: 768px !important;
+  padding-right: 768px !important; }
+
+.py-48 {
+  padding-top: 768px !important;
+  padding-bottom: 768px !important; }
 
 .pl-48 {
   padding-left: 768px !important; }
