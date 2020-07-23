@@ -15,6 +15,11 @@
     line-height: 1.125em;
     margin: spacing('1') 0;
   }
+
+  &.large {
+    max-width: 70.625em;
+    margin: 0 auto;
+  }
 }
 
 .pointer {
